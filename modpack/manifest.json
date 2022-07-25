@@ -235,7 +235,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3885885,
+      "fileID": 3847103,
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)"
@@ -891,7 +891,7 @@
     },
     {
       "projectID": 334853,
-      "fileID": 3896232,
+      "fileID": 3558694,
       "required": true,
       "__meta": {
         "name": "Simple Discord Rich Presence (Forge /  Fabric)"
@@ -1030,7 +1030,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3896396,
+      "fileID": 3892203,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1184,7 +1184,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 3885208,
+      "fileID": 3885204,
       "required": true,
       "__meta": {
         "name": "GeckoLib"
@@ -1266,7 +1266,7 @@
     },
     {
       "projectID": 401955,
-      "fileID": 3896641,
+      "fileID": 3888205,
       "required": true,
       "__meta": {
         "name": "Ars Nouveau",
@@ -1450,7 +1450,7 @@
     },
     {
       "projectID": 425991,
-      "fileID": 3897907,
+      "fileID": 3860927,
       "required": true,
       "__meta": {
         "name": "Buddycards",
@@ -1859,7 +1859,7 @@
     },
     {
       "projectID": 513688,
-      "fileID": 3669954,
+      "fileID": 3696607,
       "required": true,
       "__meta": {
         "name": "Terralith"
@@ -1953,7 +1953,7 @@
     },
     {
       "projectID": 542235,
-      "fileID": 3898559,
+      "fileID": 3895248,
       "required": true,
       "__meta": {
         "name": "Create Cafe",
@@ -2295,7 +2295,7 @@
     },
     {
       "projectID": 628798,
-      "fileID": 3896153,
+      "fileID": 3868424,
       "required": true,
       "__meta": {
         "name": "Daily Rewards"
@@ -2311,7 +2311,7 @@
     },
     {
       "projectID": 631016,
-      "fileID": 3895967,
+      "fileID": 3860910,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Desert Temples (Forge)",
@@ -2341,7 +2341,7 @@
     },
     {
       "projectID": 637200,
-      "fileID": 3866361,
+      "fileID": 3848595,
       "required": true,
       "__meta": {
         "name": "Twilight Delight"
