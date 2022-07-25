@@ -1882,6 +1882,14 @@
       }
     },
     {
+      "projectID": 521480,
+      "fileID": 3808404,
+      "required": true,
+      "__meta": {
+        "name": "Skin Layers 3D (Fabric/Forge)"
+      }
+    },
+    {
       "projectID": 526854,
       "fileID": 3706539,
       "required": true,
