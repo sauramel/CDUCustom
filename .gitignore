@@ -1,0 +1,10 @@
+#Ignore everything except these directories and files
+/*
+/*/
+!/config/
+!/defaultconfigs/
+!/kubejs/
+!/mods/
+!/resourcepacks/
+!/options.txt
+!/servers.dat
