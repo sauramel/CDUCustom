@@ -24,7 +24,7 @@ jobs:
             manifestjson=`cat ./modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
             echo "::set-output name=projectname::$projectname"
-            version=`1.18.2`
+            version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "::set-output name=version::$version"
       - name: Get tag
         id: version
@@ -128,5 +128,5 @@ jobs:
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}" 
+          game_versions: "Minecraft 1.18.2" 
           release_type: ${{ steps.release-type.outputs.type }}
