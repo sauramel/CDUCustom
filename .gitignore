@@ -9,3 +9,5 @@
 !/servers.dat
 !/libcrypto-1_1*.dll
 !/libssl-1_1*.dll
+!cacert.pem
+!pax.exe
