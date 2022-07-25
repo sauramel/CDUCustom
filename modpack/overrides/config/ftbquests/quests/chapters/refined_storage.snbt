@@ -1,0 +1,783 @@
+{
+	id: "124F4B6C33F8B8C3"
+	group: "10AB955F3F3037EE"
+	order_index: 0
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: {
+		id: "refinedstorage:controller"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -10.0d
+			id: "7D3E2DFCA33A342B"
+			tasks: [
+				{
+					id: "32D57A133D87A472"
+					type: "item"
+					item: {
+						id: "refinedstorage:processor_binding"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "367FBACC01E59868"
+					type: "item"
+					item: {
+						id: "refinedstorage:silicon"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "79A99BE4FB116E5D"
+					type: "item"
+					item: {
+						id: "refinedstorage:quartz_enriched_iron"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			id: "70D254C8E4248080"
+			tasks: [{
+				id: "583C60ADBCB53F94"
+				type: "item"
+				item: {
+					id: "refinedstorage:raw_basic_processor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.0d
+			id: "0AB90DC83A264CEF"
+			tasks: [{
+				id: "06375B4771C115FC"
+				type: "item"
+				item: {
+					id: "refinedstorage:raw_improved_processor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			id: "5BB7E17BF68712EE"
+			tasks: [{
+				id: "779E366C22BFC755"
+				type: "item"
+				item: {
+					id: "refinedstorage:raw_advanced_processor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			id: "5C69A915600FF1D6"
+			tasks: [{
+				id: "217965DCFE241241"
+				type: "item"
+				item: {
+					id: "refinedstorage:basic_processor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			id: "2071F799A192E3A3"
+			tasks: [{
+				id: "35D1DAC8C2069B4C"
+				type: "item"
+				item: {
+					id: "refinedstorage:construction_core"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			id: "061B5747FB3986F9"
+			tasks: [{
+				id: "2F4B6E2946BBE51C"
+				type: "item"
+				item: {
+					id: "refinedstorage:destruction_core"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			id: "0C5D967AF55A7178"
+			tasks: [{
+				id: "7DEB9591112740CB"
+				type: "item"
+				item: {
+					id: "refinedstorage:improved_processor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: ["The Grid is a block that allows access to the items and fluids in the storage network.The player can extract items or fluids from the central GUI."]
+			dependencies: ["15F487587FC4F4F6"]
+			id: "567E99D3B0F4FFEA"
+			tasks: [{
+				id: "1CFE197B3521C1C8"
+				type: "item"
+				item: {
+					id: "refinedstorage:grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			description: ["The Crafting Grid is the same as a regular Grid, but has a crafting inventory.When an item is crafted, it won’t just clear the crafting slots, but it’ll try to retrieve the same items from the storage network again."]
+			dependencies: ["567E99D3B0F4FFEA"]
+			id: "07EF15D088BB2B69"
+			tasks: [{
+				id: "345FC09290DB4DF8"
+				type: "item"
+				item: {
+					id: "refinedstorage:crafting_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["The Controller is the core of the Refined Storage network. You need to connect all the Refined Storage devices to this block."]
+			id: "15F487587FC4F4F6"
+			tasks: [{
+				id: "716BA4829F51DA30"
+				type: "item"
+				item: {
+					id: "refinedstorage:controller"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			description: ["The Fluid Grid is the same as a regular Grid, but is used for viewing fluids in the fluid storage of your storage network."]
+			dependencies: ["07EF15D088BB2B69"]
+			id: "1215A398AAE7E6AB"
+			tasks: [{
+				id: "28A9754887390CAE"
+				type: "item"
+				item: {
+					id: "refinedstorage:fluid_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			id: "22B9C62D6DCBE8AD"
+			tasks: [{
+				id: "0B30B8CD51BCF2D3"
+				type: "item"
+				item: {
+					id: "refinedstorage:1k_storage_part"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["22B9C62D6DCBE8AD"]
+			id: "1A93E4F2DF40DAFA"
+			tasks: [{
+				id: "419D070C101B6513"
+				type: "item"
+				item: {
+					id: "refinedstorage:4k_storage_part"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["1A93E4F2DF40DAFA"]
+			id: "00DF49462035BEC9"
+			tasks: [{
+				id: "7F9A0C4487D9FF8C"
+				type: "item"
+				item: {
+					id: "refinedstorage:16k_storage_part"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["00DF49462035BEC9"]
+			id: "453C8C2E7745E9D9"
+			tasks: [{
+				id: "02349065EB96A4C3"
+				type: "item"
+				item: {
+					id: "refinedstorage:64k_storage_part"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["567E99D3B0F4FFEA"]
+			id: "218360857D4FF26D"
+			tasks: [{
+				id: "3199526D4ABC3566"
+				type: "item"
+				item: {
+					id: "refinedstorage:wireless_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["1215A398AAE7E6AB"]
+			id: "3EB1887F29E6CB94"
+			tasks: [{
+				id: "098DAFEC9C1575A9"
+				type: "item"
+				item: {
+					id: "refinedstorage:wireless_fluid_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["07EF15D088BB2B69"]
+			id: "762457715162EB41"
+			tasks: [{
+				id: "2E58F8659EE6D8C4"
+				type: "item"
+				item: {
+					id: "refinedstorageaddons:wireless_crafting_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["The Wrench in Refined Storage is a tool that can do two things:Rotate blocks Break Refined Storage coversSimply sneak and right click when using the Wrench."]
+			dependencies: ["15F487587FC4F4F6"]
+			id: "74DB958CFA4FE58B"
+			tasks: [{
+				id: "735EB5C63ABBCE4F"
+				type: "item"
+				item: {
+					id: "refinedstorage:wrench"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["The Security Manager is a block that can store security cards.From it’s GUI, you can configure what permissions each player (that is bound with a Security Card) has.Once the Security Card is inserted in the top slots, the permissions for that player will be restricted to the ones configured."]
+			dependencies: ["74DB958CFA4FE58B"]
+			id: "0140D4B2E278C2BB"
+			tasks: [{
+				id: "4D58DF6C3FDF58B8"
+				type: "item"
+				item: {
+					id: "refinedstorage:security_manager"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["The Detector is a block that emits a redstone signal if an item, or fluid, count matches a given amount.It is also possible to be NBT or damage sensitive."]
+			dependencies: ["0140D4B2E278C2BB"]
+			id: "7FB704D969041B0B"
+			tasks: [{
+				id: "047A7DABB1D7E3DA"
+				type: "item"
+				item: {
+					id: "refinedstorage:detector"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			description: ["Cable is used to connect devices to the Controller."]
+			dependencies: ["15F487587FC4F4F6"]
+			id: "69A2FDD912A3C7F2"
+			tasks: [{
+				id: "1D27FBA1238E3EC4"
+				type: "item"
+				item: {
+					id: "refinedstorage:cable"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: ["The External Storage is a block that provides the storage network with storage of the inventory or fluid tank in front of the device."]
+			dependencies: ["69A2FDD912A3C7F2"]
+			id: "0157389C31BEB0CA"
+			tasks: [{
+				id: "2C95601B5BA12A77"
+				type: "item"
+				item: {
+					id: "refinedstorage:external_storage"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: ["The Importer imports items or fluids from an inventory in front of the block and inserts it in the storage network (if there is space).By default, it will import all accessible slots (place the Importer on the correct side, where the slot or fluid tank is reachable) but the player can use the whitelist or blacklist as well."]
+			dependencies: ["6063066D1F1C47F5"]
+			id: "7ED5C3DA1F8603F9"
+			tasks: [{
+				id: "65AB0F135D974D36"
+				type: "item"
+				item: {
+					id: "refinedstorage:importer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			description: ["The Exporter extracts items or fluids from the storage network and inserts it in the inventory or tank in front of it.Before being able to export anything, the player has to choose the items or fluids to export.The chosen items can be configured to be NBT or damage sensitive.The Exporter should face the block it’s exporting to in a way that the wanted slot or fluid tank is possible to reach from that side."]
+			dependencies: ["0157389C31BEB0CA"]
+			id: "6063066D1F1C47F5"
+			tasks: [{
+				id: "40403CF05A0DA649"
+				type: "item"
+				item: {
+					id: "refinedstorage:exporter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["The Constructor places items or fluids from the storage network in the world.No other blocks can be in front of the Constructor (except fluids) and it should be possible for the block to be placed (for example: saplings need dirt).The Constructor can also drop items in the world instead of placing actual blocks. When provided with a Stack Upgrade, it’ll drop stacks of items at a time."]
+			dependencies: ["7ED5C3DA1F8603F9"]
+			id: "2F22504D134357E5"
+			tasks: [{
+				id: "5D257CB362DF715A"
+				type: "item"
+				item: {
+					id: "refinedstorage:constructor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			description: ["The Destructor destroys blocks or fluids in front of it and puts the drops in the storage network.The Destructor has the ability to only break certain blocks or fluids, with the whitelist and blacklist option. Said whitelist and blacklist can be NBT or damage sensitive.The Destructor can also pick up items in the world instead of destroying blocks."]
+			dependencies: ["2F22504D134357E5"]
+			id: "3580583D9EF8D9C9"
+			tasks: [{
+				id: "7A24A21F7B8759C3"
+				type: "item"
+				item: {
+					id: "refinedstorage:destructor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			id: "2D2447692782D8D3"
+			tasks: [{
+				id: "5D7F3093D1B3F7A8"
+				type: "item"
+				item: {
+					id: "refinedstorage:storage_housing"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: ["The Disk Drive is the block in which you store storage disks or fluid storage disks."]
+			dependencies: ["2D2447692782D8D3"]
+			id: "0B0893EB3B724240"
+			tasks: [{
+				id: "3B3D1BA3512DDD15"
+				type: "item"
+				item: {
+					id: "refinedstorage:disk_drive"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["The Disk Manipulator is a block that adds a fast way of transferring items between storage disks or fluid storage disks and the storage network."]
+			dependencies: ["0B0893EB3B724240"]
+			id: "3FF6058577B5739B"
+			tasks: [{
+				id: "69BB7AEC6E3427EB"
+				type: "item"
+				item: {
+					id: "refinedstorage:disk_manipulator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			id: "5E4C388A1420CAB6"
+			tasks: [{
+				id: "5FC47342BFEA8A16"
+				type: "item"
+				item: {
+					id: "refinedstorage:pattern"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			description: ["The Pattern Grid is the same as a regular Grid, but also allows for the creation of patterns."]
+			dependencies: ["5E4C388A1420CAB6"]
+			id: "11B355624C607864"
+			tasks: [{
+				id: "29CBF093C6CDDBC2"
+				type: "item"
+				item: {
+					id: "refinedstorage:pattern_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: ["The Crafter is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed.With processing patterns, the Crafter has to face the correct input side of the machine."]
+			dependencies: ["11B355624C607864"]
+			id: "0C4EAFA9E463809E"
+			tasks: [{
+				id: "72CEA32B62ADBF3D"
+				type: "item"
+				item: {
+					id: "refinedstorage:crafter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			description: ["The Crafter Manager is a block that allows you to see all your patterns in one GUI."]
+			dependencies: ["0C4EAFA9E463809E"]
+			id: "00F9251688102F2B"
+			tasks: [{
+				id: "4CAEDB8B0A466522"
+				type: "item"
+				item: {
+					id: "refinedstorage:crafter_manager"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			description: ["The Portable Grid is a portable storage that isn’t connected to a network. It allows you to interact with a Storage Disk while not being connected to a network."]
+			id: "5576EA5E4509F2B2"
+			tasks: [{
+				id: "59862591A30976FA"
+				type: "item"
+				item: {
+					id: "refinedstorage:portable_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			description: ["The Filter is an item that can be used in any Grid.In the Filter’s GUI, which can be opened by pressing right click while holding the filter in hand, the player can specify which items and fluids can be visible."]
+			id: "53C5BC94538F98AB"
+			tasks: [{
+				id: "2D41282D33C6149C"
+				type: "item"
+				item: {
+					id: "refinedstorage:filter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.5d
+			description: ["A Network Card is an item that stores the coordinates of a Network Receiver.The player has to insert the Network Card in a Network Transmitter."]
+			id: "39869687680FE800"
+			tasks: [{
+				id: "6D8A02B2A71C4112"
+				type: "item"
+				item: {
+					id: "refinedstorage:network_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			description: [
+				"The Network Receiver is the block that receives a signal from the Network Transmitter.In order for the Network Receiver to work reliably the Network Receiver has to be chunkloaded."
+				"A Network Transmitter sends a network signal to a Network Receiver that is specified in the given Network Card.In order for the Network Transmitter to work the Controller where the Network Transmitter is connected to has to be chunkloaded."
+			]
+			id: "52104C298196C958"
+			tasks: [
+				{
+					id: "3DB1844313A9687A"
+					type: "item"
+					item: {
+						id: "refinedstorage:network_receiver"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "48825C07B99EDA94"
+					type: "item"
+					item: {
+						id: "refinedstorage:network_transmitter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["22B9C62D6DCBE8AD"]
+			id: "2AC1AC27FC47CBA2"
+			tasks: [{
+				id: "03D50C4B5910EA6B"
+				type: "item"
+				item: {
+					id: "refinedstorage:1k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							989610201
+							-726646516
+							-1711880055
+							-1759890995
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["1A93E4F2DF40DAFA"]
+			id: "1EC4896C53EC3ABA"
+			tasks: [{
+				id: "5B1649532D950A1A"
+				type: "item"
+				item: {
+					id: "refinedstorage:4k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							2048414385
+							1701005947
+							-1373285205
+							1803096317
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["00DF49462035BEC9"]
+			id: "1DFF39BD7593E3B9"
+			tasks: [{
+				id: "0169C2D0F0078ACC"
+				type: "item"
+				item: {
+					id: "refinedstorage:16k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1532565575
+							-1556066556
+							-1760295484
+							1733509967
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["453C8C2E7745E9D9"]
+			id: "0F960DE3603C71CC"
+			tasks: [{
+				id: "2D6462D74D06AA2D"
+				type: "item"
+				item: {
+					id: "refinedstorage:64k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1149024098
+							244993864
+							-1945899945
+							529756887
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.0d
+			description: [
+				"The Speed Upgrade will increase the speed of the device that it is being inserted to.By using this upgrade, the amount of FE/t that this device draws will increase."
+				"The Range Upgrade increases the range of the Wireless Transmitter.By using this upgrade, the amount of FE/t that this device draws will increase."
+				"The Stack upgrade will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time."
+			]
+			id: "28955743D46DEFBF"
+			tasks: [
+				{
+					id: "19688B6CE2C746BB"
+					type: "item"
+					item: {
+						id: "refinedstorage:speed_upgrade"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1C490DEFF8C0066A"
+					type: "item"
+					item: {
+						id: "refinedstorage:range_upgrade"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "480F618F4C87C926"
+					type: "item"
+					item: {
+						id: "refinedstorage:stack_upgrade"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -10.0d
+			description: ["The Wireless Transmitter is used to send signals to wireless network items in Refined Storage."]
+			id: "41AE23C1E439083E"
+			tasks: [{
+				id: "7657168AB4219FAC"
+				type: "item"
+				item: {
+					id: "refinedstorage:wireless_transmitter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

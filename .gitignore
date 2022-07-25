@@ -1,12 +1,7 @@
 #Ignore everything except these directories and files
 /*
 /*/
-!/config/
-!/defaultconfigs/
-!/kubejs/
-!/mods/
-!/resourcepacks/
-!/servers.dat
+!/modpack/
 !/libcrypto-1_1*.dll
 !/libssl-1_1*.dll
 !cacert.pem

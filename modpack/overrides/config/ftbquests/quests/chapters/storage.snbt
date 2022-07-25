@@ -1,0 +1,625 @@
+{
+	id: "6E6A5A81C9BE2A37"
+	group: "1A3A810D872897A7"
+	order_index: 1
+	filename: "storage"
+	title: "Storage (Basic)"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			id: "785313E4F0A9291F"
+			tasks: [{
+				id: "647DCB2BA8BB82ED"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "octagon"
+			dependencies: ["785313E4F0A9291F"]
+			id: "621B72D9EEF405C3"
+			tasks: [{
+				id: "01537A2C45265C7B"
+				type: "item"
+				item: {
+					id: "storagedrawers:obsidian_storage_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "octagon"
+			dependencies: ["621B72D9EEF405C3"]
+			id: "74E7BA76412E210D"
+			tasks: [{
+				id: "2373D097D9635749"
+				type: "item"
+				item: {
+					id: "storagedrawers:iron_storage_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			shape: "octagon"
+			dependencies: ["74E7BA76412E210D"]
+			id: "0449D18495BC5F71"
+			tasks: [{
+				id: "1CCBDBD760374B47"
+				type: "item"
+				item: {
+					id: "storagedrawers:gold_storage_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			shape: "octagon"
+			dependencies: ["0449D18495BC5F71"]
+			id: "76D4D2BE505B6FA1"
+			tasks: [{
+				id: "532AF9933E70F1D3"
+				type: "item"
+				item: {
+					id: "storagedrawers:diamond_storage_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			shape: "octagon"
+			dependencies: ["76D4D2BE505B6FA1"]
+			id: "32F84B2863908C75"
+			tasks: [{
+				id: "3D94A267092D4599"
+				type: "item"
+				item: {
+					id: "storagedrawers:emerald_storage_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "octagon"
+			dependencies: ["621B72D9EEF405C3"]
+			id: "2BD97F2E59116BD9"
+			tasks: [{
+				id: "3893DF36B574F5CA"
+				type: "item"
+				item: {
+					id: "storagedrawers:one_stack_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["785313E4F0A9291F"]
+			id: "18B22D1D07E42AC5"
+			tasks: [{
+				id: "4ACC7F6F7E129CB2"
+				type: "item"
+				item: {
+					id: "storagedrawers:drawer_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			shape: "octagon"
+			dependencies: ["18B22D1D07E42AC5"]
+			id: "5C7B0E3C291304B2"
+			tasks: [{
+				id: "088AB5620BD4FD7E"
+				type: "item"
+				item: {
+					id: "storagedrawers:quantify_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			shape: "octagon"
+			dependencies: ["18B22D1D07E42AC5"]
+			id: "102DFEE461201BAB"
+			tasks: [{
+				id: "3E1E106C969ABCD2"
+				type: "item"
+				item: {
+					id: "storagedrawers:shroud_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["785313E4F0A9291F"]
+			id: "1D5DECBE60918D92"
+			tasks: [{
+				id: "07E0C8F12CD630B8"
+				type: "item"
+				item: {
+					id: "storagedrawers:redstone_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["1D5DECBE60918D92"]
+			id: "4FE14A6F2EFAA117"
+			tasks: [{
+				id: "764FC08645A1B7B7"
+				type: "item"
+				item: {
+					id: "storagedrawers:min_redstone_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["1D5DECBE60918D92"]
+			id: "5064014F263A6DCD"
+			tasks: [{
+				id: "1A8E2121A3DE6E2A"
+				type: "item"
+				item: {
+					id: "storagedrawers:max_redstone_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["785313E4F0A9291F"]
+			id: "240820EC13492F13"
+			tasks: [{
+				id: "534EDCE38C6C7A77"
+				type: "item"
+				item: {
+					id: "storagedrawers:illumination_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["1D5DECBE60918D92"]
+			id: "1BD5C6CA361F6E8C"
+			tasks: [{
+				id: "473B10FCC5941126"
+				type: "item"
+				item: {
+					id: "storagedrawers:fill_level_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["785313E4F0A9291F"]
+			id: "2F1A6B951C711FF8"
+			tasks: [{
+				id: "53B3919CFB223ACA"
+				type: "item"
+				item: {
+					id: "storagedrawers:controller"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["2F1A6B951C711FF8"]
+			id: "5F8872A29F71A3D1"
+			tasks: [{
+				id: "2E0925EB38E7A0C8"
+				type: "item"
+				item: {
+					id: "storagedrawers:controller_slave"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["785313E4F0A9291F"]
+			id: "259E0358F67FF3B7"
+			tasks: [{
+				id: "163925ED77F59B77"
+				type: "item"
+				item: {
+					id: "storagedrawers:compacting_drawers_3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			id: "20ABD18E8A86F2FC"
+			tasks: [{
+				id: "3FEE5C1E88E59034"
+				type: "item"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.0d
+			dependencies: ["20ABD18E8A86F2FC"]
+			id: "22BE3071B6A01961"
+			tasks: [{
+				id: "43CB203AA01CE6DC"
+				type: "item"
+				item: {
+					id: "ironchest:iron_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -7.5d
+			dependencies: ["20ABD18E8A86F2FC"]
+			id: "15496E49844ED362"
+			tasks: [{
+				id: "080A6530CBD9064D"
+				type: "item"
+				item: {
+					id: "ironchest:gold_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			dependencies: ["20ABD18E8A86F2FC"]
+			id: "5E309FE637CAC736"
+			tasks: [{
+				id: "6B5B9FD2F55DC6CE"
+				type: "item"
+				item: {
+					id: "ironchest:diamond_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.5d
+			dependencies: ["20ABD18E8A86F2FC"]
+			id: "5F1B2E3B33101C72"
+			tasks: [{
+				id: "50B59777C84C738A"
+				type: "item"
+				item: {
+					id: "ironchest:copper_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: -6.5d
+			dependencies: ["20ABD18E8A86F2FC"]
+			id: "51C9A0A9C5B31089"
+			tasks: [{
+				id: "16E465A34553BC5B"
+				type: "item"
+				item: {
+					id: "ironchest:obsidian_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.5d
+			dependencies: ["20ABD18E8A86F2FC"]
+			id: "0FBCAB6D42E7F872"
+			tasks: [{
+				id: "21D13F4F3EBB0467"
+				type: "item"
+				item: {
+					id: "ironchest:crystal_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.5d
+			dependencies: ["20ABD18E8A86F2FC"]
+			id: "60239A772CC3E9FC"
+			tasks: [{
+				id: "7B154F6046D8C1E8"
+				type: "item"
+				item: {
+					id: "ironchest:dirt_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -9.0d
+			dependencies: ["20ABD18E8A86F2FC"]
+			id: "172085487E3EFA07"
+			tasks: [{
+				id: "32267652C58C3225"
+				type: "item"
+				item: {
+					id: "ironchest:wood_to_iron_chest_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -10.0d
+			dependencies: ["172085487E3EFA07"]
+			id: "33C1ECC7610AB521"
+			tasks: [{
+				id: "357DDCAADEE0B302"
+				type: "item"
+				item: {
+					id: "ironchest:iron_to_gold_chest_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: -11.0d
+			dependencies: ["33C1ECC7610AB521"]
+			id: "1B75E9D080E2D698"
+			tasks: [{
+				id: "4A0F17448A27AAC0"
+				type: "item"
+				item: {
+					id: "ironchest:gold_to_diamond_chest_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -12.0d
+			dependencies: ["1B75E9D080E2D698"]
+			id: "6B1A904F7340222C"
+			tasks: [{
+				id: "52CBCDF2406603E0"
+				type: "item"
+				item: {
+					id: "ironchest:diamond_to_obsidian_chest_upgrade"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Colossal Chests"
+			x: -3.5d
+			y: 1.0d
+			subtitle: "Big ol' chests"
+			description: [
+				"Colossal chests can be any sized cube starting at 2x2x2. All faces must be made of wall blocks with precisely one core block to denote the direction the chest will face."
+				"Interface blocks are accessible by hoppers and other machines."
+			]
+			hide_dependency_lines: true
+			id: "3F81178081F0A14F"
+			tasks: [
+				{
+					id: "169B035882A2710E"
+					type: "item"
+					item: {
+						id: "colossalchests:chest_wall_wood"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0F76A0FEE84241C2"
+					type: "item"
+					item: {
+						id: "colossalchests:colossal_chest_wood"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6C73B458BE848755"
+					type: "item"
+					item: {
+						id: "colossalchests:interface_wood"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "66E6E68FD0EA7A39"
+				type: "item"
+				item: {
+					id: "colossalchests:chest_wall_wood"
+					Count: 1b
+					tag: { }
+				}
+				count: 8
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["3F81178081F0A14F"]
+			id: "29CB3BC877916D2D"
+			tasks: [{
+				id: "5542D94E294F3AA8"
+				type: "item"
+				item: {
+					id: "colossalchests:chest_wall_iron"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["3F81178081F0A14F"]
+			id: "77694CD277E30ABF"
+			tasks: [{
+				id: "38F431ABA4E0A77B"
+				type: "item"
+				item: {
+					id: "colossalchests:chest_wall_copper"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["3F81178081F0A14F"]
+			id: "365B7C2EA6B3331A"
+			tasks: [{
+				id: "477072782B9E1435"
+				type: "item"
+				item: {
+					id: "colossalchests:chest_wall_silver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["3F81178081F0A14F"]
+			id: "6DB960237D90F0AC"
+			tasks: [{
+				id: "49660AF091DF69DF"
+				type: "item"
+				item: {
+					id: "colossalchests:chest_wall_gold"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["3F81178081F0A14F"]
+			id: "53447D03A066E499"
+			tasks: [{
+				id: "0BCD77621FA4C795"
+				type: "item"
+				item: {
+					id: "colossalchests:chest_wall_obsidian"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["3F81178081F0A14F"]
+			id: "7C33C56955F6F533"
+			tasks: [{
+				id: "6385F0F60F2FC7FB"
+				type: "item"
+				item: {
+					id: "colossalchests:chest_wall_diamond"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}
