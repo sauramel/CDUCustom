@@ -250,6 +250,14 @@
       }
     },
     {
+      "projectID": 238794,
+      "fileID": 3859993,
+      "required": true,
+      "__meta": {
+        "name": "Nomadic Tents"
+      }
+    },
+    {
       "projectID": 240630,
       "fileID": 3831559,
       "required": true,
