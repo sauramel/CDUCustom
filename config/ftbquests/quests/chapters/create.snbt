@@ -1,0 +1,1368 @@
+{
+	id: "3D0984A3DD5F79EA"
+	group: "10AB955F3F3037EE"
+	order_index: 2
+	filename: "create"
+	title: "Create"
+	icon: "create:red_toolbox"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:polished_andesite"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Andesitessss!"
+			description: ["THE ANDESITE BIOME... DOES EXIST!"]
+			id: "5ED0AA5E44AE6D48"
+			tasks: [{
+				id: "7EEF14BD4AFF3BD5"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "0F794BDBE6C9F5F3"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 64
+				}
+				{
+					id: "56B4CEB6326FC79F"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 64
+				}
+				{
+					id: "6BD9074A671706D4"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 64
+				}
+				{
+					id: "098FF2EE7860B76C"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Andesite Alloy!"
+			description: ["Andesite alloy is the heart of create, you'll be needing endless amount of this."]
+			dependencies: ["5ED0AA5E44AE6D48"]
+			id: "36629F42761BA41C"
+			tasks: [{
+				id: "6C02A37BDC22AF64"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "Three steps for this thing?"
+			description: ["Put sandpaper in off-hand and rose quartz in main-hand and combine it."]
+			dependencies: [
+				"5ED0AA5E44AE6D48"
+				"36629F42761BA41C"
+			]
+			hide: false
+			id: "0DC79855CE2B8A55"
+			tasks: [
+				{
+					id: "28D3A723C0D1177C"
+					type: "item"
+					item: "create:electron_tube"
+				}
+				{
+					id: "07A505516F219F22"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+				{
+					id: "19BBD2878FF1DE8A"
+					type: "item"
+					title: "Any #create:sandpaper"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:sandpaper"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Why so many of these for?"
+			description: ["Strip the wood and right click with a brass to get brass casing."]
+			dependencies: [
+				"5ED0AA5E44AE6D48"
+				"0DC79855CE2B8A55"
+				"4EA49CCB6B02065B"
+			]
+			id: "7390EF74D5194EC1"
+			tasks: [{
+				id: "0451B1CAE05355DA"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 25L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "Zinc and Copper make brass!?"
+			description: ["Useful for all kind of stuff"]
+			dependencies: [
+				"5ED0AA5E44AE6D48"
+				"36629F42761BA41C"
+			]
+			id: "4EA49CCB6B02065B"
+			tasks: [{
+				id: "30A6467701A91D0C"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 16L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			subtitle: "Useful or not?"
+			description: ["pstssss *kaboom*"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4EA49CCB6B02065B"
+				"079D0CA03CEC12C6"
+				"0DEE8B5225F0C3FF"
+				"5871E3CBDD0C42CB"
+			]
+			hide: true
+			optional: true
+			secret: true
+			id: "4D966A93A3B010C0"
+			tasks: [{
+				id: "0F17EE06AD7FCFE3"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:detector_brass_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"0DEE8B5225F0C3FF"
+				"5871E3CBDD0C42CB"
+				"079D0CA03CEC12C6"
+			]
+			hide: true
+			optional: true
+			secret: true
+			id: "601EDBF454D52C16"
+			tasks: [{
+				id: "13E3F2D32C9902AC"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:brass_accelerator_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4EA49CCB6B02065B"
+				"5871E3CBDD0C42CB"
+				"0DEE8B5225F0C3FF"
+				"079D0CA03CEC12C6"
+			]
+			hide: true
+			optional: true
+			secret: true
+			id: "53170FA97A6C5311"
+			tasks: [{
+				id: "477DAE03444ED470"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:encased_jet_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			subtitle: "Water Wheel!"
+			description: ["let the water flow through the wheel for it to spin."]
+			dependencies: ["16FA09A8D8EB93DD"]
+			hide: true
+			id: "5AA8972FA1092684"
+			tasks: [{
+				id: "25BD47455D45D652"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "octagon"
+			subtitle: "Hand Wheel!"
+			description: ["gotta click for it to crank."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0DC79855CE2B8A55"
+				"36629F42761BA41C"
+			]
+			hide: true
+			id: "16FA09A8D8EB93DD"
+			tasks: [{
+				id: "3DBB5CB3FF3CDA00"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "No more manually mining!"
+			description: ["This bad boy can mine you anything, until you hit obsidian level..."]
+			dependencies: ["7390EF74D5194EC1"]
+			hide: true
+			id: "78DA92753C45F445"
+			tasks: [{
+				id: "07F7962FE73256DB"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:brass_portable_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			subtitle: "I got all the power in this bag."
+			description: ["Make sure to power it up first."]
+			dependencies: ["4EA49CCB6B02065B"]
+			hide: true
+			id: "1F8C1D92DF15BB77"
+			tasks: [{
+				id: "53DFA0B8204F18CF"
+				type: "item"
+				item: {
+					id: "create:copper_backtank"
+					Count: 1b
+					tag: {
+						Air: 900
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			subtitle: "Trouble breathing?"
+			dependencies: ["1F8C1D92DF15BB77"]
+			hide: true
+			id: "5B0BBBA3DD97DD89"
+			tasks: [
+				{
+					id: "198398A25CB490D5"
+					type: "item"
+					item: {
+						id: "create:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "111239EEDE26A6F1"
+					type: "item"
+					item: {
+						id: "create:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			subtitle: "Extended Hand"
+			description: ["Give you a better distance to interact."]
+			dependencies: ["1F8C1D92DF15BB77"]
+			hide: true
+			id: "5F9F074116648241"
+			tasks: [{
+				id: "5FFA5C5F775EAAF9"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			subtitle: "Quisk, Quisk, QUISK!"
+			description: ["Place down a basin and start mixing!"]
+			dependencies: ["1F8C1D92DF15BB77"]
+			hide: true
+			id: "328DCBF754F4B69F"
+			tasks: [{
+				id: "08A45962A7A033FD"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:grapplin_whisk"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			subtitle: "Wind Wheel!"
+			dependencies: ["16FA09A8D8EB93DD"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "25B13533383BC060"
+			tasks: [
+				{
+					id: "734CBEE3D99860A7"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "063DB10587796825"
+					type: "item"
+					item: "create:sail_frame"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			subtitle: "Builder tool?"
+			description: ["place down the mirror by right clicking with the wand, and now place down a block and the mirror would replicate it."]
+			dependencies: ["3F15FA8AE011E5F1"]
+			hide: true
+			id: "633F29348620AFF8"
+			tasks: [{
+				id: "1A5A9EC5C794DF79"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			subtitle: "Nice Ride"
+			description: ["This baby can drive you anywhere you want!"]
+			dependencies: ["7390EF74D5194EC1"]
+			hide: true
+			id: "22C3C136EC28C776"
+			tasks: [{
+				id: "2F8D35946750279C"
+				type: "item"
+				item: "create_stuff_additions:brass_moped_item"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			subtitle: "Be like the cool kids!"
+			description: ["Imagine still driving a brass moped."]
+			hide_dependency_lines: false
+			dependencies: ["22C3C136EC28C776"]
+			id: "115DB15BC3F492B9"
+			tasks: [{
+				id: "46C26CD1C32B5AAD"
+				type: "item"
+				item: "create_stuff_additions:tuned_brass_moped_item"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			subtitle: "ALL ABOARD!"
+			dependencies: ["6057812479A98C48"]
+			id: "600DAE1D2CBDD399"
+			tasks: [
+				{
+					id: "7A9C8E005F19C14E"
+					type: "item"
+					item: "create:track"
+					count: 16L
+				}
+				{
+					id: "596345EC69B1ACE6"
+					type: "item"
+					item: "create:railway_casing"
+				}
+				{
+					id: "7ACBF29FC4440296"
+					type: "item"
+					item: "create:controls"
+				}
+				{
+					id: "6D34102DE7CDD3BC"
+					type: "item"
+					title: "Any #create:seats"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:seats"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6C112B04AEF6162F"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "Small cog, BIG COG!"
+			dependencies: ["030C593822A1312B"]
+			hide: true
+			id: "45F529D146DAE794"
+			tasks: [
+				{
+					id: "367D714AF9F94D10"
+					type: "item"
+					item: "create:cogwheel"
+					count: 8L
+				}
+				{
+					id: "740D328ACAB9B99C"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			subtitle: "Start your own automation!"
+			dependencies: ["0BC44695CD4609E3"]
+			hide: true
+			id: "0BDEC6986FE9A24A"
+			tasks: [
+				{
+					id: "1EEAA01441A07097"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "51774E2549CC2B2C"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "372B24573F5B6FFD"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "134FABAE8A96E647"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "6A7BF006EC284EF3"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "2AABC5F381599F0C"
+					type: "item"
+					item: "create:spout"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			subtitle: "More Advanced automation"
+			description: ["geek."]
+			dependencies: ["0BDEC6986FE9A24A"]
+			hide: true
+			id: "35E9B0F0591F0CC1"
+			tasks: [
+				{
+					id: "2F3596CF060E5AB1"
+					type: "item"
+					item: "create:mechanical_arm"
+				}
+				{
+					id: "55C1BD3A1824C405"
+					type: "item"
+					item: "create_stuff_additions:nozzle_fan"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["50CE75281E3DAF3B"]
+			hide: true
+			id: "2BADEA0265023E3B"
+			tasks: [{
+				id: "394FA03122F704BD"
+				type: "item"
+				item: "create:portable_storage_interface"
+				count: 2L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			subtitle: "The Chassis"
+			description: ["Chassis are blocks that can be connected and are useful to make contraption, to connect it with other type of block, simply right click it with a slimeball and place the the block on the slime."]
+			dependencies: ["73F9E82F6BCB1FDD"]
+			hide: true
+			id: "0BC44695CD4609E3"
+			tasks: [
+				{
+					id: "3226C7144EC1D9DA"
+					type: "item"
+					item: "create:linear_chassis"
+					count: 16L
+				}
+				{
+					id: "1A367516B544B279"
+					type: "item"
+					item: "create:secondary_linear_chassis"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "22342584420CF1FF"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["16FA09A8D8EB93DD"]
+			hide: true
+			id: "3651BB5D047F32D3"
+			tasks: [{
+				id: "0BA34D0BE924E56F"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["16FA09A8D8EB93DD"]
+			hide: true
+			id: "7BFA278D848BC57C"
+			tasks: [
+				{
+					id: "470F3A9CC4281E01"
+					type: "item"
+					item: "create:stressometer"
+				}
+				{
+					id: "66C53C16C6D5064B"
+					type: "item"
+					item: "create:speedometer"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			dependencies: ["6BB949288DB80A27"]
+			hide: true
+			id: "60D919FBA4AFE14E"
+			tasks: [{
+				id: "25AD9E15DC1FB9C7"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["7390EF74D5194EC1"]
+			hide: true
+			id: "48E684BC0D15C398"
+			tasks: [
+				{
+					id: "6340AD8E13A2842A"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+				{
+					id: "70FE5F85B77C3705"
+					type: "item"
+					item: "create:crafting_blueprint"
+				}
+				{
+					id: "495FD0CEA55CC82B"
+					type: "item"
+					item: "create:schematic_and_quill"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["48E684BC0D15C398"]
+			hide: true
+			id: "6BB949288DB80A27"
+			tasks: [{
+				id: "6A8274C080776764"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"0A9D478F14E3316D"
+				"53170FA97A6C5311"
+				"601EDBF454D52C16"
+				"4D966A93A3B010C0"
+			]
+			hide: true
+			size: 1.6d
+			secret: true
+			id: "72732EFBFF4DD7E4"
+			tasks: [{
+				id: "0A4024F5E1F1BB8B"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:exoskeleton_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"0A9D478F14E3316D"
+				"53170FA97A6C5311"
+				"601EDBF454D52C16"
+				"4D966A93A3B010C0"
+			]
+			hide: true
+			size: 1.5d
+			secret: true
+			id: "6196EC3806274271"
+			tasks: [{
+				id: "28285A6CE077EDBE"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:andesite_exoskeleton_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"0A9D478F14E3316D"
+				"53170FA97A6C5311"
+				"601EDBF454D52C16"
+				"4D966A93A3B010C0"
+			]
+			hide: true
+			size: 1.5d
+			secret: true
+			id: "508F776E715D6B7B"
+			tasks: [{
+				id: "41AA56B3B8B702D2"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:copper_exoskeleton_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			subtitle: "Connect the Kinetic!"
+			description: ["Connect the chain drive to create more slot for kinetic power."]
+			dependencies: ["16FA09A8D8EB93DD"]
+			hide: true
+			id: "738986F08944EED5"
+			tasks: [
+				{
+					id: "3E7D9790233A48EE"
+					type: "item"
+					item: "create:encased_chain_drive"
+				}
+				{
+					id: "5BA987C4E007B8A5"
+					type: "item"
+					item: "create:adjustable_chain_gearshift"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["16FA09A8D8EB93DD"]
+			hide: true
+			id: "7A6FF08B4B734012"
+			tasks: [{
+				id: "4648C47F862639A4"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Needed better storage?"
+			description: ["Very easy to make, and can be bigger when connect with more vault."]
+			dependencies: ["36629F42761BA41C"]
+			hide: true
+			id: "50CE75281E3DAF3B"
+			tasks: [
+				{
+					id: "7BC51E31892B9502"
+					type: "item"
+					item: "create:item_vault"
+				}
+				{
+					id: "6C041FB8F8904737"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "745FDE5E63E4DD49"
+					type: "item"
+					item: "create:andesite_tunnel"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["4EA49CCB6B02065B"]
+			hide: true
+			id: "079D0CA03CEC12C6"
+			tasks: [{
+				id: "7C43A43FA33BD09C"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:andesite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["4EA49CCB6B02065B"]
+			hide: true
+			id: "5871E3CBDD0C42CB"
+			tasks: [{
+				id: "2964F1AE6D84020E"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:andesite_encased_jet_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["4EA49CCB6B02065B"]
+			hide: true
+			id: "0DEE8B5225F0C3FF"
+			tasks: [{
+				id: "316E42CF2DF1494F"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:andesite_accelerator_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			subtitle: "Do you really need this?"
+			dependencies: ["1F8C1D92DF15BB77"]
+			hide: true
+			id: "2C171B57EC16AC16"
+			tasks: [{
+				id: "2020FFAE64DCFD8F"
+				type: "item"
+				item: {
+					id: "create:potato_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["36629F42761BA41C"]
+			hide: true
+			id: "6E8427197723F8BB"
+			tasks: [
+				{
+					id: "65605AA1F7640FD5"
+					type: "item"
+					item: "create:wrench"
+				}
+				{
+					id: "745E30028651FC0E"
+					type: "item"
+					title: "Any #create:toolboxes"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:toolboxes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			subtitle: "WOW I MADE SOMETHING!"
+			description: ["Nice job figuring that out, loser."]
+			dependencies: ["0BDEC6986FE9A24A"]
+			hide: true
+			id: "0A9D478F14E3316D"
+			tasks: [{
+				id: "5545EE59DD86BFAC"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["2BADEA0265023E3B"]
+			hide: true
+			id: "2C3C6CC763C000D3"
+			tasks: [{
+				id: "3C65A0D847AFA538"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			dependencies: ["0A9D478F14E3316D"]
+			id: "6057812479A98C48"
+			tasks: [{
+				id: "767CD73A6DA04CA7"
+				type: "item"
+				item: "create:track_station"
+				count: 2L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: [
+				"6E8427197723F8BB"
+				"7C44491A443DC711"
+			]
+			hide: true
+			id: "030C593822A1312B"
+			tasks: [{
+				id: "45AAB51BF4CDDB3A"
+				type: "item"
+				item: "create:shaft"
+				count: 16L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["45F529D146DAE794"]
+			hide: true
+			id: "4393DF19F62F6514"
+			tasks: [{
+				id: "4D8DEE7476570BA1"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["030C593822A1312B"]
+			hide: true
+			id: "73F9E82F6BCB1FDD"
+			tasks: [{
+				id: "260E29BB56772EA8"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			dependencies: ["0A9D478F14E3316D"]
+			id: "324517E2235E575B"
+			tasks: [{
+				id: "2024F5352B8EBC77"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 8L
+			}]
+			rewards: [{
+				id: "012A95E22EA3A6F4"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			shape: "gear"
+			subtitle: "The things you can do with these"
+			hide: true
+			secret: true
+			id: "0C728C10179E482A"
+			tasks: [
+				{
+					id: "17CA63E47C569E3B"
+					type: "item"
+					item: "createaddition:electric_motor"
+				}
+				{
+					id: "11F40A74A758A75C"
+					type: "item"
+					item: "createaddition:alternator"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			subtitle: "Master Conductor "
+			dependencies: ["600DAE1D2CBDD399"]
+			id: "3B96EE5EC97E9C72"
+			tasks: [
+				{
+					id: "6CA80137FE88C557"
+					type: "item"
+					item: "create:track_signal"
+				}
+				{
+					id: "4C3A1FED14950096"
+					type: "item"
+					item: "create:track_observer"
+				}
+				{
+					id: "7829F844A7D6FB1E"
+					type: "item"
+					item: "create:schedule"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 6.0d
+			dependencies: ["324517E2235E575B"]
+			id: "5FF9484463343332"
+			tasks: [{
+				id: "7E48C82270C1E059"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 16L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.5d
+			subtitle: "Advanced Piping"
+			description: ["You're a real plummer now!"]
+			dependencies: ["5FF9484463343332"]
+			id: "3E7F48BA41BED0E1"
+			tasks: [
+				{
+					id: "559ACB3857AB67BE"
+					type: "item"
+					item: "create:portable_fluid_interface"
+					count: 2L
+				}
+				{
+					id: "1454AB454341B521"
+					type: "item"
+					item: "create:smart_fluid_pipe"
+				}
+				{
+					id: "54E0ECBD5B69D6A7"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "54F87255749866F8"
+					type: "item"
+					title: "Any #create:valve_handles"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:valve_handles"
+						}
+					}
+				}
+				{
+					id: "558B5613CD6D3FBB"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			subtitle: "Pink can a manly color too"
+			dependencies: ["7390EF74D5194EC1"]
+			hide: true
+			id: "38E001C6B4637C9C"
+			tasks: [
+				{
+					id: "6BE208296E0B16CF"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:rose_quartz_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "133FFD2C953E1AD0"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:rose_quartz_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17A757FE19EC6420"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:rose_quartz_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49CCD9FBC0AACB67"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:rose_quartz_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["78DA92753C45F445"]
+			hide: true
+			id: "3F15FA8AE011E5F1"
+			tasks: [{
+				id: "2561D5697154D191"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:blaze_flame_thrower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["0BDEC6986FE9A24A"]
+			hide: true
+			id: "12DBD678B06B72E2"
+			tasks: [{
+				id: "54F9A0CFA4826983"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["38E001C6B4637C9C"]
+			hide: true
+			id: "25ADD99B96BFEE85"
+			tasks: [
+				{
+					id: "71DB25BCDCC5C7A2"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:experience_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "332BABB2127E5011"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:experience_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1957363AF3B1619B"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:experience_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0381F4B8257B84AE"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:experience_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			dependencies: ["12DBD678B06B72E2"]
+			hide: true
+			id: "5FE84D5094CE0070"
+			tasks: [
+				{
+					id: "139A7A4D7C464474"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:blazing_cleaver"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FE22E493246E3EA"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:blazing_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0269E1E9F57AB2AF"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:blazing_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08E83104D0E9C596"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:blazing_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["36629F42761BA41C"]
+			hide: true
+			id: "7C44491A443DC711"
+			tasks: [{
+				id: "35881D8A4C3FE82D"
+				type: "item"
+				title: "Any #create:casing"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:casing"
+					}
+				}
+				count: 16L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			subtitle: "The destroyers!"
+			description: ["Destroys everything on it path!"]
+			dependencies: ["0BDEC6986FE9A24A"]
+			hide: true
+			id: "62119CEA2DAC7738"
+			tasks: [
+				{
+					id: "5E2F81835BADB87C"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+				{
+					id: "352E7169A02DF423"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+				{
+					id: "1E8A5EF62EA6FD4A"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["These are what gonna make block moves."]
+			dependencies: ["7C44491A443DC711"]
+			hide: true
+			id: "461E4E6B897C9B73"
+			tasks: [
+				{
+					id: "7E46F288AEB30141"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "4A62AC98F6CB5ACC"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+			]
+		}
+	]
+}
