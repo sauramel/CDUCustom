@@ -1749,6 +1749,18 @@
       }
     },
     {
+      "projectID": 494206,
+      "fileID": 3898041,
+      "required": true,
+      "__meta": {
+        "name": "Create Chunkloading",
+        "dependencies": [
+          419699,
+          348521
+        ]
+      }
+    },
+    {
       "projectID": 494654,
       "fileID": 3849095,
       "required": true,
