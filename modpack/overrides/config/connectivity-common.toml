@@ -13,7 +13,7 @@
 	#Range: 15 ~ 400
 	disconnectTimeout = 60
 	#Set the amount of minutes for which network packet history data is saved. Default = 5 minutes
-	#Range: 1 ~ 400
+	###Range: 1 ~ 400
 	packetHistoryMinutes = 5
 	#Enable to see the full log output for all resource location exceptions. Default = false
 	showFullResourceLocationException = false
