@@ -1071,6 +1071,17 @@
       }
     },
     {
+      "projectID": 366916,
+      "fileID": 3669166,
+      "required": true,
+      "__meta": {
+        "name": "Set World Spawn Point (Forge)",
+        "dependencies": [
+          342584
+        ]
+      }
+    },
+    {
       "projectID": 367254,
       "fileID": 3680704,
       "required": true,
