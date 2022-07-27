@@ -483,14 +483,6 @@
       }
     },
     {
-      "projectID": 261837,
-      "fileID": 3703928,
-      "required": true,
-      "__meta": {
-        "name": "Signpost"
-      }
-    },
-    {
       "projectID": 261924,
       "fileID": 3830914,
       "required": true,
