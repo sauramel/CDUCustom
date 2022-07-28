@@ -697,6 +697,14 @@
       }
     },
     {
+      "projectID": 297038,
+      "fileID": 3901332,
+      "required": true,
+      "__meta": {
+        "name": "CraftPresence"
+      }
+    },
+    {
       "projectID": 298187,
       "fileID": 3725903,
       "required": true,
@@ -884,14 +892,6 @@
         "dependencies": [
           309927
         ]
-      }
-    },
-    {
-      "projectID": 334853,
-      "fileID": 3896232,
-      "required": true,
-      "__meta": {
-        "name": "Simple Discord Rich Presence (Forge /  Fabric)"
       }
     },
     {
