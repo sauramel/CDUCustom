@@ -223,7 +223,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 3888614,
+      "fileID": 3902351,
       "required": true,
       "__meta": {
         "name": "KubeJS",
@@ -235,7 +235,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3885885,
+      "fileID": 3903035,
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)"
@@ -1027,7 +1027,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3898850,
+      "fileID": 3902147,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1132,7 +1132,7 @@
     },
     {
       "projectID": 377897,
-      "fileID": 3863253,
+      "fileID": 3902853,
       "required": true,
       "__meta": {
         "name": "Productive Bees"
@@ -1436,7 +1436,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 3887950,
+      "fileID": 3903448,
       "required": true,
       "__meta": {
         "name": "Sophisticated Backpacks",
@@ -1650,7 +1650,7 @@
     },
     {
       "projectID": 472521,
-      "fileID": 3892468,
+      "fileID": 3902592,
       "required": true,
       "__meta": {
         "name": "Lightmans Currency"
@@ -1831,7 +1831,7 @@
     },
     {
       "projectID": 509041,
-      "fileID": 3776653,
+      "fileID": 3902988,
       "required": true,
       "__meta": {
         "name": "Epic Knights: Shields, Armor and Weapons"
@@ -1985,7 +1985,7 @@
     },
     {
       "projectID": 548152,
-      "fileID": 3842857,
+      "fileID": 3902657,
       "required": true,
       "__meta": {
         "name": "LC Tech",
@@ -2224,13 +2224,24 @@
     },
     {
       "projectID": 602680,
-      "fileID": 3900918,
+      "fileID": 3902856,
       "required": true,
       "__meta": {
         "name": "Tinkers' Integrations and Tweaks",
         "dependencies": [
           74072,
           74924
+        ]
+      }
+    },
+    {
+      "projectID": 604054,
+      "fileID": 3888388,
+      "required": true,
+      "__meta": {
+        "name": "Multiblocked",
+        "dependencies": [
+          626676
         ]
       }
     },
@@ -2260,7 +2271,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 3887917,
+      "fileID": 3901968,
       "required": true,
       "__meta": {
         "name": "Sophisticated Core"
@@ -2309,6 +2320,14 @@
       "required": true,
       "__meta": {
         "name": "Create: Factory"
+      }
+    },
+    {
+      "projectID": 626676,
+      "fileID": 3888721,
+      "required": true,
+      "__meta": {
+        "name": "LDLib"
       }
     },
     {
