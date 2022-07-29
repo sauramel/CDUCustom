@@ -697,6 +697,14 @@
       }
     },
     {
+      "projectID": 297038,
+      "fileID": 3901332,
+      "required": true,
+      "__meta": {
+        "name": "CraftPresence"
+      }
+    },
+    {
       "projectID": 298187,
       "fileID": 3725903,
       "required": true,
@@ -884,14 +892,6 @@
         "dependencies": [
           309927
         ]
-      }
-    },
-    {
-      "projectID": 334853,
-      "fileID": 3896232,
-      "required": true,
-      "__meta": {
-        "name": "Simple Discord Rich Presence (Forge /  Fabric)"
       }
     },
     {
@@ -1849,6 +1849,18 @@
       }
     },
     {
+      "projectID": 509575,
+      "fileID": 3745494,
+      "required": true,
+      "__meta": {
+        "name": "Observable",
+        "dependencies": [
+          351264,
+          419699
+        ]
+      }
+    },
+    {
       "projectID": 510089,
       "fileID": 3777934,
       "required": true,
@@ -2231,17 +2243,6 @@
         "dependencies": [
           74072,
           74924
-        ]
-      }
-    },
-    {
-      "projectID": 604054,
-      "fileID": 3888388,
-      "required": true,
-      "__meta": {
-        "name": "Multiblocked",
-        "dependencies": [
-          626676
         ]
       }
     },
