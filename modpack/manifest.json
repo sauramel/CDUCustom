@@ -1849,6 +1849,18 @@
       }
     },
     {
+      "projectID": 509575,
+      "fileID": 3745494,
+      "required": true,
+      "__meta": {
+        "name": "Observable",
+        "dependencies": [
+          351264,
+          419699
+        ]
+      }
+    },
+    {
       "projectID": 510089,
       "fileID": 3777934,
       "required": true,
