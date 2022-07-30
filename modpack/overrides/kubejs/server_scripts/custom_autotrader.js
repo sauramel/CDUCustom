@@ -5,7 +5,7 @@ onEvent('recipes', event => {
     'ACA'
   ], {
 	A: 'forbidden_arcanus:arcane_golden_glass',
-    B: 'minecraft:netherite_ingot',
+    B: 'extendedcrafting:enhanced_ender_ingot',
 	C: 'minecraft:hopper',
 	D: 'easy_villagers:trader'
   })

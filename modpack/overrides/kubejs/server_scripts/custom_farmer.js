@@ -5,8 +5,8 @@ onEvent('recipes', event => {
     'BCB'
   ], {
     A: 'forbidden_arcanus:arcane_golden_glass',
-    B: 'botania:livingrock',
-	C: 'enigmaticlegacy:etherium_ingot',
+    B: 'extendedcrafting:black_iron_block',
+	C: 'wandering_bag:ingot_from_other_world',
 	D: 'farmingforblockheads:market'
   })
   event.remove({output: 'easy_villagers:farmer', mod: 'easy_villagers'})
