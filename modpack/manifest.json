@@ -1246,6 +1246,14 @@
       }
     },
     {
+      "projectID": 399558,
+      "fileID": 3712396,
+      "required": true,
+      "__meta": {
+        "name": "Construction Wand"
+      }
+    },
+    {
       "projectID": 400058,
       "fileID": 3892391,
       "required": true,
