@@ -959,6 +959,14 @@
       }
     },
     {
+      "projectID": 348157,
+      "fileID": 3823327,
+      "required": true,
+      "__meta": {
+        "name": "Useless Sword"
+      }
+    },
+    {
       "projectID": 348521,
       "fileID": 3782776,
       "required": true,
@@ -1243,6 +1251,14 @@
       "required": true,
       "__meta": {
         "name": "Farmer's Delight"
+      }
+    },
+    {
+      "projectID": 399558,
+      "fileID": 3712396,
+      "required": true,
+      "__meta": {
+        "name": "Construction Wand"
       }
     },
     {
@@ -2061,22 +2077,6 @@
       }
     },
     {
-      "projectID": 559248,
-      "fileID": 3711303,
-      "required": true,
-      "__meta": {
-        "name": "Trolls Community!"
-      }
-    },
-    {
-      "projectID": 559553,
-      "fileID": 3711300,
-      "required": true,
-      "__meta": {
-        "name": "Ogres Community!"
-      }
-    },
-    {
       "projectID": 560323,
       "fileID": 3669114,
       "required": true,
@@ -2337,14 +2337,6 @@
       "required": true,
       "__meta": {
         "name": "Create: Factory"
-      }
-    },
-    {
-      "projectID": 626676,
-      "fileID": 3888721,
-      "required": true,
-      "__meta": {
-        "name": "LDLib"
       }
     },
     {
