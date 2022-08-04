@@ -5,9 +5,9 @@
 		#Should brilliant stone generate?
 		generateBrilliantStone = true
 		#Size of brilliant stone veins.
-		brilliantStoneSize = 6
+		brilliantStoneSize = 2
 		#Amount of brilliant stone veins.
-		brilliantStoneAmount = 16
+		brilliantStoneAmount = 8
 		#Minimum height at which brilliant stone can spawn.
 		brilliantStoneMinY = -64
 		#Maximum height at which brilliant stone can spawn.

@@ -129,7 +129,7 @@
     },
     {
       "projectID": 227639,
-      "fileID": 3901400,
+      "fileID": 3873593,
       "required": true,
       "__meta": {
         "name": "The Twilight Forest"
@@ -137,7 +137,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 3900932,
+      "fileID": 3891368,
       "required": true,
       "__meta": {
         "name": "Bookshelf"
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 231951,
-      "fileID": 3901176,
+      "fileID": 3823066,
       "required": true,
       "__meta": {
         "name": "Immersive Engineering"
@@ -188,7 +188,7 @@
     },
     {
       "projectID": 232758,
-      "fileID": 3900719,
+      "fileID": 3832119,
       "required": true,
       "__meta": {
         "name": "Cyclops Core"
@@ -223,7 +223,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 3902351,
+      "fileID": 3888614,
       "required": true,
       "__meta": {
         "name": "KubeJS",
@@ -235,7 +235,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3903035,
+      "fileID": 3847103,
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)"
@@ -285,14 +285,6 @@
         "dependencies": [
           531761
         ]
-      }
-    },
-    {
-      "projectID": 241344,
-      "fileID": 3754969,
-      "required": true,
-      "__meta": {
-        "name": "Snad"
       }
     },
     {
@@ -468,7 +460,7 @@
     },
     {
       "projectID": 256717,
-      "fileID": 3900773,
+      "fileID": 3886101,
       "required": true,
       "__meta": {
         "name": "Clumps"
@@ -480,6 +472,14 @@
       "required": true,
       "__meta": {
         "name": "CreativeCore"
+      }
+    },
+    {
+      "projectID": 261837,
+      "fileID": 3703928,
+      "required": true,
+      "__meta": {
+        "name": "Signpost"
       }
     },
     {
@@ -697,14 +697,6 @@
       }
     },
     {
-      "projectID": 297038,
-      "fileID": 3901332,
-      "required": true,
-      "__meta": {
-        "name": "CraftPresence"
-      }
-    },
-    {
       "projectID": 298187,
       "fileID": 3725903,
       "required": true,
@@ -895,6 +887,14 @@
       }
     },
     {
+      "projectID": 334853,
+      "fileID": 3558694,
+      "required": true,
+      "__meta": {
+        "name": "Simple Discord Rich Presence (Forge /  Fabric)"
+      }
+    },
+    {
       "projectID": 336184,
       "fileID": 3852970,
       "required": true,
@@ -956,14 +956,6 @@
         "dependencies": [
           342584
         ]
-      }
-    },
-    {
-      "projectID": 348157,
-      "fileID": 3823327,
-      "required": true,
-      "__meta": {
-        "name": "Useless Sword"
       }
     },
     {
@@ -1035,7 +1027,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3902147,
+      "fileID": 3892203,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1076,17 +1068,6 @@
       "required": true,
       "__meta": {
         "name": "Goblin Traders"
-      }
-    },
-    {
-      "projectID": 366916,
-      "fileID": 3669166,
-      "required": true,
-      "__meta": {
-        "name": "Set World Spawn Point (Forge)",
-        "dependencies": [
-          342584
-        ]
       }
     },
     {
@@ -1140,7 +1121,7 @@
     },
     {
       "projectID": 377897,
-      "fileID": 3902853,
+      "fileID": 3863253,
       "required": true,
       "__meta": {
         "name": "Productive Bees"
@@ -1172,7 +1153,7 @@
     },
     {
       "projectID": 382216,
-      "fileID": 3899215,
+      "fileID": 3840203,
       "required": true,
       "__meta": {
         "name": "Blueprint"
@@ -1200,11 +1181,18 @@
     },
     {
       "projectID": 388172,
-      "fileID": 3847904,
+      "fileID": 3885204,
       "required": true,
       "__meta": {
-        "name": "GeckoLib",
-        "pinned": true
+        "name": "GeckoLib"
+      }
+    },
+    {
+      "projectID": 388364,
+      "fileID": 3683922,
+      "required": true,
+      "__meta": {
+        "name": "Easier Sleeping"
       }
     },
     {
@@ -1254,14 +1242,6 @@
       }
     },
     {
-      "projectID": 399558,
-      "fileID": 3712396,
-      "required": true,
-      "__meta": {
-        "name": "Construction Wand"
-      }
-    },
-    {
       "projectID": 400058,
       "fileID": 3892391,
       "required": true,
@@ -1274,14 +1254,6 @@
       }
     },
     {
-      "projectID": 400514,
-      "fileID": 3887794,
-      "required": true,
-      "__meta": {
-        "name": "Easy Villagers"
-      }
-    },
-    {
       "projectID": 400933,
       "fileID": 3851696,
       "required": true,
@@ -1291,7 +1263,7 @@
     },
     {
       "projectID": 401955,
-      "fileID": 3896641,
+      "fileID": 3888205,
       "required": true,
       "__meta": {
         "name": "Ars Nouveau",
@@ -1452,7 +1424,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 3903448,
+      "fileID": 3887950,
       "required": true,
       "__meta": {
         "name": "Sophisticated Backpacks",
@@ -1475,7 +1447,7 @@
     },
     {
       "projectID": 425991,
-      "fileID": 3897907,
+      "fileID": 3860927,
       "required": true,
       "__meta": {
         "name": "Buddycards",
@@ -1666,7 +1638,7 @@
     },
     {
       "projectID": 472521,
-      "fileID": 3902592,
+      "fileID": 3892468,
       "required": true,
       "__meta": {
         "name": "Lightmans Currency"
@@ -1753,15 +1725,11 @@
       }
     },
     {
-      "projectID": 494206,
-      "fileID": 3898041,
+      "projectID": 491624,
+      "fileID": 3785984,
       "required": true,
       "__meta": {
-        "name": "Create Chunkloading",
-        "dependencies": [
-          419699,
-          348521
-        ]
+        "name": "Schools of Magic: Second Semester"
       }
     },
     {
@@ -1847,7 +1815,7 @@
     },
     {
       "projectID": 509041,
-      "fileID": 3902988,
+      "fileID": 3776653,
       "required": true,
       "__meta": {
         "name": "Epic Knights: Shields, Armor and Weapons"
@@ -1861,18 +1829,6 @@
         "name": "Create Deco",
         "dependencies": [
           328085
-        ]
-      }
-    },
-    {
-      "projectID": 509575,
-      "fileID": 3745494,
-      "required": true,
-      "__meta": {
-        "name": "Observable",
-        "dependencies": [
-          351264,
-          419699
         ]
       }
     },
@@ -1899,16 +1855,8 @@
       }
     },
     {
-      "projectID": 511172,
-      "fileID": 3718132,
-      "required": true,
-      "__meta": {
-        "name": "Hourglass"
-      }
-    },
-    {
       "projectID": 513688,
-      "fileID": 3669954,
+      "fileID": 3696607,
       "required": true,
       "__meta": {
         "name": "Terralith"
@@ -2002,7 +1950,7 @@
     },
     {
       "projectID": 542235,
-      "fileID": 3898559,
+      "fileID": 3895248,
       "required": true,
       "__meta": {
         "name": "Create Cafe",
@@ -2013,7 +1961,7 @@
     },
     {
       "projectID": 548152,
-      "fileID": 3902657,
+      "fileID": 3842857,
       "required": true,
       "__meta": {
         "name": "LC Tech",
@@ -2183,7 +2131,7 @@
     },
     {
       "projectID": 575698,
-      "fileID": 3899114,
+      "fileID": 3872854,
       "required": true,
       "__meta": {
         "name": "Ars Creo",
@@ -2227,14 +2175,6 @@
       }
     },
     {
-      "projectID": 585546,
-      "fileID": 3707420,
-      "required": true,
-      "__meta": {
-        "name": "BisectHosting Server Integration Menu [FORGE]"
-      }
-    },
-    {
       "projectID": 591388,
       "fileID": 3816373,
       "required": true,
@@ -2252,7 +2192,7 @@
     },
     {
       "projectID": 602680,
-      "fileID": 3902856,
+      "fileID": 3894143,
       "required": true,
       "__meta": {
         "name": "Tinkers' Integrations and Tweaks",
@@ -2288,7 +2228,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 3901968,
+      "fileID": 3887917,
       "required": true,
       "__meta": {
         "name": "Sophisticated Core"
@@ -2352,7 +2292,7 @@
     },
     {
       "projectID": 628798,
-      "fileID": 3896153,
+      "fileID": 3868424,
       "required": true,
       "__meta": {
         "name": "Daily Rewards"
@@ -2368,7 +2308,7 @@
     },
     {
       "projectID": 631016,
-      "fileID": 3895967,
+      "fileID": 3860910,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Desert Temples (Forge)",
@@ -2398,7 +2338,7 @@
     },
     {
       "projectID": 637200,
-      "fileID": 3866361,
+      "fileID": 3848595,
       "required": true,
       "__meta": {
         "name": "Twilight Delight"
