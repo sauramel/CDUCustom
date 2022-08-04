@@ -1313,6 +1313,14 @@
       }
     },
     {
+      "projectID": 400514,
+      "fileID": 3887794,
+      "required": true,
+      "__meta": {
+        "name": "Easy Villagers"
+      }
+    },
+    {
       "projectID": 400933,
       "fileID": 3851696,
       "required": true,
