@@ -227,6 +227,7 @@
       "required": true,
       "__meta": {
         "name": "KubeJS",
+        "pinned": true,
         "dependencies": [
           419699,
           416294
@@ -238,7 +239,8 @@
       "fileID": 3847103,
       "required": true,
       "__meta": {
-        "name": "Just Enough Items (JEI)"
+        "name": "Just Enough Items (JEI)",
+        "pinned": true
       }
     },
     {
@@ -1640,7 +1642,8 @@
       "fileID": 3817472,
       "required": true,
       "__meta": {
-        "name": "Macaw's Fences and Walls"
+        "name": "Macaw's Fences and Walls",
+        "pinned": true
       }
     },
     {
