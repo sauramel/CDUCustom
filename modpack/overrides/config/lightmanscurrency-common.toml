@@ -69,13 +69,13 @@
 		#Chests that will occasionally spawn copper coins.
 		copper = ["minecraft:chests/underwater_ruin_small", "minecraft:chests/underwater_ruin_big"]
 		#Chests that will occasionally spawn copper -> iron coins.
-		iron = []
+		iron = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/simple_dungeon"]
 		#Chests that will occasionally spawn copper -> gold coins.
-		gold = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/simple_dungeon", "minecraft:chests/ruined_portal"]
+		gold = ["minecraft:chests/ruined_portal","minecraft:chests/buried_treasure", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure", "minecraft:chests/end_city_treasure","minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_library", "minecraft:chests/ancient_city"]
 		#Chests that will occasionally spawn copper -> emerald coins.
-		emerald = ["minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_library", "minecraft:chests/ancient_city"]
+		emerald = []
 		#Chests that will occasionally spawn copper -> diamond coins.
-		diamond = ["minecraft:chests/buried_treasure", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure", "minecraft:chests/end_city_treasure"]
+		diamond = []
 		#Chests that will occasionally spawn copper -> netherite coins.
 		netherite = []
 
