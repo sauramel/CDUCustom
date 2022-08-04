@@ -1060,6 +1060,14 @@
       }
     },
     {
+      "projectID": 356236,
+      "fileID": 3699372,
+      "required": true,
+      "__meta": {
+        "name": "Loot Bag Mod"
+      }
+    },
+    {
       "projectID": 357557,
       "fileID": 3677573,
       "required": true,
