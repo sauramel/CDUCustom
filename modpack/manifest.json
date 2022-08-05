@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "1.2.1",
+  "version": "2.2.0",
   "author": "",
   "name": "CraftDownUnder",
   "files": [
@@ -227,6 +227,7 @@
       "required": true,
       "__meta": {
         "name": "KubeJS",
+        "pinned": true,
         "dependencies": [
           419699,
           416294
@@ -238,7 +239,8 @@
       "fileID": 3847103,
       "required": true,
       "__meta": {
-        "name": "Just Enough Items (JEI)"
+        "name": "Just Enough Items (JEI)",
+        "pinned": true
       }
     },
     {
@@ -575,6 +577,17 @@
       }
     },
     {
+      "projectID": 278993,
+      "fileID": 3677571,
+      "required": true,
+      "__meta": {
+        "name": "Bonsai Trees 3",
+        "dependencies": [
+          357557
+        ]
+      }
+    },
+    {
       "projectID": 280200,
       "fileID": 3725170,
       "required": true,
@@ -716,6 +729,18 @@
       }
     },
     {
+      "projectID": 301034,
+      "fileID": 3776062,
+      "required": true,
+      "__meta": {
+        "name": "Entangled",
+        "dependencies": [
+          438332,
+          454372
+        ]
+      }
+    },
+    {
       "projectID": 306626,
       "fileID": 3813427,
       "required": true,
@@ -732,6 +757,14 @@
       "required": true,
       "__meta": {
         "name": "Patchouli"
+      }
+    },
+    {
+      "projectID": 307152,
+      "fileID": 3840878,
+      "required": true,
+      "__meta": {
+        "name": "Champions"
       }
     },
     {
@@ -959,6 +992,14 @@
       }
     },
     {
+      "projectID": 348157,
+      "fileID": 3823327,
+      "required": true,
+      "__meta": {
+        "name": "Useless Sword"
+      }
+    },
+    {
       "projectID": 348521,
       "fileID": 3782776,
       "required": true,
@@ -1007,6 +1048,34 @@
       "required": true,
       "__meta": {
         "name": "Macaw's Roofs"
+      }
+    },
+    {
+      "projectID": 353399,
+      "fileID": 3837815,
+      "required": true,
+      "__meta": {
+        "name": "Archer's Paradox",
+        "dependencies": [
+          69162
+        ]
+      }
+    },
+    {
+      "projectID": 356236,
+      "fileID": 3699372,
+      "required": true,
+      "__meta": {
+        "name": "Loot Bag Mod"
+      }
+    },
+    {
+      "projectID": 357557,
+      "fileID": 3677573,
+      "required": true,
+      "__meta": {
+        "name": "Libnonymous",
+        "explicit": false
       }
     },
     {
@@ -1254,6 +1323,14 @@
       }
     },
     {
+      "projectID": 400514,
+      "fileID": 3887794,
+      "required": true,
+      "__meta": {
+        "name": "Easy Villagers"
+      }
+    },
+    {
       "projectID": 400933,
       "fileID": 3851696,
       "required": true,
@@ -1383,11 +1460,27 @@
       }
     },
     {
+      "projectID": 417179,
+      "fileID": 3609555,
+      "required": true,
+      "__meta": {
+        "name": "Caged Mobs"
+      }
+    },
+    {
       "projectID": 419699,
       "fileID": 3893735,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)"
+      }
+    },
+    {
+      "projectID": 420735,
+      "fileID": 3888282,
+      "required": true,
+      "__meta": {
+        "name": "Harder Natural Healing"
       }
     },
     {
@@ -1513,6 +1606,14 @@
       }
     },
     {
+      "projectID": 443900,
+      "fileID": 3819249,
+      "required": true,
+      "__meta": {
+        "name": "Pipez"
+      }
+    },
+    {
       "projectID": 446253,
       "fileID": 3804089,
       "required": true,
@@ -1541,7 +1642,8 @@
       "fileID": 3817472,
       "required": true,
       "__meta": {
-        "name": "Macaw's Fences and Walls"
+        "name": "Macaw's Fences and Walls",
+        "pinned": true
       }
     },
     {
@@ -1779,6 +1881,17 @@
       }
     },
     {
+      "projectID": 499826,
+      "fileID": 3856125,
+      "required": true,
+      "__meta": {
+        "name": "Advancement Plaques",
+        "dependencies": [
+          520110
+        ]
+      }
+    },
+    {
       "projectID": 499980,
       "fileID": 3842421,
       "required": true,
@@ -1871,6 +1984,34 @@
       }
     },
     {
+      "projectID": 520110,
+      "fileID": 3800622,
+      "required": true,
+      "__meta": {
+        "name": "Iceberg",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 521932,
+      "fileID": 3797980,
+      "required": true,
+      "__meta": {
+        "name": "Medieval Music[Forge/Fabric]"
+      }
+    },
+    {
+      "projectID": 525447,
+      "fileID": 3910972,
+      "required": true,
+      "__meta": {
+        "name": "JourneyMap Integration",
+        "dependencies": [
+          32274
+        ]
+      }
+    },
+    {
       "projectID": 526854,
       "fileID": 3706539,
       "required": true,
@@ -1949,6 +2090,17 @@
       }
     },
     {
+      "projectID": 541466,
+      "fileID": 3910955,
+      "required": true,
+      "__meta": {
+        "name": "Nameless Trinkets",
+        "dependencies": [
+          309927
+        ]
+      }
+    },
+    {
       "projectID": 542235,
       "fileID": 3895248,
       "required": true,
@@ -2014,6 +2166,14 @@
       }
     },
     {
+      "projectID": 558702,
+      "fileID": 3711306,
+      "required": true,
+      "__meta": {
+        "name": "Goblins Community!"
+      }
+    },
+    {
       "projectID": 558905,
       "fileID": 3771366,
       "required": true,
@@ -2022,6 +2182,22 @@
         "dependencies": [
           574856
         ]
+      }
+    },
+    {
+      "projectID": 559248,
+      "fileID": 3711303,
+      "required": true,
+      "__meta": {
+        "name": "Trolls Community!"
+      }
+    },
+    {
+      "projectID": 559553,
+      "fileID": 3711300,
+      "required": true,
+      "__meta": {
+        "name": "Ogres Community!"
       }
     },
     {
@@ -2142,6 +2318,18 @@
       }
     },
     {
+      "projectID": 577121,
+      "fileID": 3859904,
+      "required": true,
+      "__meta": {
+        "name": "Quest Plaques",
+        "dependencies": [
+          520110,
+          499826
+        ]
+      }
+    },
+    {
       "projectID": 577356,
       "fileID": 3694706,
       "required": true,
@@ -2167,11 +2355,35 @@
       }
     },
     {
+      "projectID": 580689,
+      "fileID": 3813232,
+      "required": true,
+      "__meta": {
+        "name": "Loot Integrations[Forge/Fabric]"
+      }
+    },
+    {
+      "projectID": 581652,
+      "fileID": 3881713,
+      "required": true,
+      "__meta": {
+        "name": "Vanilla Expanded - Orcz"
+      }
+    },
+    {
       "projectID": 584724,
       "fileID": 3717877,
       "required": true,
       "__meta": {
         "name": "WorldEdit Items"
+      }
+    },
+    {
+      "projectID": 585546,
+      "fileID": 3707420,
+      "required": true,
+      "__meta": {
+        "name": "BisectHosting Server Integration Menu [FORGE]"
       }
     },
     {
@@ -2342,6 +2554,17 @@
       "required": true,
       "__meta": {
         "name": "Twilight Delight"
+      }
+    },
+    {
+      "projectID": 637529,
+      "fileID": 3913872,
+      "required": true,
+      "__meta": {
+        "name": "Delightful",
+        "dependencies": [
+          398521
+        ]
       }
     },
     {
