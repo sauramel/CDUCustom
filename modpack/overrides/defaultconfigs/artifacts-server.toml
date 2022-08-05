@@ -358,7 +358,7 @@
 		durability = 1561
 		#Affects how much prices are reduced by the villager hat
 		#Range: > 0
-		reputation_bonus = 100
+		reputation_bonus = 20
 
 	[items.whoopee_cushion]
 		#Affects how many farts can be farted using the whoopee cushion
