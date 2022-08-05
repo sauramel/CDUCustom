@@ -1062,14 +1062,6 @@
       }
     },
     {
-      "projectID": 356236,
-      "fileID": 3699372,
-      "required": true,
-      "__meta": {
-        "name": "Loot Bag Mod"
-      }
-    },
-    {
       "projectID": 357557,
       "fileID": 3677573,
       "required": true,
@@ -1137,6 +1129,17 @@
       "required": true,
       "__meta": {
         "name": "Goblin Traders"
+      }
+    },
+    {
+      "projectID": 366916,
+      "fileID": 3669166,
+      "required": true,
+      "__meta": {
+        "name": "Set World Spawn Point (Forge)",
+        "dependencies": [
+          342584
+        ]
       }
     },
     {
@@ -2086,17 +2089,6 @@
         "name": "Trading Post",
         "dependencies": [
           495476
-        ]
-      }
-    },
-    {
-      "projectID": 541466,
-      "fileID": 3910955,
-      "required": true,
-      "__meta": {
-        "name": "Nameless Trinkets",
-        "dependencies": [
-          309927
         ]
       }
     },
