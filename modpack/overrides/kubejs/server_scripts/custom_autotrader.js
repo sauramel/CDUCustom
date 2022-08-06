@@ -1,12 +1,12 @@
 onEvent('recipes', event => {
   event.shaped('easy_villagers:auto_trader', [
-    'ABA',
+    'ACA',
     'ADA',
-    'ACA'
+    'ABA'
   ], {
 	A: 'forbidden_arcanus:arcane_golden_glass',
-    B: 'extendedcrafting:enhanced_ender_ingot',
-	C: 'minecraft:hopper',
+    B: 'minecraft:netherite_ingot',
+	C: 'compressium:emerald_3',
 	D: 'easy_villagers:trader'
   })
   event.remove({output: 'easy_villagers:auto_trader', mod: 'easy_villagers'})
