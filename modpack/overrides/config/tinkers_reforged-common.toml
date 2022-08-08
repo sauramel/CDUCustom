@@ -32,6 +32,8 @@
 	#Ore vein size
 	#Range: 1 ~ 40
 	veinSize = 3
-	#Default Modifier Cap for adapting
-	adaptingModifierCap = 10.0
+
+	[kepu_ore.modifiers]
+		#Default Modifier Cap for adapting
+		adaptingModifierCap = 10.0
 

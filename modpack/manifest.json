@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "2.2.0",
+  "version": "2.3.0",
   "author": "",
   "name": "CraftDownUnder",
   "files": [
@@ -98,7 +98,7 @@
     },
     {
       "projectID": 224791,
-      "fileID": 3864897,
+      "fileID": 3923281,
       "required": true,
       "__meta": {
         "name": "Blood Magic ",
@@ -129,7 +129,7 @@
     },
     {
       "projectID": 227639,
-      "fileID": 3873593,
+      "fileID": 3901400,
       "required": true,
       "__meta": {
         "name": "The Twilight Forest"
@@ -137,7 +137,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 3891368,
+      "fileID": 3916521,
       "required": true,
       "__meta": {
         "name": "Bookshelf"
@@ -180,7 +180,7 @@
     },
     {
       "projectID": 231951,
-      "fileID": 3823066,
+      "fileID": 3901176,
       "required": true,
       "__meta": {
         "name": "Immersive Engineering"
@@ -188,7 +188,7 @@
     },
     {
       "projectID": 232758,
-      "fileID": 3832119,
+      "fileID": 3900719,
       "required": true,
       "__meta": {
         "name": "Cyclops Core"
@@ -318,7 +318,7 @@
     },
     {
       "projectID": 243707,
-      "fileID": 3878219,
+      "fileID": 3910086,
       "required": true,
       "__meta": {
         "name": "Corail Tombstone"
@@ -462,7 +462,7 @@
     },
     {
       "projectID": 256717,
-      "fileID": 3886101,
+      "fileID": 3913406,
       "required": true,
       "__meta": {
         "name": "Clumps"
@@ -507,6 +507,14 @@
       }
     },
     {
+      "projectID": 267602,
+      "fileID": 3737369,
+      "required": true,
+      "__meta": {
+        "name": "ConnectedTexturesMod"
+      }
+    },
+    {
       "projectID": 268387,
       "fileID": 3885707,
       "required": true,
@@ -515,6 +523,14 @@
         "dependencies": [
           272335
         ]
+      }
+    },
+    {
+      "projectID": 268495,
+      "fileID": 3868680,
+      "required": true,
+      "__meta": {
+        "name": "Simple Storage Network"
       }
     },
     {
@@ -608,7 +624,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 3877902,
+      "fileID": 3924015,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -788,12 +804,11 @@
     },
     {
       "projectID": 309858,
-      "fileID": 3829081,
+      "fileID": 3906364,
       "required": true,
       "__meta": {
         "name": "Forbidden and Arcanus",
         "dependencies": [
-          416935,
           416935
         ]
       }
@@ -921,10 +936,13 @@
     },
     {
       "projectID": 334853,
-      "fileID": 3558694,
+      "fileID": 3907506,
       "required": true,
       "__meta": {
-        "name": "Simple Discord Rich Presence (Forge /  Fabric)"
+        "name": "Simple Discord Rich Presence (Forge /  Fabric)",
+        "dependencies": [
+          419699
+        ]
       }
     },
     {
@@ -950,7 +968,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 3879491,
+      "fileID": 3913027,
       "required": true,
       "__meta": {
         "name": "Collective (Forge)"
@@ -1066,8 +1084,7 @@
       "fileID": 3677573,
       "required": true,
       "__meta": {
-        "name": "Libnonymous",
-        "explicit": false
+        "name": "Libnonymous"
       }
     },
     {
@@ -1163,7 +1180,7 @@
     },
     {
       "projectID": 376876,
-      "fileID": 3893668,
+      "fileID": 3904666,
       "required": true,
       "__meta": {
         "name": "Tinkers Reforged",
@@ -1193,7 +1210,7 @@
     },
     {
       "projectID": 377897,
-      "fileID": 3863253,
+      "fileID": 3920199,
       "required": true,
       "__meta": {
         "name": "Productive Bees"
@@ -1225,7 +1242,7 @@
     },
     {
       "projectID": 382216,
-      "fileID": 3840203,
+      "fileID": 3923941,
       "required": true,
       "__meta": {
         "name": "Blueprint"
@@ -1253,7 +1270,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 3885204,
+      "fileID": 3918702,
       "required": true,
       "__meta": {
         "name": "GeckoLib"
@@ -1343,20 +1360,20 @@
     },
     {
       "projectID": 401955,
-      "fileID": 3888205,
+      "fileID": 3912095,
       "required": true,
       "__meta": {
         "name": "Ars Nouveau",
         "dependencies": [
-          309927,
           306770,
+          309927,
           388172
         ]
       }
     },
     {
       "projectID": 404465,
-      "fileID": 3822758,
+      "fileID": 3909755,
       "required": true,
       "__meta": {
         "name": "FTB Library (Forge)",
@@ -1383,6 +1400,14 @@
       "required": true,
       "__meta": {
         "name": "Shutup Experimental Settings!"
+      }
+    },
+    {
+      "projectID": 410451,
+      "fileID": 3903094,
+      "required": true,
+      "__meta": {
+        "name": "Updated Engineering"
       }
     },
     {
@@ -1444,13 +1469,13 @@
     },
     {
       "projectID": 416294,
-      "fileID": 3892335,
+      "fileID": 3919350,
       "required": true,
       "__meta": {
         "name": "Rhino",
         "dependencies": [
-          419699,
-          416294
+          416294,
+          419699
         ]
       }
     },
@@ -1472,7 +1497,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3893735,
+      "fileID": 3924495,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)"
@@ -1520,7 +1545,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 3887950,
+      "fileID": 3914048,
       "required": true,
       "__meta": {
         "name": "Sophisticated Backpacks",
@@ -1543,7 +1568,7 @@
     },
     {
       "projectID": 425991,
-      "fileID": 3860927,
+      "fileID": 3911357,
       "required": true,
       "__meta": {
         "name": "Buddycards",
@@ -1566,6 +1591,7 @@
       "required": true,
       "__meta": {
         "name": "KubeJS Create",
+        "pinned": true,
         "dependencies": [
           238086,
           328085
@@ -1634,7 +1660,7 @@
     },
     {
       "projectID": 450659,
-      "fileID": 3893786,
+      "fileID": 3908056,
       "required": true,
       "__meta": {
         "name": "Small Ships"
@@ -1645,8 +1671,7 @@
       "fileID": 3817472,
       "required": true,
       "__meta": {
-        "name": "Macaw's Fences and Walls",
-        "pinned": true
+        "name": "Macaw's Fences and Walls"
       }
     },
     {
@@ -1734,6 +1759,14 @@
       }
     },
     {
+      "projectID": 468836,
+      "fileID": 3582548,
+      "required": true,
+      "__meta": {
+        "name": "Created Simple Storage Network"
+      }
+    },
+    {
       "projectID": 470193,
       "fileID": 3833738,
       "required": true,
@@ -1743,10 +1776,10 @@
     },
     {
       "projectID": 472521,
-      "fileID": 3892468,
+      "fileID": 3921527,
       "required": true,
       "__meta": {
-        "name": "Lightmans Currency"
+        "name": "Lightman's Currency"
       }
     },
     {
@@ -1755,6 +1788,14 @@
       "required": true,
       "__meta": {
         "name": "Stalwart Dungeons"
+      }
+    },
+    {
+      "projectID": 474849,
+      "fileID": 3593620,
+      "required": true,
+      "__meta": {
+        "name": "Better 3D Ores   [ Glow Ores : Emissive Textures ]"
       }
     },
     {
@@ -1781,7 +1822,7 @@
     },
     {
       "projectID": 482123,
-      "fileID": 3831097,
+      "fileID": 3907510,
       "required": true,
       "__meta": {
         "name": "Vanilla AIOTs",
@@ -1839,7 +1880,7 @@
     },
     {
       "projectID": 494654,
-      "fileID": 3849095,
+      "fileID": 3915881,
       "required": true,
       "__meta": {
         "name": "Item Banning"
@@ -1919,6 +1960,14 @@
       }
     },
     {
+      "projectID": 503839,
+      "fileID": 3549465,
+      "required": true,
+      "__meta": {
+        "name": "Embellished Stone (Advancement Plaques)"
+      }
+    },
+    {
       "projectID": 504908,
       "fileID": 3778233,
       "required": true,
@@ -1931,7 +1980,7 @@
     },
     {
       "projectID": 509041,
-      "fileID": 3776653,
+      "fileID": 3914308,
       "required": true,
       "__meta": {
         "name": "Epic Knights: Shields, Armor and Weapons"
@@ -1939,7 +1988,7 @@
     },
     {
       "projectID": 509285,
-      "fileID": 3866123,
+      "fileID": 3922607,
       "required": true,
       "__meta": {
         "name": "Create Deco",
@@ -1991,8 +2040,7 @@
       "fileID": 3800622,
       "required": true,
       "__meta": {
-        "name": "Iceberg",
-        "explicit": false
+        "name": "Iceberg"
       }
     },
     {
@@ -2024,7 +2072,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3830790,
+      "fileID": 3914491,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)"
@@ -2074,6 +2122,14 @@
       }
     },
     {
+      "projectID": 537217,
+      "fileID": 3704407,
+      "required": true,
+      "__meta": {
+        "name": "STONEBORN - Dwarven-Fantasy Inspired Gear Overhaul"
+      }
+    },
+    {
       "projectID": 537490,
       "fileID": 3747147,
       "required": true,
@@ -2105,7 +2161,7 @@
     },
     {
       "projectID": 542235,
-      "fileID": 3895248,
+      "fileID": 3909132,
       "required": true,
       "__meta": {
         "name": "Create Cafe",
@@ -2115,8 +2171,16 @@
       }
     },
     {
+      "projectID": 543275,
+      "fileID": 3601210,
+      "required": true,
+      "__meta": {
+        "name": "Create Copper Fix"
+      }
+    },
+    {
       "projectID": 548152,
-      "fileID": 3842857,
+      "fileID": 3923885,
       "required": true,
       "__meta": {
         "name": "LC Tech",
@@ -2204,6 +2268,14 @@
       }
     },
     {
+      "projectID": 559789,
+      "fileID": 3824818,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Series - Create Version"
+      }
+    },
+    {
       "projectID": 560323,
       "fileID": 3669114,
       "required": true,
@@ -2213,13 +2285,13 @@
     },
     {
       "projectID": 561470,
-      "fileID": 3885259,
+      "fileID": 3909952,
       "required": true,
       "__meta": {
         "name": "Ars Elemental",
         "dependencies": [
-          401955,
           306770,
+          401955,
           309927
         ]
       }
@@ -2294,7 +2366,7 @@
     },
     {
       "projectID": 570463,
-      "fileID": 3877287,
+      "fileID": 3923083,
       "required": true,
       "__meta": {
         "name": "Ecologics"
@@ -2310,7 +2382,7 @@
     },
     {
       "projectID": 575698,
-      "fileID": 3872854,
+      "fileID": 3899114,
       "required": true,
       "__meta": {
         "name": "Ars Creo",
@@ -2347,13 +2419,13 @@
     },
     {
       "projectID": 580129,
-      "fileID": 3810666,
+      "fileID": 3919400,
       "required": true,
       "__meta": {
         "name": "Quests Additions (Forge)",
         "dependencies": [
-          289412,
-          419699
+          419699,
+          289412
         ]
       }
     },
@@ -2407,22 +2479,14 @@
     },
     {
       "projectID": 602680,
-      "fileID": 3894143,
+      "fileID": 3918165,
       "required": true,
       "__meta": {
         "name": "Tinkers' Integrations and Tweaks",
         "dependencies": [
-          74072,
-          74924
+          74924,
+          74072
         ]
-      }
-    },
-    {
-      "projectID": 606254,
-      "fileID": 3736817,
-      "required": true,
-      "__meta": {
-        "name": "Towers of the Wild: Reworked (Datapack)"
       }
     },
     {
@@ -2443,7 +2507,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 3887917,
+      "fileID": 3909159,
       "required": true,
       "__meta": {
         "name": "Sophisticated Core"
@@ -2463,11 +2527,20 @@
       "required": true,
       "__meta": {
         "name": "Macaw's Fences - Oh The Biomes You'll Go",
+        "pinned": true,
         "dependencies": [
           453925,
           563928,
           247560
         ]
+      }
+    },
+    {
+      "projectID": 621286,
+      "fileID": 3789843,
+      "required": true,
+      "__meta": {
+        "name": "Building Gadgets Create like"
       }
     },
     {
@@ -2506,8 +2579,24 @@
       }
     },
     {
+      "projectID": 628273,
+      "fileID": 3807299,
+      "required": true,
+      "__meta": {
+        "name": "Create Ender Storage"
+      }
+    },
+    {
+      "projectID": 628633,
+      "fileID": 3808504,
+      "required": true,
+      "__meta": {
+        "name": "Pretty Pipez"
+      }
+    },
+    {
       "projectID": 628798,
-      "fileID": 3868424,
+      "fileID": 3896153,
       "required": true,
       "__meta": {
         "name": "Daily Rewards"
@@ -2523,7 +2612,7 @@
     },
     {
       "projectID": 631016,
-      "fileID": 3860910,
+      "fileID": 3895967,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Desert Temples (Forge)",
