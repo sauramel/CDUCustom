@@ -84,3 +84,17 @@
 	#Range: 1 ~ 16
 	veinBranchAmtMin = 3
 
+[enderling]
+	#
+	#Odds for an Enderling to spawn with an Enderman in the End, 0-1, default is 0.5%
+	#Range: 0.0 ~ 1.0
+	endOdds = 0.005
+	#
+	#Odds for an Enderling to spawn with an Enderman in the Nether, 0-1, default is 0.5%
+	#Range: 0.0 ~ 1.0
+	netherOdds = 0.005
+	#
+	#Odds for an Enderling to spawn with an Enderman in the Overworld, 0-1, default is 1.5%
+	#Range: 0.0 ~ 1.0
+	overOdds = 0.015
+
