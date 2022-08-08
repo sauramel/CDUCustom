@@ -2093,6 +2093,17 @@
       }
     },
     {
+      "projectID": 541466,
+      "fileID": 3921246,
+      "required": true,
+      "__meta": {
+        "name": "Nameless Trinkets",
+        "dependencies": [
+          309927
+        ]
+      }
+    },
+    {
       "projectID": 542235,
       "fileID": 3895248,
       "required": true,
