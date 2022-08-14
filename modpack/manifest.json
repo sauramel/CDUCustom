@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.1.68",
+        "id": "forge-40.1.73",
         "primary": true
       }
     ]
@@ -236,7 +236,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3847103,
+      "fileID": 3904349,
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)",
