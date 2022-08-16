@@ -912,7 +912,8 @@
 			x: -1.0d
 			y: -14.0d
 			shape: "hexagon"
-			description: ["Welcome in the spiritland my little cultist. In this tab you learn more aspects demons lives, how speak with spirits, how tamed wild creatures and minions, and get to know base and advanced technology for manipulate it all."]
+			subtitle: "Ahh, my little occultist."
+			description: ["Welcome to the Spiritland my little cultist. In this tab, you'll learn more about how demons live, how to speak wiith spirits, how to tame wild creatures and minions; and get to know the basic and advanced technology to manipulate these creatures."]
 			dependency_requirement: "all_started"
 			size: 2.0d
 			id: "67BDF0F0CF539638"
@@ -928,10 +929,10 @@
 			}]
 		}
 		{
-			title: "Kit for Young Spiritualist"
+			title: "Kit for the Young Spiritualist"
 			x: 2.0d
 			y: -10.0d
-			description: ["First quest, try find demon fruit seeds, this is basic material. Without it you can't open your third eye, and don't see spirits who live around you"]
+			description: ["First quest: find some demon fruit seeds. This is the most basic material you'll need for this mod. Without it you can't open your third eye and won't be able to see the spirits who walk with you."]
 			dependencies: ["67BDF0F0CF539638"]
 			hide: true
 			id: "23A89D1E7F721432"
@@ -967,11 +968,21 @@
 			]
 		}
 		{
-			title: "Basic Materials"
+			title: "Entry-level Occult Stuff"
 			icon: "occultism:spirit_fire"
 			x: 4.0d
 			y: -8.0d
-			description: ["Next you need make Spirit Flame, for made it just trow 1 demonfruit on ground and flamed it... Congrats you made it, now i can named you Hephaestus... Try trow in this flame common stone, result surprized you... Maybe now you think what hapen, i say you, this is your first trade with spirit... Now you need put in this flame Oak Sapling and you will obtain weak otherworld sapling, try grow it... What... You growd it and this is common Oak? I suggest you eat demonfruit and try again observe your Oak... Finaly you destroy gate in your mind, and opened your threed eye, now try see all in other colors..."]
+			description: [
+				"Next, you'll need to make a Spirit Flame. To make it, just throw 1 Demon Fruit on the ground and light it with fire."
+				""
+				"Congrats you made one! Now I dub thee as Hephaestus. Next, try throwing in that flame a Vanilla Stone. Results may suprise you!"
+				""
+				"Maybe now you're thinking what these are for. You just made your first deal with a spirit!"
+				""
+				"Next, let's try throwing in an Oak Sapling. You'll be traded in with an unusual sapling. Try growing one. It may seem like a normal oak tree but then I suggest you eat a Demon's Dream Fruit until it feels like a bit fuzzy."
+				""
+				"Congratulations you just opened your Third Eye! Now try harvesting the logs while under this nauseating effect."
+			]
 			dependencies: ["23A89D1E7F721432"]
 			hide: true
 			id: "21C35F90571A8867"
@@ -1000,7 +1011,7 @@
 				{
 					id: "268D9FC85B2BFC7D"
 					type: "observation"
-					title: "WTF, purple fire ?"
+					title: "WTF, a Purple Fire??"
 					icon: "occultism:spirit_fire"
 					timer: 0L
 					observe_type: 0
@@ -1013,12 +1024,24 @@
 					count: 8L
 				}
 			]
+			rewards: [{
+				id: "51729BBEF2F241A0"
+				type: "item"
+				item: "lightmanscurrency:coinpile_iron"
+				count: 5
+			}]
 		}
 		{
 			title: "Advanced Materials"
 			x: 4.0d
 			y: -4.0d
-			description: ["I really wanna throw my diamonds in this flame ? Yes, for next progress you need made it. Say your girlfriend - \"I can gift you ring later\""]
+			description: [
+				"\"I really wanna throw my diamonds in this flame...\""
+				""
+				"Tempting, right? Well, you'll need it to progress anyway. "
+				""
+				"You can give your partner a Diamond-cut Ring later. These Demons won't wait for you."
+			]
 			dependencies: ["21C35F90571A8867"]
 			hide: true
 			id: "789955686166C6F2"
@@ -1030,10 +1053,10 @@
 			}]
 		}
 		{
-			title: "Useful Items"
+			title: "Other Useful Items"
 			x: 0.0d
 			y: -8.0d
-			description: ["This is basic stuff, brush for clean your chalk on ground, and Knife for obtain tallow, and craft Candles for ritual."]
+			description: ["This is just some of the other basic stuff: Brush for cleaning chalk runes on the ground; and Knife for obtaining some tallow; and for crafting Candles for rituals."]
 			dependencies: ["23A89D1E7F721432"]
 			hide: true
 			id: "4BBD8BE933C03F74"
@@ -1057,11 +1080,15 @@
 			]
 		}
 		{
-			title: "Preparing to Rituals 1"
+			title: "Praparation for Rituals 1"
 			icon: "occultism:tallow"
 			x: 0.0d
 			y: -6.0d
-			description: ["Try slay pigs with for obtain your first tallow, or you fear blood ?)"]
+			description: [
+				"Slay some pigs to obtain your first tallow..."
+				""
+				"...or do you fear blood?"
+			]
 			dependencies: ["4BBD8BE933C03F74"]
 			hide: true
 			id: "059C1C29D73069D9"
@@ -1082,11 +1109,15 @@
 			]
 		}
 		{
-			title: "Preparing to Rituals 2"
+			title: "Praparation for Rituals 2"
 			icon: "occultism:candle_white"
 			x: 0.0d
 			y: -4.0d
-			description: ["Okay finally you collected tallow and ready make Candles. But for next step you need strange dust, for white dust you need trow your otherwood in spirit flame, for obtain black you need smelt otherstone in furnance."]
+			description: [
+				"Now you've collected some tallow, you're ready to make some Candles."
+				""
+				"But for next step, you'll need some strange dust. For white dust you need to throw your Otherworld Wood in a spirit flame. To obtain burnt otherstone, you need smelt otherstone in a furnance."
+			]
 			dependencies: ["059C1C29D73069D9"]
 			hide: true
 			id: "7E5B82D11D77A9E0"
@@ -1115,7 +1146,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			description: ["This is your first ritual chalk, try don't lose it. And remember with big power comes big responsibility."]
+			description: ["This is your first Ritual Chalk. Try not to lose it. And remember with big power comes big responsibility."]
 			hide_dependency_lines: true
 			dependencies: [
 				"21C35F90571A8867"
@@ -1139,7 +1170,8 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			description: ["Don't try eat it. Only for drawing."]
+			subtitle: "No you can't bite it, Uncle Scrooge."
+			description: ["NOT MADE FOR EATING."]
 			dependencies: [
 				"34889CAD6EBAA1D8"
 				"789955686166C6F2"
@@ -1162,6 +1194,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
+			subtitle: "Must be Barney's..."
 			description: ["Oh my favorite colour."]
 			dependencies: ["1AB6FE39F6DDEB28"]
 			hide: true
@@ -1181,6 +1214,7 @@
 		{
 			x: 7.5d
 			y: 0.0d
+			subtitle: "Ah yes, the evil color."
 			description: ["Look like candy, but again dont eat it, this is just Chalk ☺"]
 			dependencies: [
 				"1809E611C84D8CA4"
@@ -1199,7 +1233,7 @@
 			x: 5.0d
 			y: -9.5d
 			shape: "heart"
-			description: ["This is Door in to Narnia ?"]
+			subtitle: "It's a door to Narnia!"
 			hide_dependency_lines: true
 			dependencies: [
 				"1AB6FE39F6DDEB28"
@@ -1229,7 +1263,7 @@
 			title: "Storage Tier 2"
 			x: 10.0d
 			y: -9.5d
-			description: ["I think i can store here cobble."]
+			subtitle: "I can store tons of cobble here!"
 			dependencies: ["4DA57D12224FE6CA"]
 			id: "2C1B378BA60F649F"
 			tasks: [{
@@ -1247,7 +1281,7 @@
 			title: "Storage Tier 3"
 			x: 10.0d
 			y: -14.5d
-			description: ["Maybe its wrong, but i like this size."]
+			subtitle: "Looks wrong, yet feels right."
 			dependencies: ["2C1B378BA60F649F"]
 			id: "46471ACD58B38F93"
 			tasks: [{
@@ -1265,7 +1299,7 @@
 			title: "Storage Tier 4"
 			x: 5.0d
 			y: -14.5d
-			description: ["I made Black Hole ?"]
+			subtitle: "I think I just made a Black Hole..."
 			dependencies: ["46471ACD58B38F93"]
 			id: "288C6C2CBE8B082E"
 			tasks: [{
@@ -1280,11 +1314,12 @@
 			}]
 		}
 		{
-			title: "Don't put hands in it"
+			title: "Don't Put Your Hands on It!"
 			x: 6.5d
 			y: -10.5d
 			shape: "rsquare"
-			description: ["I think i see my socks here..."]
+			subtitle: "I can see my socks from here"
+			description: ["Link the Wormhole by sneak-right clicking on an Actuator."]
 			hide_dependency_lines: true
 			dependencies: ["4DA57D12224FE6CA"]
 			id: "47A2EB819A7814EA"
@@ -1304,11 +1339,12 @@
 			}]
 		}
 		{
-			title: "Wireles Storage"
+			title: "It's like RS but Magic!"
 			x: 8.5d
 			y: -10.5d
 			shape: "rsquare"
-			description: ["Better then Nokia 3310"]
+			subtitle: "Better than your Nokia 3310"
+			description: ["Link it by sneak-right clicking on an Actuator."]
 			hide_dependency_lines: true
 			dependencies: ["2C1B378BA60F649F"]
 			id: "47F48A8CD7636B61"
@@ -1334,48 +1370,9 @@
 			}]
 		}
 		{
-			icon: {
-				id: "occultism:dimensional_matrix"
-				Count: 1b
-				tag: {
-					spiritName: "Azursalmarcred"
-				}
-			}
-			x: 10.0d
-			y: -8.0d
-			shape: "gear"
-			description: [
-				"This is page try help you learn basics Storage Mecanics and advansed tips what help you make OP storage for item."
-				"{image:kubejs:textures/quest_book/occultism/tips/storage1.png width:200 height:120 align:1}"
-				"This is basic storage structure, you seen on screenshot i used more than 1 storage base, in next two screenshot you learn why i use this setup..."
-				"{image:kubejs:textures/quest_book/occultism/tips/storage2.png width:400 height:250 align:1}"
-				"This is central storage block ( It linked with 4 stabilizer, and have 8320 slots item storage) P.S. In storage 1 slots equal 1024 items"
-				"{image:kubejs:textures/quest_book/occultism/tips/storage3.png width:400 height:250 align:1}"
-				"This is side storage, it linked only with 2 stabilizer and stored 4224 types items"
-				"{image:kubejs:textures/quest_book/occultism/tips/storage4.png width:200 height:120 align:1}"
-				"On last screen you see advanced setup with 9 dimension storage and 12 stabilizers ( In this setup all dim-storage have 8320 slots for item, and if calculate total storage we obtain space for 74.880.000 items ). Finily i hope i helped you economy tons material for it. "
-				""
-				"Example: for basic version you use 1 dim-storage and 4-6 stabilizers, but i think this is wasting resources, in this case for obtain same size storage you will make 36 stabilizer, but you can allways use my scheme for it, and spend for this less resources. "
-			]
-			hide_dependency_lines: true
-			dependencies: ["4DA57D12224FE6CA"]
-			hide_text_until_complete: true
-			id: "0F55111805BB6243"
-			tasks: [{
-				id: "3D919ED1ABE2F525"
-				type: "checkmark"
-				title: "Progressive TIPS 1"
-			}]
-			rewards: [{
-				id: "55AD10B59D06774E"
-				type: "xp_levels"
-				xp_levels: 30
-			}]
-		}
-		{
 			x: 6.0d
 			y: -8.0d
-			description: ["First book for summon weakest demon."]
+			description: ["First book for summoning the weakest demon."]
 			dependencies: ["21C35F90571A8867"]
 			hide: true
 			id: "49F4D98F8EEE8C97"
@@ -1394,7 +1391,7 @@
 		{
 			x: 6.0d
 			y: -6.0d
-			description: ["New Book for New Friends"]
+			subtitle: "Aha! A New Friend!"
 			dependencies: ["49F4D98F8EEE8C97"]
 			id: "1CF6A928BF2E5400"
 			tasks: [{
@@ -1412,7 +1409,7 @@
 		{
 			x: 6.0d
 			y: -4.0d
-			description: ["I think i found new type Blazes."]
+			description: ["I think I found a new type of Blaze."]
 			dependencies: ["1CF6A928BF2E5400"]
 			id: "26977C3FF56ABA09"
 			tasks: [{
@@ -1430,7 +1427,7 @@
 		{
 			x: 6.0d
 			y: -2.0d
-			description: ["I found Pure Evil."]
+			subtitle: "I found pure evil..."
 			dependencies: [
 				"26977C3FF56ABA09"
 				"62A12179646A400B"
@@ -1452,7 +1449,7 @@
 			title: "Explorer Kit"
 			x: 5.0d
 			y: -5.0d
-			description: ["Time go to the Nether"]
+			subtitle: "Time for you to get to the Nether, my dear friend."
 			dependencies: [
 				"789955686166C6F2"
 				"1CF6A928BF2E5400"
@@ -1486,7 +1483,7 @@
 			title: "Big Exploration"
 			x: 5.0d
 			y: -3.0d
-			description: ["For obtain demon ore what named Iesnium, you need make Infused Pickaxe and Nether portal. I think you can obtain small amount it."]
+			description: ["For obtaining an Iesnium, you need to make an Infused Pickaxe and explore the Nether."]
 			dependencies: ["7A0B93A61E48499E"]
 			hide: true
 			id: "24E59767242CDD21"
@@ -1520,7 +1517,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			description: ["This is Decor ?"]
+			subtitle: "Seems like a decor block to me..."
 			dependencies: ["24E59767242CDD21"]
 			hide: true
 			id: "62A12179646A400B"
@@ -1539,7 +1536,7 @@
 			x: 5.0d
 			y: 0.5d
 			shape: "rsquare"
-			description: ["I think i can gift this pickaxe my friend."]
+			subtitle: "I think I can gift this to our \"friend\"..."
 			dependencies: ["62A12179646A400B"]
 			hide: true
 			id: "220D78A04FD95677"
@@ -1562,11 +1559,11 @@
 			}]
 		}
 		{
-			title: "Magic void Miner"
+			title: "A Magic Miner, you say?"
 			x: 7.0d
 			y: -5.0d
 			shape: "heart"
-			description: ["Culmination Lazy Life"]
+			subtitle: "Ahh the Lazy Days start here."
 			hide_dependency_lines: true
 			dependencies: [
 				"220D78A04FD95677"
@@ -1614,10 +1611,14 @@
 			]
 		}
 		{
-			title: "Preparing to Rituals 3"
+			title: "Praparation for Rituals 3"
 			x: 0.0d
 			y: -2.0d
-			description: ["This is plates need for sacrifice, keep in mind, at first you place item on black plates, and after on black plate with gold frame. We have different rituals, for first types you need only items for secont you need items and living sacrifice."]
+			description: [
+				"Thes bowls are necessary for sacrifices. The golden ones usually go on the middle of a Pentacle, while the counterpart are put around it depending on the ritual you want."
+				""
+				"Check Dictionary of Spirits for Pentacles. You can visualize a ritual circle on how to build one."
+			]
 			dependencies: ["7E5B82D11D77A9E0"]
 			hide: true
 			id: "7CDF0D08F0573262"
@@ -1640,7 +1641,7 @@
 			x: 7.0d
 			y: -7.0d
 			shape: "rsquare"
-			description: ["I hope i don't drop in this bag."]
+			subtitle: "I hope I don't lose this bag."
 			dependencies: ["1CF6A928BF2E5400"]
 			id: "6943F19C4502BBC2"
 			tasks: [{
@@ -1655,19 +1656,20 @@
 				}
 			}]
 			rewards: [{
-				id: "07AB22E226FAAB00"
+				id: "5480FABE346BEF80"
 				type: "item"
-				item: "enigmaticlegacy:ender_ring"
+				item: "lightmanscurrency:coinpile_gold"
+				count: 3
 			}]
 		}
 		{
-			title: "I hope it dont Eat my Ore..."
+			title: "I Hope it Does'nt Eat my Ores"
 			icon: "occultism:iron_dust"
 			x: 8.0d
 			y: -8.0d
 			shape: "gear"
 			subtitle: "Ritual type: Summon Demons"
-			description: ["After speak with my new friends, i learned more new ways for ore processing. Just hope this is no joke."]
+			description: ["After speaking with my \"new\" friends, I learned there are \"other\" ways for ore processing."]
 			dependencies: ["49F4D98F8EEE8C97"]
 			hide: true
 			id: "35589BAC20E81880"
@@ -1688,13 +1690,17 @@
 			}]
 		}
 		{
-			title: "Time to Upgrade Teeth"
+			title: "Time to Upgrade my Teeth!"
 			icon: "ars_nouveau:wilden_horn"
 			x: 8.0d
 			y: -6.0d
 			shape: "gear"
 			subtitle: "Ritual type: Summon Demons"
-			description: ["After obtain new knowledge i found new way uses my crushing technology, i hope it dont eat my hand."]
+			description: [
+				"Our new friend here crushes items! Just hope it doesn't crush my hands..."
+				""
+				"Check the Dictionary for ritual circle layouts."
+			]
 			dependencies: [
 				"35589BAC20E81880"
 				"1CF6A928BF2E5400"
@@ -1716,13 +1722,16 @@
 			}]
 		}
 		{
-			title: "Blaze calls me Big Bro"
+			title: "Blaze Calls Me Big Bro"
 			icon: "create:blaze_cake"
 			x: 8.0d
 			y: -4.0d
 			shape: "gear"
 			subtitle: "Ritual type: Summon Demons"
-			description: ["If add magmatic flame in my previously technology, it will increase processing speed and output dusts"]
+			description: [
+				"Aha, our even faster crushing \"friend\"."
+				""
+			]
 			dependencies: [
 				"26977C3FF56ABA09"
 				"0BBEABFC124F1C8B"
@@ -1745,13 +1754,13 @@
 			}]
 		}
 		{
-			title: "This is Gluttony Sin ?"
+			title: "Gluttonous Sin"
 			icon: "enigmaticlegacy:forbidden_fruit"
 			x: 8.0d
 			y: -2.0d
 			shape: "gear"
 			subtitle: "Ritual type: Summon Demons"
-			description: ["I dont know how much ores him can eat, but i think its Culmination for my Crushing Technology. Maybe after thousand years people come up with new way, but 100% not now."]
+			description: ["I don't know how much ores it can eat, but I hope it won't crush my hands THAT fast."]
 			dependencies: [
 				"17EF1C39CFC70553"
 				"5F3543BD3CBCB927"
@@ -1767,20 +1776,17 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "5411198723675F15"
+				id: "2F3849DA0241027A"
 				type: "item"
-				item: {
-					id: "forbidden_arcanus:eternal_stella"
-					Count: 1b
-					tag: { }
-				}
+				item: "lightmanscurrency:coinpile_emerald"
+				count: 5
 			}]
 		}
 		{
 			title: "Advanced Rituals"
 			x: 4.0d
 			y: -2.0d
-			description: ["Used in advanced rituals. I feel demonic energy in it."]
+			description: ["Used in advanced rituals. I can feel the Demonic energy in it."]
 			dependencies: ["789955686166C6F2"]
 			hide: true
 			id: "1AC11960DA153C1D"
@@ -1791,44 +1797,12 @@
 			}]
 		}
 		{
-			icon: "refinedstorage:external_storage"
-			x: 10.0d
-			y: -6.0d
-			shape: "gear"
-			description: [
-				"If you opened RS, you can try linked two network, for made it you need connect External Bus to Dismention Storage..."
-				"{image:kubejs:textures/quest_book/occultism/tips/rs_bus1.png width:200 height:120 align:1}"
-				"And finally you will obtain this..."
-				"{image:kubejs:textures/quest_book/occultism/tips/rs_bus2.png width:400 height:210 align:1}"
-				"This is Best Storage what you can obtain in this pack, enjoy ☻"
-			]
-			dependencies: [
-				"0F55111805BB6243"
-				"15F487587FC4F4F6"
-			]
-			hide: true
-			hide_text_until_complete: true
-			id: "0F455ACF032B2261"
-			tasks: [
-				{
-					id: "31C6D29872B63336"
-					type: "checkmark"
-					title: "Progressive TIPS 2"
-				}
-				{
-					id: "1E6E13A3EE49C4D2"
-					type: "item"
-					item: "refinedstorage:external_storage"
-				}
-			]
-		}
-		{
 			title: "Kill Mad Afrit"
 			icon: "enigmaticlegacy:magma_heart"
 			x: 7.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["This is can't melt me ?"]
+			subtitle: "This won't smelt me, right?"
 			dependencies: ["26977C3FF56ABA09"]
 			hide: true
 			id: "52CC221D148A2742"
@@ -1849,15 +1823,16 @@
 				}
 			]
 			rewards: [{
-				id: "1ED8A6FE3B4C2E46"
+				id: "5F1CA79655669A27"
 				type: "item"
-				item: "enigmaticlegacy:magma_heart"
+				item: "lightmanscurrency:coinpile_diamond"
+				count: 3
 			}]
 		}
 		{
 			x: 10.0d
 			y: -2.0d
-			description: ["Red Confetti ?"]
+			subtitle: "Perhaps a Red Confetti?"
 			hide_dependency_lines: true
 			dependencies: ["52CC221D148A2742"]
 			hide: true
@@ -1875,7 +1850,7 @@
 			y: -8.0d
 			shape: "gear"
 			subtitle: "Ritual type: Summon Demons"
-			description: ["Convert 1 stone to 4 otherstone"]
+			description: ["Convert 1 Stone to 4 Otherstone"]
 			hide_dependency_lines: true
 			dependencies: [
 				"49F4D98F8EEE8C97"
@@ -1936,7 +1911,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "pentagon"
-			description: ["Finally after all tortures, i found new ritual. Just hope this is demon don't lies me."]
+			description: ["Finally after all those tortures, I found a new ritual. Just hope this Demon doesn't lie to me."]
 			dependencies: [
 				"34889CAD6EBAA1D8"
 				"1AB6FE39F6DDEB28"
@@ -1968,7 +1943,7 @@
 			x: 2.5d
 			y: 2.5d
 			shape: "pentagon"
-			description: ["Hi, my name Binder."]
+			subtitle: "Higher!!!"
 			dependencies: [
 				"73BCEF794EC9BD8D"
 				"1AB6FE39F6DDEB28"
@@ -2000,7 +1975,7 @@
 			x: 7.5d
 			y: 2.5d
 			shape: "pentagon"
-			description: ["Sound stable, need try use it."]
+			subtitle: "Sound stable, need to try this."
 			dependencies: [
 				"5F18DF362A19E5A9"
 				"1809E611C84D8CA4"
@@ -2031,7 +2006,7 @@
 			x: 10.0d
 			y: 0.0d
 			shape: "pentagon"
-			description: ["Congrats you obtain access to the deeper ritual knowledge, i hope you dont try summon Black Hole..."]
+			description: ["Congratulations! You just obtained access to a deeper ritual knowledge. Let's hope you don's summon a Black Hole..."]
 			dependencies: [
 				"3E7DB41601CEB2DF"
 				"6F1C5D97C6DB8DAD"
@@ -2063,7 +2038,11 @@
 			x: 4.0d
 			y: -6.0d
 			shape: "pentagon"
-			description: ["Your first ritual circle for summon basic demons, it's really can help you. P.S. i dont cry, just dust entered in my eye."]
+			description: [
+				"Your first ritual circle for summoning basic demons that'll help you."
+				""
+				"P.S. I'm not crying, just some chalk dust in my eyes."
+			]
 			dependencies: ["7CDF0D08F0573262"]
 			hide: true
 			id: "584FF525DC5D25AC"
@@ -2080,7 +2059,7 @@
 			y: -6.0d
 			shape: "gear"
 			subtitle: "Ritual type: Summon Demons"
-			description: ["Convert 1 weak sapling to strong version, after it you can regrow this tree infinitely"]
+			description: ["By summoning a Foliot Trader, you can trade regular saplings to a more stable one. "]
 			dependencies: ["6707C1072FB26659"]
 			hide: true
 			id: "75C4E8A35B19D681"
@@ -2136,7 +2115,7 @@
 			x: 2.0d
 			y: -2.0d
 			shape: "rsquare"
-			description: ["Oh i can move my animals )"]
+			subtitle: "Oh, I can move animals???"
 			hide_dependency_lines: true
 			dependencies: ["5F18DF362A19E5A9"]
 			hide: true
@@ -2152,11 +2131,12 @@
 			}]
 		}
 		{
+			title: "Summon Power!"
 			x: -3.0d
 			y: -10.5d
 			shape: "hexagon"
-			subtitle: "Welcome to Summoner Association"
-			description: ["I think now you ready for calling mighty Minions in your army, / Highly recommended you Fully complete this quests ways ♥"]
+			subtitle: "Welcome to the Summoner Association!"
+			description: ["I think now you're ready for calling mighty Minions onto your army. Highly recommend you fully complete this questline ♥"]
 			hide_dependency_lines: true
 			dependencies: [
 				"34889CAD6EBAA1D8"
@@ -2280,52 +2260,17 @@
 			]
 		}
 		{
-			icon: {
-				id: "forbidden_arcanus:eternal_stella"
-				Count: 1b
-				tag: { }
-			}
-			x: 10.0d
-			y: -4.0d
-			shape: "gear"
-			description: [
-				"This is slightly cheaty, but if you obtain Eternal Stella, you can add it on your lamp..."
-				"{image:kubejs:textures/quest_book/occultism/tips/stella_1.png width:400 height:200 align:1}"
-				"Congratulation, you obtain free and infinite void miner."
-				"{image:kubejs:textures/quest_book/occultism/tips/stella_2.png width:400 height:200 align:1}"
-			]
-			hide_dependency_lines: true
-			dependencies: [
-				"0925041F87847D0E"
-				"0F455ACF032B2261"
-			]
-			hide: true
-			id: "64F2F642043D2996"
-			tasks: [
-				{
-					id: "3699BD7DED1F392D"
-					type: "checkmark"
-					title: "Progressive TIPS 3"
-				}
-				{
-					id: "6BF3E337D3290C1E"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:eternal_stella"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
-		}
-		{
-			title: "Totem of Unduing this is YOU...?"
+			title: "Your Guardian Angel!"
 			icon: "minecraft:totem_of_undying"
 			x: -4.5d
 			y: -6.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["This is minion analog Totem of Unduing, if you die, this is smart boi rescue you 1-5 time, and after this it DIE..."]
+			description: [
+				"A minion version of the Totem of Undying! This minion will sacrifice its life for you!"
+				""
+				"Blacksmith Familiar Upgrade: Regain Limbs (can only be done ONCE)"
+			]
 			dependencies: ["10BDC86318D28E7A"]
 			id: "182BA80EE919ECF0"
 			tasks: [{
@@ -2335,27 +2280,25 @@
 				advancement: "occultism:occultism/familiar_guardian"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "2FEBAEDEF30EDE97"
-					type: "item"
-					item: "minecraft:evoker_spawn_egg"
-				}
-				{
-					id: "1D0A51ED2D4FF817"
-					type: "item"
-					item: "enigmaticlegacy:golem_heart"
-				}
-			]
+			rewards: [{
+				id: "1D0A51ED2D4FF817"
+				type: "item"
+				item: "lightmanscurrency:coinpile_gold"
+				count: 3
+			}]
 		}
 		{
-			title: "Rum in Barrel?"
+			title: "Such a noisy pet!"
 			icon: "croptopia:rum"
 			x: -1.5d
 			y: -6.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["Parrot companion, for long travel / Provide: Nothing"]
+			description: [
+				"Parrot companion, for long travels"
+				""
+				"It actually provides you nothing..."
+			]
 			dependencies: ["2568A1602DC4C962"]
 			id: "415E1B997ADA6266"
 			tasks: [{
@@ -2374,12 +2317,12 @@
 			}]
 		}
 		{
-			title: "Oh Mighty Push !"
+			title: "Oh Mighty Push!"
 			x: -1.5d
 			y: -5.0d
 			shape: "square"
-			subtitle: "Ritual type: Summon Minions"
-			description: ["Blacksmith this is centre upgrading your minions / Additionally if player pick up stone, it have small chance repair your items."]
+			subtitle: "A Mini Blacksmith, that is."
+			description: ["Blacksmith is the heart of upgrading your Minions. Additionally, if a player picks up a stone, it has a small chance to repair your items."]
 			dependencies: ["2568A1602DC4C962"]
 			id: "518599809C9E7E9A"
 			tasks: [{
@@ -2405,13 +2348,13 @@
 			]
 		}
 		{
-			title: "Daggett ?"
+			title: "No, I'm not a Gopher!"
 			icon: "twilightforest:hollow_oak_log"
 			x: -1.5d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Ritual type: Summon Minions"
-			description: ["Beaver provide you Faster Wood Breaking / Additionally it can chop nearby small trees"]
+			subtitle: "*whistling intensifies*"
+			description: ["Beaver Familiars provide you faster wood break speed. Additionally, it can chop nearby small trees."]
 			dependencies: ["2568A1602DC4C962"]
 			id: "4507718EE3254769"
 			tasks: [{
@@ -2434,32 +2377,40 @@
 			y: -0.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["Greedy Goblin - simple alternative to magnet, it collect nearby items on ground and teleport it in player inventory, if capture it in Familiar Ring it will increase player pickup range / Blacksmith uprade add: Goblin obtain simple scanner (blocks or ores), if RMB on him with any blocks - it will try found it in 9x9 range"]
+			description: [
+				"Greedy Goblin - simple alternatives to a magnet, it collects nearby items on ground and teleport it in the player's inventory. If captured in a Familiar Ring, it will increase the player's pickup range."
+				""
+				"Blacksmith Familiar Upgrade: Goblins obtain a simple scanner ability (blocks or ores), if you click RMB on him with any blocks, it will try to find the given block in a 9x9 range."
+			]
 			dependencies: ["2568A1602DC4C962"]
 			id: "1D4482F21F8BE23E"
 			tasks: [{
 				id: "75A9D87AFCC6A84B"
 				type: "advancement"
-				title: "Summon Greedy"
+				title: "Summon a Greedy"
 				icon: "createdeco:gold_coinstack"
 				advancement: "occultism:occultism/familiar_greedy"
 				criterion: ""
 			}]
 			rewards: [{
-				id: "2C8A77B166051938"
+				id: "53C2248D54B59306"
 				type: "item"
-				item: "paraglider:heart_container"
-				count: 2
+				item: "lightmanscurrency:coinpile_gold"
+				count: 10
 			}]
 		}
 		{
-			title: "Steal friend girlfriend XD"
+			title: "Bambi!"
 			icon: "minecraft:leather"
 			x: -1.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "Ritual type: Summon Minions"
-			description: ["Deer Minion graint you Jump Boost / Blacksmith upgrade add: It attack nearby mobs with hammer ( This is not joke ☻ )"]
+			subtitle: "Must be from Snape's..."
+			description: [
+				"Deer Minions grant you Jump Boost."
+				""
+				"Blacksmith Familiar Upgrade: attacks nearby mobs with a hammer ( This is not joke ☻ )"
+			]
 			dependencies: ["2568A1602DC4C962"]
 			id: "7E8F98B0CB9A7F76"
 			tasks: [{
@@ -2473,8 +2424,8 @@
 			rewards: [{
 				id: "3022951D757A6FA0"
 				type: "item"
-				item: "paraglider:heart_container"
-				count: 2
+				item: "lightmanscurrency:coinpile_gold"
+				count: 3
 			}]
 		}
 		{
@@ -2483,7 +2434,7 @@
 			y: -6.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["This is Bat provide you Night Vision / Blacksmith upgrade add: Lifesteal"]
+			description: ["This Bat provides you Night Vision / Blacksmith upgrade add: Lifesteal"]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "3E2975291424D5D5"
 			tasks: [{
@@ -2508,7 +2459,13 @@
 			y: -5.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["Beholder mark nearby mobs glowing effects, and shoot in enemy deadly lasers / If he eat Kids Shub Niggurath it obtain temporary damage and speed boost / Blacksmith upgrade add: Blindness resist"]
+			description: [
+				"Beholders mark nearby mobs with a glowing effect and can shoot with lazer eyes!"
+				""
+				"If it eats a Baby Shub Nigguraths, it obtains temporary damage and speed boost."
+				""
+				"Blacksmith Familiar Upgrade: Blindness resistance."
+			]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "6FA88A10684FF996"
 			tasks: [{
@@ -2520,13 +2477,10 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "50A2A133AF206A55"
+				id: "3E90FF0B40FAE859"
 				type: "item"
-				item: {
-					id: "enigmaticlegacy:extradimensional_eye"
-					Count: 1b
-					tag: { }
-				}
+				item: "lightmanscurrency:coinpile_gold"
+				count: 3
 			}]
 		}
 		{
@@ -2535,7 +2489,11 @@
 			y: 2.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["Cthulhu graints you Water Breathing / Blacksmith upgrade add: Light Source in Cthulhu hand, lights all in 11x11 range"]
+			description: [
+				"Cthulhu grants you Water Breathing."
+				""
+				"Blacksmith Familiar Upgrade: Light Source in Cthulhu's hand. Lights all dark areas in an 11x11 range"
+			]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "4418D820C1CF0B18"
 			tasks: [{
@@ -2547,26 +2505,20 @@
 				observe_type: 5
 				to_observe: "occultism:cthulhu_familiar"
 			}]
-			rewards: [
-				{
-					id: "7BC829604CD5D1B1"
-					type: "item"
-					item: "enigmaticlegacy:ocean_stone"
-				}
-				{
-					id: "36CAE01F7520E1FB"
-					type: "item"
-					item: "enigmaticlegacy:angel_blessing"
-				}
-			]
+			rewards: [{
+				id: "3627482DD6146F66"
+				type: "item"
+				item: "lightmanscurrency:coinpile_gold"
+				count: 5
+			}]
 		}
 		{
-			title: "Hagrid don't touch this..."
+			title: "Hagrid, don't you touch this..."
 			icon: "forbidden_arcanus:arcane_dragon_egg"
 			x: -3.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Ritual type: Summon Minions"
+			subtitle: "I've decided to call him Norbert"
 			description: ["With Dragon you obtain XP Bonus, he like plays with stick / You can use Greedy for obtain Dragon Rider, in this case dragon obtain item pickup skills Greedy / Blacksmith upgrade add: Trowing swords in neabry enemy."]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "03B15C3ECA85C077"
@@ -2581,8 +2533,8 @@
 			rewards: [{
 				id: "2FCB9A06CC0E43E3"
 				type: "item"
-				item: "paraglider:heart_container"
-				count: 2
+				item: "lightmanscurrency:coinpile_gold"
+				count: 3
 			}]
 		}
 		{
@@ -2591,7 +2543,7 @@
 			y: 0.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["Headless familiar steal mob heads and provide dmg boost / For give additional damage, Rider need kill mobs and steal their Head, it can store in 1 time only 1 head / If he lost more then 50% hp it dies, but you can rebuild it, just give him (Wheat, Stick, Hay and Pumpkin)"]
+			description: ["Headless familiars steal mob heads and provide damage boost. To give the additional damage buff, The Headless Rider need to kill mobs and steal their heads. It can store only one type of head at a time. If he loses more then 50% hp it dies, but you can rebuild it, just give him Wheat, Stick, Hay and Pumpkin."]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "06E5159340CC1EFD"
 			tasks: [{
@@ -2615,13 +2567,13 @@
 			}]
 		}
 		{
-			title: "Weird Mount ☺"
+			title: "Nina?"
 			icon: "botania:virus_necrodermal"
 			x: -3.0d
 			y: -4.5d
 			shape: "square"
-			subtitle: "Ritual type: Summon Minions"
-			description: ["Like Horse but Better / Dont forgot feed it Rotten Flesh for Grow it"]
+			subtitle: "It's like a horse, but better!"
+			description: ["Don't forget to feed it meat to grow!"]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "01993AA1DAA667C0"
 			tasks: [{
@@ -2650,12 +2602,12 @@
 			}]
 		}
 		{
-			title: "Hellboi"
+			title: "The Good Hellboi"
 			x: -3.0d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Ritual type: Summon Minions"
-			description: ["Devil provide you Fire Resistance / Now you can swim in lava"]
+			subtitle: "The cutest devil you'll meet"
+			description: ["Devils provide you Fire Resistance. At last you can swim on lava."]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "23300171C66FD208"
 			tasks: [{
@@ -2669,7 +2621,7 @@
 			rewards: [{
 				id: "4860F7B125273A40"
 				type: "item"
-				item: "paraglider:heart_container"
+				item: "lightmanscurrency:coinpile_gold"
 				count: 2
 			}]
 		}
@@ -2679,7 +2631,7 @@
 			y: -1.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["Fairy familiar keep other minions from dying (Have Cooldown) / Additionally steal life force enemy and assist master."]
+			description: ["Fairy familiars keep other minions from dying (Has Cooldown). Additionally, they steal life force from enemies and assist their master."]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "1F537C8350B8FA64"
 			tasks: [{
@@ -2697,13 +2649,17 @@
 			}]
 		}
 		{
-			title: "Vacation in Egypt"
+			title: "A Trip to Egypt!"
 			icon: "comforts:hammock_light_gray"
 			x: -3.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Ritual type: Summon Minions"
-			description: ["Mummy will defend master and provide you Evasion (have cooldown) / Blacksmith upgrade add: Increase Mummy damage 2 times"]
+			subtitle: "Got some souvenirs from the trip!"
+			description: [
+				"Mummies will defend their master with their martial arts skills. They provide you Evasion (has cooldown)."
+				""
+				"Blacksmith Familiar Upgrade: Increase Mummy damage x2"
+			]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "05FF6571A2B46DC9"
 			tasks: [{
@@ -2716,22 +2672,23 @@
 			rewards: [{
 				id: "36D1B5CF12DAC8C0"
 				type: "item"
-				item: "enigmaticlegacy:monster_charm"
+				item: "lightmanscurrency:coinpile_emerald"
+				count: 3
 			}]
 		}
 		{
-			title: "You Birdman ?_?"
+			title: "Isn't that a Parrot?"
 			x: -3.0d
 			y: -3.5d
 			shape: "square"
 			subtitle: "Ritual type: Summon Minions"
-			description: ["Drikwing provide you Multi-Jump, Jump Boost and Slow Falling."]
+			description: ["Drikwing provides you Multi-Jump, Jump Boost and Slow Falling."]
 			dependencies: ["4010BD025B62BBD5"]
 			id: "795341521C68CECE"
 			tasks: [{
 				id: "42F7F7AA5D162655"
 				type: "advancement"
-				title: "Summon Bird"
+				title: "Summon a Drikwing"
 				icon: "ecologics:penguin_feather"
 				advancement: "occultism:occultism/familiar_otherworld_bird"
 				criterion: ""
@@ -2739,7 +2696,8 @@
 			rewards: [{
 				id: "633BCD6E3A882633"
 				type: "item"
-				item: "paraglider:heart_container"
+				auto: "invisible"
+				item: "lightmanscurrency:coinpile_gold"
 				count: 2
 			}]
 		}
@@ -2748,7 +2706,7 @@
 			x: 5.0d
 			y: 4.0d
 			shape: "octagon"
-			subtitle: "Culmination minions life, Big Party and Marriage Cthulhu and Shubbi. Hope i dont forgot send invites to all. Holy-Crap, where Marriage Gift ?!"
+			subtitle: "A minion gang, big parties and a Marriage between Cthulhu and Shubbi. Hope I don't forget to send invites to everyone. Holy Moly, where' my dowry gift??"
 			description: ["I knew you can collect it all and make this Cool Party. I think time to gain Gift You ☻"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2801,13 +2759,14 @@
 			rewards: [{
 				id: "1C9D276B36C23BDB"
 				type: "item"
-				item: "enigmaticlegacy:enigmatic_item"
+				item: "lightmanscurrency:coinpile_netherite"
+				count: 2
 			}]
 		}
 		{
 			x: -1.5d
 			y: -10.5d
-			description: ["Wow this ring shiny."]
+			subtitle: "A Shiny Ring!"
 			hide_dependency_lines: true
 			dependencies: ["7C31324BFF2EA6C9"]
 			hide: true
@@ -2827,17 +2786,19 @@
 				}
 			}]
 			rewards: [{
-				id: "2E8074F5365B3A57"
+				id: "3FEE55FECF9CB080"
 				type: "item"
-				item: "artifacts:everlasting_beef"
+				item: "lightmanscurrency:coinpile_iron"
+				count: 5
 			}]
 		}
 		{
-			title: "Strange Food for Strange Creature"
+			title: "Time to Feed Alexander"
 			x: -4.5d
 			y: -5.0d
 			shape: "square"
-			description: ["I can feed this apple my chimera ?"]
+			subtitle: "Onii-chan..."
+			description: ["Feed it with a golden apple and you're in for a suprise!"]
 			dependencies: ["01993AA1DAA667C0"]
 			id: "48795E3DCF1CE3E5"
 			tasks: [{
@@ -2856,11 +2817,12 @@
 			}]
 		}
 		{
-			title: "Go-Go What ?"
+			title: "Ariana Goatee??"
 			x: -4.5d
 			y: -3.5d
 			shape: "square"
-			description: ["Realy GOAT ?"]
+			subtitle: "Try not to get a headbutt from them."
+			description: ["Everybody hates goats."]
 			dependencies: ["48795E3DCF1CE3E5"]
 			id: "75564404B069EBE3"
 			tasks: [
@@ -2886,7 +2848,7 @@
 			rewards: [{
 				id: "43CDCC8B0E08CED5"
 				type: "item"
-				item: "paraglider:heart_container"
+				item: "lightmanscurrency:coinpile_gold"
 				count: 2
 			}]
 		}
@@ -2895,7 +2857,8 @@
 			x: -4.5d
 			y: -2.0d
 			shape: "square"
-			description: ["I need found right place for sacrifice my Goat."]
+			subtitle: "Time for Ariana to evolve!"
+			description: ["I need to find a right place for sacrificing my Goat..."]
 			dependencies: ["75564404B069EBE3"]
 			id: "6F2F8DC30BC64351"
 			tasks: [
@@ -2929,12 +2892,16 @@
 			}]
 		}
 		{
-			title: "Look on little cute EVIL ):D "
+			title: "THE EVIL ARIANA GOATEE IS HERE!"
 			x: -4.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Ritual type: Summon Minions"
-			description: ["Congratulation, you obtain lil Shub ^.^ / Shub summon little explosive kids for attack enemies / Blacksmith upgrade add: Warning Bell, if you hit familiar it activate bell and attract mobs in large radius"]
+			subtitle: "Summon lil Shub!"
+			description: [
+				"Shubs summon little explosive kids to attack enemies (sounds evil, right?)"
+				""
+				"Blacksmith Familiar Upgrade: gives a warning bell, if you hit the familiar, it will activate its bell and attract mobs in a large radius. (an honorable sacrifice, my child)"
+			]
 			dependencies: ["6F2F8DC30BC64351"]
 			id: "18CED5C357777FA8"
 			tasks: [{
@@ -2946,18 +2913,12 @@
 				observe_type: 5
 				to_observe: "occultism:shub_niggurath_familiar"
 			}]
-			rewards: [
-				{
-					id: "2C0996AA12AE1418"
-					type: "item"
-					item: "enigmaticlegacy:void_pearl"
-				}
-				{
-					id: "38A4FACCBC2B69E0"
-					type: "item"
-					item: "enigmaticlegacy:eye_of_nebula"
-				}
-			]
+			rewards: [{
+				id: "0342284E6219788C"
+				type: "item"
+				item: "lightmanscurrency:coinpile_gold"
+				count: 3
+			}]
 		}
 		{
 			x: 12.0d
@@ -3058,6 +3019,7 @@
 			}]
 		}
 		{
+			title: "Abras Commanding Conjure Schematic"
 			x: -6.5d
 			y: -3.0d
 			shape: "pentagon"
@@ -3072,11 +3034,12 @@
 			}]
 		}
 		{
+			title: "Infused Lenses"
 			icon: "occultism:infused_lenses"
 			x: 19.5d
 			y: -9.0d
 			subtitle: "Ritual type: Material Creating"
-			description: ["This is materials for Spirit Goggle, you need it for obtain iesnium."]
+			description: ["This is material is used for crafting Spirit Goggles. You need it for obtaining Iesnium."]
 			dependencies: ["75BDA7F48DFCAC40"]
 			hide: true
 			id: "105EDA7453A839A2"
@@ -3096,8 +3059,7 @@
 			}
 			x: 20.5d
 			y: -9.5d
-			subtitle: "Ritual type: Item Creating"
-			description: ["4 chest in 1 bag, not bad ?"]
+			subtitle: "4 Chests in 1 Bag, not bad..."
 			dependencies: ["75BDA7F48DFCAC40"]
 			hide: true
 			id: "13CD75C446988432"
@@ -3131,7 +3093,7 @@
 			x: 20.5d
 			y: -10.5d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Use it for wireles acces to your storage, place on ground or wall."]
+			description: ["Use it for wireless access to your storage. Placed on ground or a wall."]
 			dependencies: ["75BDA7F48DFCAC40"]
 			hide: true
 			id: "103371EC65BFC3DF"
@@ -3146,7 +3108,7 @@
 			x: 19.5d
 			y: -11.0d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Give you 128 slots for items / 1 slots store 1000 items."]
+			description: ["Give you 128 slots for items types / 1 slot can store 1000 items."]
 			dependencies: ["75BDA7F48DFCAC40"]
 			hide: true
 			id: "0A239D43BE468FAE"
@@ -3168,7 +3130,7 @@
 			x: 18.5d
 			y: -9.5d
 			subtitle: "Ritual type: Item Creating"
-			description: ["This is lamp work like void miner, for interact with it you need Dimensional Mineshaft / It mine only common materials."]
+			description: ["This lamp will work like a void miner. To interact with it, you need a Dimensional Mineshaft. It only mines common materials/ores."]
 			dependencies: ["75BDA7F48DFCAC40"]
 			hide: true
 			id: "5E9B9029E382DFF0"
@@ -3190,7 +3152,7 @@
 			x: 18.0d
 			y: -5.5d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Infused Pickaxe used for dig Iesnium in nether / For see Iesnium you need wear Spirit Goggle and use Divination Rod for scan ore / Keep in mind pickaxe have 60 durability and dont enchantable, if you try you broke it (Realy dont try XD)"]
+			description: ["Used to mine Iesnium in the Nether. To see Iesnium, you need to wear Spirit Goggles and use Divination Rod to scan ores. Keep in mind that the pickaxe have 60 durability only and is not enchantable."]
 			dependencies: ["19E295969CCF35E0"]
 			hide: true
 			id: "65126A58A5FE5FC7"
@@ -3217,7 +3179,7 @@
 			x: 19.5d
 			y: -7.0d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Soul Gem work like mob capturing tool, use it for transport your Demons or otner creature / not work on bosses / for use it press RMB on mobs"]
+			description: ["Soul Gem work like a mob capturing tool. Use it for transporting your Demons or otner creatures. DOES NOT WORK for BOSSES. RMB on a mob to use."]
 			dependencies: ["19E295969CCF35E0"]
 			hide: true
 			id: "4B25FB2EBF202DD5"
@@ -3236,7 +3198,7 @@
 			x: 18.5d
 			y: -6.5d
 			subtitle: "Ritual type: Item Creating"
-			description: ["This is ring used for capturing your minions, it work like soul gem, but we have two but, first if you captured minions with buffs there's buffs cast on you, and second you can sell / exchange it / Player who interract with ring can release minion and stand for it new master."]
+			description: ["This ring is used for capturing your minions. See Dictionary of Spirits for more information."]
 			dependencies: ["19E295969CCF35E0"]
 			hide: true
 			id: "04C867D0A73B985C"
@@ -3257,7 +3219,7 @@
 			x: 19.5d
 			y: -4.0d
 			subtitle: "Ritual type: Material Creating"
-			description: ["This is crystal uses for made Dimension Storage, if you made it means - you hacked this life"]
+			description: ["A crystal used for making a Dimension Storage. Another alternative for RS."]
 			dependencies: ["19E295969CCF35E0"]
 			hide: true
 			id: "515C5ED225FE13A7"
@@ -3276,7 +3238,7 @@
 			x: 18.5d
 			y: -4.5d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Wireless terminal for your Storage / Shift + RMB on storage base for linked it."]
+			description: ["Wireless terminal for your Storage / Shift + RMB on storage base to link it."]
 			dependencies: ["19E295969CCF35E0"]
 			hide: true
 			id: "78A0DCD11E6A41F5"
@@ -3291,7 +3253,7 @@
 			x: 20.5d
 			y: -4.5d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Give you 512 slots for items."]
+			description: ["Gives you 512 slots for items."]
 			dependencies: ["19E295969CCF35E0"]
 			hide: true
 			id: "6D6AE3BE2A0505E5"
@@ -3306,7 +3268,7 @@
 			x: 20.5d
 			y: -6.5d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Dimensional Mineshaft uses for interact with Magic Lamps, just put in it your lamp and place under hopper or another transporting stuff / Dont forgot lamp have 400 durability, but it possibly enchant, Unbreaking and Mending work on it. In this case you can make lamp with mending and Alfsteel Pylone for repair it."]
+			description: ["Dimensional Mineshaft is used with the Magic Lamps. Just put it in your lamp and place under a hopper or another block for transporting items. Don't forgot that lamps have 400 DURABILITY ONLY, but can be enchanted with Unbreaking and Mending. Use an Alfsteel Pylon to repair it."]
 			dependencies: ["19E295969CCF35E0"]
 			hide: true
 			id: "54DBB955184AFEB6"
@@ -3343,7 +3305,7 @@
 			x: 19.5d
 			y: -1.0d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Give you 1024 slots for items."]
+			description: ["Gives you 1024 slots for items."]
 			dependencies: ["727CA49A84967FA5"]
 			hide: true
 			id: "4380912A442CC19B"
@@ -3358,7 +3320,7 @@
 			x: 19.5d
 			y: 3.5d
 			subtitle: "Ritual type: Item Creating"
-			description: ["Give you 2048 slots for items."]
+			description: ["Gives you 2048 slots for items."]
 			dependencies: ["01D101DC8E5CBCA6"]
 			hide: true
 			id: "786B2D5BE50A7A30"
@@ -3443,7 +3405,7 @@
 			x: 19.5d
 			y: -13.5d
 			subtitle: "Ritual type: Summon Demons"
-			description: ["This is Foliot sell you Otherworld Sapling, if you give him 1 weak othersapling he convert it to stronger version, now you can forgot to stupid devilfruit."]
+			description: ["A Foliot variant that will sell you Otherworld Saplings. If you give him 1 weak/unstable othersapling, it will convert it into a stronger, more stable version. Now you can forget about eating Demon's Dream Fruits."]
 			dependencies: ["372C74E51C116E83"]
 			hide: true
 			id: "35BA732A655A28F2"
@@ -3458,7 +3420,7 @@
 			x: 19.5d
 			y: -15.5d
 			subtitle: "Ritual type: Summon Demons"
-			description: ["This is Foliot can work like living crusher / Foliot Crusher (2x ore / slow speed)"]
+			description: ["A Foliot can work like living crusher (2x ore / slow speed)."]
 			dependencies: ["372C74E51C116E83"]
 			hide: true
 			id: "7A4ECFB13FECE2A7"
@@ -3473,7 +3435,7 @@
 			x: 18.5d
 			y: -15.0d
 			subtitle: "Ritual type: Summon Demons"
-			description: ["This is Foliot will chop trees"]
+			description: ["A Foliot that will chop trees for you."]
 			dependencies: ["372C74E51C116E83"]
 			hide: true
 			id: "3AE77005B2B46CA6"
@@ -3488,7 +3450,7 @@
 			x: 20.5d
 			y: -14.0d
 			subtitle: "Ritual type: Summon Demons"
-			description: ["This is Foliot just transport items in to one chest to second"]
+			description: ["A Foliot that can just transport items from one storage to another."]
 			dependencies: ["372C74E51C116E83"]
 			hide: true
 			id: "1FC2D4F918919248"
@@ -3503,7 +3465,7 @@
 			x: 18.5d
 			y: -14.0d
 			subtitle: "Ritual type: Summon Demons"
-			description: ["This is Foliot sell you Otherstone, 1 minecraft stone = 4 otherstone."]
+			description: ["A Foliot Trader Variant that will sell you Otherstone. 1 Vanilla Stone = 4 Otherstone."]
 			dependencies: ["372C74E51C116E83"]
 			hide: true
 			id: "31130CE6CFDD51F2"
@@ -3518,7 +3480,7 @@
 			x: 20.5d
 			y: -15.0d
 			subtitle: "Ritual type: Summon Demons"
-			description: ["This is Foliot can collect items near it and transport it in to chest "]
+			description: ["This Foliot can collect items near it and transport it into a chest."]
 			dependencies: ["372C74E51C116E83"]
 			hide: true
 			id: "4E3F96F19F4C3F29"
@@ -3578,7 +3540,7 @@
 			x: 7.0d
 			y: -23.0d
 			subtitle: "Ritual type: Battle"
-			description: ["You obtain it after killing Wild Afrit / This is strong mob, it have 100hp and it summon 6-7 blazes / Really recommended use for it good equip, like tinker Plate armor with Greatsword."]
+			description: ["You obtain it after killing a Wild Afrit. This is a strong mob. It has 100hp and it summon 6-7 blazes. Recommended that you gear up before fighting this mob."]
 			dependencies: ["1D0AAC512BBE50E4"]
 			hide: true
 			id: "690756876BF1D269"
@@ -3693,7 +3655,7 @@
 			x: 13.5d
 			y: -21.5d
 			subtitle: "Ritual type: Enviroment"
-			description: ["This ritual give you power for change Day/Night time"]
+			description: ["This ritual gives you the power to change time."]
 			dependencies: ["3A8B2C9D75473D91"]
 			hide: true
 			id: "226EC350A62B398D"
@@ -3714,7 +3676,11 @@
 			x: 15.5d
 			y: -21.5d
 			subtitle: "Ritual type: Summon Demons"
-			description: ["This little guy work like transporter for mechanisms, like furnace / if you configure it you can see new icon in tab with Furnace Icon / Suggest use it only if you realy want try new tranporting way... Order in Storage > input to Mechanism > output to Storage"]
+			description: [
+				"This little guy works like a transporter for mechanisms, like furnaces. If you configure it, you will see a new icon in tab with Furnace Icon. Suggested only if you really want to try a new way of transporting items."
+				""
+				"Order in Storage > Input to Mechanism > Output to Storage"
+			]
 			dependencies: ["3A8B2C9D75473D91"]
 			hide: true
 			id: "26EAF5D426723EC6"
@@ -3729,7 +3695,7 @@
 			x: 13.5d
 			y: -23.5d
 			subtitle: "Ritual type: Enviroment"
-			description: ["Now you can summon Sunlight weather / Later you open other types Weather"]
+			description: ["Now you can summon Sunlight weather. Later on, you can control other types of weather."]
 			dependencies: ["3A8B2C9D75473D91"]
 			hide: true
 			id: "60E5BC7EEE2D3B09"
@@ -3740,6 +3706,7 @@
 			}]
 		}
 		{
+			title: "Djinni Ore Crusher"
 			icon: "occultism:silver_dust"
 			x: 15.5d
 			y: -23.5d
@@ -3755,6 +3722,7 @@
 			}]
 		}
 		{
+			title: "Guide to Ihagan's Enthrallment"
 			icon: "occultism:dictionary_of_spirits"
 			x: -12.5d
 			y: -5.5d
@@ -3769,6 +3737,7 @@
 			}]
 		}
 		{
+			title: "Guide for Abras Commanding Conjure"
 			icon: "occultism:dictionary_of_spirits"
 			x: -12.5d
 			y: -1.0d
@@ -3798,11 +3767,6 @@
 					id: "occultism:familiar_ring"
 					Count: 1b
 					tag: { }
-					ForgeCaps: {
-						Parent: {
-							hasFamiliar: 0b
-						}
-					}
 				}
 			}]
 		}
@@ -3841,11 +3805,6 @@
 				id: "occultism:familiar_ring"
 				Count: 1b
 				tag: { }
-				ForgeCaps: {
-					Parent: {
-						hasFamiliar: 0b
-					}
-				}
 			}
 			x: -14.0d
 			y: -5.5d
@@ -3865,7 +3824,11 @@
 			x: -14.0d
 			y: -1.0d
 			subtitle: "Ritual type: Summon Minions"
-			description: ["This is Minion like advanced Totem of Unduing, it have total 1 to 5 limbs (Absolutely Random Amount) more limb equal more amount resurrection / If you die, it protect you and lost 1 limb / Once time you can add for it 1 limb in your Blacksmith."]
+			description: [
+				"A Minion that works like a Totem of Undying and can have a total of 1 to 5 limbs (Randomized). More limbs equal more amount of resurrections. If you die, it protects you and familiar loses 1 limb."
+				""
+				"Blacksmith Familiar can add only ONE limb."
+			]
 			dependencies: ["5CBF73D8EA678DD2"]
 			hide: true
 			id: "1C6F9612081A91ED"
@@ -3897,14 +3860,14 @@
 			rewards: [{
 				id: "36C649DC9B6EB41F"
 				type: "item"
-				item: "paraglider:heart_container"
+				item: "lightmanscurrency:coinpile_diamond"
 				count: 5
 			}]
 		}
 		{
 			x: 5.0d
 			y: 9.5d
-			description: ["I think time to Marriage ♥"]
+			subtitle: "I think it's time to PARTEEEEH!!!"
 			hide_dependency_lines: true
 			dependencies: ["6D0F569038555D91"]
 			hide: true
@@ -3918,11 +3881,11 @@
 			}]
 		}
 		{
-			title: "You ready Dance ?"
+			title: "All good to dance?"
 			x: -1.5d
 			y: 2.5d
 			shape: "square"
-			description: ["But for what me this ???"]
+			subtitle: "Time to setup a party!"
 			hide_dependency_lines: true
 			dependencies: [
 				"4418D820C1CF0B18"
@@ -4001,6 +3964,7 @@
 			}]
 		}
 		{
+			title: "Afrit Ore Crusher"
 			icon: "create:crushed_gold_ore"
 			x: -1.5d
 			y: -23.0d
@@ -4028,10 +3992,11 @@
 			}]
 		}
 		{
+			title: "Marid Ore Crusher"
 			icon: "occultism:iesnium_ore"
 			x: -9.0d
 			y: -23.0d
-			description: ["Best crushing technology what you can obtain / Marid Crusher (6x ore / super speed)"]
+			description: ["Best crushing demon that you can obtain. Marid Crusher (6x ore / super speed)"]
 			dependencies: ["6A6B398D745BDE6A"]
 			id: "19861430330BD688"
 			tasks: [{
@@ -4075,10 +4040,18 @@
 			}]
 		}
 		{
+			title: "A Goblin Rider!"
 			x: -1.5d
 			y: 1.0d
 			shape: "square"
-			description: ["Dragon + Goblin = ?"]
+			subtitle: "A Goblin riding a Dragon? What could be better?"
+			description: [
+				"Dragon + Goblin = Good Combo."
+				""
+				"Dragons give players additional EXP. When a greedy rides it, the dragon obtains the Greedy's characteristics. "
+				""
+				"Blacksmith Familiar Upgrade: can throw swords on enemies."
+			]
 			dependencies: [
 				"1D4482F21F8BE23E"
 				"03B15C3ECA85C077"
