@@ -16,7 +16,7 @@ onEvent('recipes', event => {
             "key": {
               "A": "enigmaticlegacy:evil_essence" ,
               "B": "forbidden_arcanus:golden_dragon_scale",
-              "C": "extendedcrafting:crystaltine_ingot",
+              "C": "extendedcrafting:crystaltine_block",
               "D": "ars_nouveau:wilden_tribute",
               "E": "stalwart_dungeons:void_crystal",
               "F": "mythicbotany:alfsteel_block",

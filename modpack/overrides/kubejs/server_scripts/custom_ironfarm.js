@@ -5,7 +5,7 @@ onEvent('recipes', event => {
     'CBC'
   ], {
     A: 'forbidden_arcanus:arcane_golden_glass',
-    B: 'bloodmagic:lavasigil',
+    B: 'compressium:iron_3',
 	C: 'extendedcrafting:black_iron_block',
 	D: 'bloodmagic:lavacrystal'
   })

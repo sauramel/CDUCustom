@@ -6,7 +6,7 @@ onEvent('recipes', event => {
 		'EVXYN',
 		' WSG '
 	  ], {
-		W: 'minecraft:wither_skeleton_skull',
+		W: 'minecraft:nether_star',
 		N: 'minecraft:netherite_ingot',
 		G: 'malum:soul_stained_steel_ingot',
 		E: 'enigmaticlegacy:earth_heart',
