@@ -898,6 +898,15 @@
       }
     },
     {
+      "projectID": 319596,
+      "fileID": 3945966,
+      "required": true,
+      "__meta": {
+        "name": "Pehkui",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 324973,
       "fileID": 3870934,
       "required": true,
@@ -1458,14 +1467,6 @@
       }
     },
     {
-      "projectID": 413724,
-      "fileID": 3940958,
-      "required": true,
-      "__meta": {
-        "name": "Greek Fantasy"
-      }
-    },
-    {
       "projectID": 414401,
       "fileID": 3937087,
       "required": true,
@@ -1805,6 +1806,17 @@
       "required": true,
       "__meta": {
         "name": "Lightman's Currency"
+      }
+    },
+    {
+      "projectID": 474438,
+      "fileID": 3889853,
+      "required": true,
+      "__meta": {
+        "name": "Origins (Forge)",
+        "dependencies": [
+          308989
+        ]
       }
     },
     {
@@ -2487,19 +2499,23 @@
       }
     },
     {
+      "projectID": 596305,
+      "fileID": 3719352,
+      "required": true,
+      "__meta": {
+        "name": "Bucolic Origins [FORGE/FABRIC]",
+        "dependencies": [
+          474438,
+          319596
+        ]
+      }
+    },
+    {
       "projectID": 597824,
       "fileID": 3831430,
       "required": true,
       "__meta": {
         "name": "PAUCAL"
-      }
-    },
-    {
-      "projectID": 601680,
-      "fileID": 3944012,
-      "required": true,
-      "__meta": {
-        "name": "RPG Gods"
       }
     },
     {
@@ -2511,6 +2527,17 @@
         "dependencies": [
           74924,
           74072
+        ]
+      }
+    },
+    {
+      "projectID": 610127,
+      "fileID": 3938688,
+      "required": true,
+      "__meta": {
+        "name": "Origins: Classes (Forge)",
+        "dependencies": [
+          474438
         ]
       }
     },
