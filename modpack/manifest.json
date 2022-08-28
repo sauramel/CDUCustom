@@ -898,15 +898,6 @@
       }
     },
     {
-      "projectID": 319596,
-      "fileID": 3945966,
-      "required": true,
-      "__meta": {
-        "name": "Pehkui",
-        "explicit": false
-      }
-    },
-    {
       "projectID": 324973,
       "fileID": 3870934,
       "required": true,
@@ -2499,18 +2490,6 @@
       }
     },
     {
-      "projectID": 596305,
-      "fileID": 3719352,
-      "required": true,
-      "__meta": {
-        "name": "Bucolic Origins [FORGE/FABRIC]",
-        "dependencies": [
-          474438,
-          319596
-        ]
-      }
-    },
-    {
       "projectID": 597824,
       "fileID": 3831430,
       "required": true,
@@ -2527,17 +2506,6 @@
         "dependencies": [
           74924,
           74072
-        ]
-      }
-    },
-    {
-      "projectID": 610127,
-      "fileID": 3938688,
-      "required": true,
-      "__meta": {
-        "name": "Origins: Classes (Forge)",
-        "dependencies": [
-          474438
         ]
       }
     },
