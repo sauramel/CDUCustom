@@ -976,6 +976,14 @@
       }
     },
     {
+      "projectID": 341448,
+      "fileID": 3937770,
+      "required": true,
+      "__meta": {
+        "name": "Music Maker Mod"
+      }
+    },
+    {
       "projectID": 342584,
       "fileID": 3913027,
       "required": true,
@@ -1219,7 +1227,7 @@
     },
     {
       "projectID": 377897,
-      "fileID": 3920199,
+      "fileID": 3964058,
       "required": true,
       "__meta": {
         "name": "Productive Bees"
@@ -1494,14 +1502,6 @@
       "required": true,
       "__meta": {
         "name": "Valhelsia Core"
-      }
-    },
-    {
-      "projectID": 417179,
-      "fileID": 3609555,
-      "required": true,
-      "__meta": {
-        "name": "Caged Mobs"
       }
     },
     {
@@ -2369,6 +2369,18 @@
       "required": true,
       "__meta": {
         "name": "Technicalities: Lib (TKLib)"
+      }
+    },
+    {
+      "projectID": 568127,
+      "fileID": 3963121,
+      "required": true,
+      "__meta": {
+        "name": "Buddycards Expansions",
+        "dependencies": [
+          425991,
+          309927
+        ]
       }
     },
     {
