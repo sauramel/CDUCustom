@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.1.73",
+        "id": "forge-40.1.80",
         "primary": true
       }
     ]
@@ -767,7 +767,7 @@
     },
     {
       "projectID": 306626,
-      "fileID": 3813427,
+      "fileID": 3990409,
       "required": true,
       "__meta": {
         "name": "Nature's Aura",
@@ -870,7 +870,7 @@
     },
     {
       "projectID": 314906,
-      "fileID": 3824539,
+      "fileID": 3983773,
       "required": true,
       "__meta": {
         "name": "FTB Chunks (Forge)",
@@ -1055,7 +1055,7 @@
     },
     {
       "projectID": 351264,
-      "fileID": 3829616,
+      "fileID": 3925887,
       "required": true,
       "__meta": {
         "name": "Kotlin for Forge"
@@ -1122,7 +1122,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3945340,
+      "fileID": 3998312,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1135,7 +1135,7 @@
     },
     {
       "projectID": 361276,
-      "fileID": 3891801,
+      "fileID": 3991008,
       "required": true,
       "__meta": {
         "name": "Lootr (Forge)"
@@ -1227,7 +1227,7 @@
     },
     {
       "projectID": 377897,
-      "fileID": 3964058,
+      "fileID": 3995833,
       "required": true,
       "__meta": {
         "name": "Productive Bees"
@@ -1275,7 +1275,7 @@
     },
     {
       "projectID": 386134,
-      "fileID": 3725672,
+      "fileID": 3993576,
       "required": true,
       "__meta": {
         "name": "FTB Ultimine (Forge)",
@@ -1287,7 +1287,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 3950251,
+      "fileID": 3989823,
       "required": true,
       "__meta": {
         "name": "GeckoLib"
@@ -1341,7 +1341,7 @@
     },
     {
       "projectID": 398521,
-      "fileID": 3834150,
+      "fileID": 3999153,
       "required": true,
       "__meta": {
         "name": "Farmer's Delight"
@@ -1349,7 +1349,7 @@
     },
     {
       "projectID": 400058,
-      "fileID": 3947099,
+      "fileID": 3962120,
       "required": true,
       "__meta": {
         "name": "MythicBotany",
@@ -1401,7 +1401,7 @@
     },
     {
       "projectID": 404468,
-      "fileID": 3725501,
+      "fileID": 3990419,
       "required": true,
       "__meta": {
         "name": "FTB Teams (Forge)",
@@ -1625,7 +1625,7 @@
     },
     {
       "projectID": 439890,
-      "fileID": 3939423,
+      "fileID": 3989191,
       "required": true,
       "__meta": {
         "name": "Create Crafts & Additions",
@@ -1793,7 +1793,7 @@
     },
     {
       "projectID": 472521,
-      "fileID": 3921527,
+      "fileID": 3998851,
       "required": true,
       "__meta": {
         "name": "Lightman's Currency"
@@ -2073,7 +2073,7 @@
     },
     {
       "projectID": 525447,
-      "fileID": 3910972,
+      "fileID": 3965092,
       "required": true,
       "__meta": {
         "name": "JourneyMap Integration",
@@ -2158,6 +2158,14 @@
       }
     },
     {
+      "projectID": 538392,
+      "fileID": 3999299,
+      "required": true,
+      "__meta": {
+        "name": "Modonomicon"
+      }
+    },
+    {
       "projectID": 539057,
       "fileID": 3671421,
       "required": true,
@@ -2181,7 +2189,7 @@
     },
     {
       "projectID": 542235,
-      "fileID": 3962931,
+      "fileID": 3995985,
       "required": true,
       "__meta": {
         "name": "Create Cafe",
@@ -2196,17 +2204,6 @@
       "required": true,
       "__meta": {
         "name": "Create Copper Fix"
-      }
-    },
-    {
-      "projectID": 548152,
-      "fileID": 3923885,
-      "required": true,
-      "__meta": {
-        "name": "LC Tech",
-        "dependencies": [
-          472521
-        ]
       }
     },
     {
@@ -2262,7 +2259,7 @@
     },
     {
       "projectID": 558905,
-      "fileID": 3771366,
+      "fileID": 3936081,
       "required": true,
       "__meta": {
         "name": "Magnesium/Rubidium Extras",
@@ -2385,7 +2382,7 @@
     },
     {
       "projectID": 569849,
-      "fileID": 3850254,
+      "fileID": 3969898,
       "required": true,
       "__meta": {
         "name": "Hex Casting",
@@ -2398,7 +2395,7 @@
     },
     {
       "projectID": 570463,
-      "fileID": 3939725,
+      "fileID": 3987878,
       "required": true,
       "__meta": {
         "name": "Ecologics"
@@ -2682,7 +2679,7 @@
     },
     {
       "projectID": 637529,
-      "fileID": 3950104,
+      "fileID": 3999344,
       "required": true,
       "__meta": {
         "name": "Delightful",
