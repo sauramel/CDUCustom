@@ -720,7 +720,7 @@
     },
     {
       "projectID": 296686,
-      "fileID": 3773568,
+      "fileID": 3968359,
       "required": true,
       "__meta": {
         "name": "Gauges and Switches"
@@ -1637,7 +1637,7 @@
     },
     {
       "projectID": 441647,
-      "fileID": 3919860,
+      "fileID": 3968756,
       "required": true,
       "__meta": {
         "name": "FramedBlocks"
@@ -2507,6 +2507,14 @@
       }
     },
     {
+      "projectID": 599276,
+      "fileID": 3996717,
+      "required": true,
+      "__meta": {
+        "name": "Mine-Pop!"
+      }
+    },
+    {
       "projectID": 602680,
       "fileID": 3986565,
       "required": true,
@@ -2716,6 +2724,37 @@
       "required": true,
       "__meta": {
         "name": "Spice of Life: Sweet Potato Edition"
+      }
+    },
+    {
+      "projectID": 652202,
+      "fileID": 3995587,
+      "required": true,
+      "__meta": {
+        "name": "Create : Misc & Things",
+        "dependencies": [
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 654430,
+      "fileID": 3993661,
+      "required": true,
+      "__meta": {
+        "name": "ExtraBotany2"
+      }
+    },
+    {
+      "projectID": 669724,
+      "fileID": 3996904,
+      "required": true,
+      "__meta": {
+        "name": "Create: Crystal Clear",
+        "dependencies": [
+          486392,
+          328085
+        ]
       }
     }
   ]
