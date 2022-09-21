@@ -129,7 +129,7 @@
     },
     {
       "projectID": 227639,
-      "fileID": 3952837,
+      "fileID": 3998681,
       "required": true,
       "__meta": {
         "name": "The Twilight Forest"
@@ -985,7 +985,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 3913027,
+      "fileID": 3996370,
       "required": true,
       "__meta": {
         "name": "Collective (Forge)"
@@ -1017,7 +1017,7 @@
     },
     {
       "projectID": 345854,
-      "fileID": 3669137,
+      "fileID": 3993992,
       "required": true,
       "__meta": {
         "name": "Villager Names (Forge)",
@@ -1197,7 +1197,7 @@
     },
     {
       "projectID": 376876,
-      "fileID": 3904666,
+      "fileID": 3998378,
       "required": true,
       "__meta": {
         "name": "Tinkers Reforged",
@@ -1216,7 +1216,7 @@
     },
     {
       "projectID": 377835,
-      "fileID": 3884557,
+      "fileID": 3967615,
       "required": true,
       "__meta": {
         "name": "Create Plus",
@@ -1377,7 +1377,7 @@
     },
     {
       "projectID": 401955,
-      "fileID": 3950802,
+      "fileID": 3983779,
       "required": true,
       "__meta": {
         "name": "Ars Nouveau",
@@ -1506,7 +1506,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3924495,
+      "fileID": 3983970,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)"
@@ -1554,7 +1554,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 3914048,
+      "fileID": 3960033,
       "required": true,
       "__meta": {
         "name": "Sophisticated Backpacks",
@@ -1720,7 +1720,7 @@
     },
     {
       "projectID": 457252,
-      "fileID": 3794273,
+      "fileID": 3925087,
       "required": true,
       "__meta": {
         "name": "Untamed Wilds",
@@ -1861,7 +1861,7 @@
     },
     {
       "projectID": 484064,
-      "fileID": 3838894,
+      "fileID": 3986844,
       "required": true,
       "__meta": {
         "name": "Malum",
@@ -2373,7 +2373,7 @@
     },
     {
       "projectID": 568127,
-      "fileID": 3963121,
+      "fileID": 3991232,
       "required": true,
       "__meta": {
         "name": "Buddycards Expansions",
@@ -2471,7 +2471,7 @@
     },
     {
       "projectID": 581652,
-      "fileID": 3881713,
+      "fileID": 3998894,
       "required": true,
       "__meta": {
         "name": "Vanilla Expanded - Orcz"
@@ -2511,7 +2511,7 @@
     },
     {
       "projectID": 602680,
-      "fileID": 3942649,
+      "fileID": 3986565,
       "required": true,
       "__meta": {
         "name": "Tinkers' Integrations and Tweaks",
@@ -2531,7 +2531,7 @@
     },
     {
       "projectID": 616457,
-      "fileID": 3768197,
+      "fileID": 3986845,
       "required": true,
       "__meta": {
         "name": "Lodestone Lib"
@@ -2539,7 +2539,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 3909159,
+      "fileID": 3960016,
       "required": true,
       "__meta": {
         "name": "Sophisticated Core"
@@ -2644,7 +2644,7 @@
     },
     {
       "projectID": 631016,
-      "fileID": 3895967,
+      "fileID": 3950598,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Desert Temples (Forge)",
