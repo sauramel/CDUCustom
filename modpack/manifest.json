@@ -236,11 +236,10 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3904349,
+      "fileID": 3969092,
       "required": true,
       "__meta": {
-        "name": "Just Enough Items (JEI)",
-        "pinned": true
+        "name": "Just Enough Items (JEI)"
       }
     },
     {
@@ -299,7 +298,7 @@
     },
     {
       "projectID": 243076,
-      "fileID": 3712882,
+      "fileID": 3921390,
       "required": true,
       "__meta": {
         "name": "Refined Storage"
@@ -652,7 +651,7 @@
     },
     {
       "projectID": 288885,
-      "fileID": 3717873,
+      "fileID": 3929012,
       "required": true,
       "__meta": {
         "name": "FastWorkbench",
@@ -1872,7 +1871,7 @@
     },
     {
       "projectID": 484064,
-      "fileID": 3999737,
+      "fileID": 4001018,
       "required": true,
       "__meta": {
         "name": "Malum",
@@ -2189,7 +2188,7 @@
     },
     {
       "projectID": 541466,
-      "fileID": 3999966,
+      "fileID": 4001207,
       "required": true,
       "__meta": {
         "name": "Nameless Trinkets",
