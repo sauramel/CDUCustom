@@ -1132,7 +1132,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3998312,
+      "fileID": 4001660,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1646,6 +1646,14 @@
       }
     },
     {
+      "projectID": 441114,
+      "fileID": 3780211,
+      "required": true,
+      "__meta": {
+        "name": "Neko's Enchanted Books"
+      }
+    },
+    {
       "projectID": 441647,
       "fileID": 3968756,
       "required": true,
@@ -1803,21 +1811,10 @@
     },
     {
       "projectID": 472521,
-      "fileID": 3998851,
+      "fileID": 4002200,
       "required": true,
       "__meta": {
         "name": "Lightman's Currency"
-      }
-    },
-    {
-      "projectID": 474438,
-      "fileID": 3889853,
-      "required": true,
-      "__meta": {
-        "name": "Origins (Forge)",
-        "dependencies": [
-          308989
-        ]
       }
     },
     {
@@ -2169,7 +2166,7 @@
     },
     {
       "projectID": 538392,
-      "fileID": 3999299,
+      "fileID": 4005797,
       "required": true,
       "__meta": {
         "name": "Modonomicon"
@@ -2757,14 +2754,6 @@
         "dependencies": [
           328085
         ]
-      }
-    },
-    {
-      "projectID": 654430,
-      "fileID": 3993661,
-      "required": true,
-      "__meta": {
-        "name": "ExtraBotany2"
       }
     },
     {
