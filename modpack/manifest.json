@@ -886,8 +886,8 @@
         "name": "FTB Chunks (Forge)",
         "dependencies": [
           404465,
-          419699,
-          404468
+          404468,
+          419699
         ]
       }
     },
@@ -1411,10 +1411,11 @@
     },
     {
       "projectID": 404468,
-      "fileID": 3990419,
+      "fileID": 3725501,
       "required": true,
       "__meta": {
         "name": "FTB Teams (Forge)",
+        "pinned": true,
         "dependencies": [
           404465,
           419699
@@ -1811,7 +1812,7 @@
     },
     {
       "projectID": 472521,
-      "fileID": 4009846,
+      "fileID": 4011989,
       "required": true,
       "__meta": {
         "name": "Lightman's Currency"
@@ -2472,8 +2473,9 @@
       "__meta": {
         "name": "Quests Additions (Forge)",
         "dependencies": [
+          289412,
           419699,
-          289412
+          419699
         ]
       }
     },
