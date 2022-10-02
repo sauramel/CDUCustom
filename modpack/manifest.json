@@ -369,7 +369,7 @@
     },
     {
       "projectID": 248020,
-      "fileID": 3888461,
+      "fileID": 3932148,
       "required": true,
       "__meta": {
         "name": "Flux Networks"
@@ -1152,6 +1152,14 @@
       }
     },
     {
+      "projectID": 361385,
+      "fileID": 3952167,
+      "required": true,
+      "__meta": {
+        "name": "Pam's HarvestCraft 2 - Crops"
+      }
+    },
+    {
       "projectID": 361579,
       "fileID": 3824951,
       "required": true,
@@ -1176,6 +1184,14 @@
       }
     },
     {
+      "projectID": 365460,
+      "fileID": 3951942,
+      "required": true,
+      "__meta": {
+        "name": "Pam's HarvestCraft 2 - Trees"
+      }
+    },
+    {
       "projectID": 366916,
       "fileID": 3669166,
       "required": true,
@@ -1195,6 +1211,14 @@
         "dependencies": [
           412525
         ]
+      }
+    },
+    {
+      "projectID": 372534,
+      "fileID": 3951938,
+      "required": true,
+      "__meta": {
+        "name": "Pam's HarvestCraft 2 - Food Core"
       }
     },
     {
@@ -1399,6 +1423,17 @@
       }
     },
     {
+      "projectID": 402231,
+      "fileID": 3998848,
+      "required": true,
+      "__meta": {
+        "name": "Pam's HarvestCraft 2 - Food Extended",
+        "dependencies": [
+          372534
+        ]
+      }
+    },
+    {
       "projectID": 404465,
       "fileID": 3909755,
       "required": true,
@@ -1459,7 +1494,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 3998970,
+      "fileID": 4012521,
       "required": true,
       "__meta": {
         "name": "Supplementaries",
@@ -2056,14 +2091,6 @@
       }
     },
     {
-      "projectID": 517272,
-      "fileID": 3806656,
-      "required": true,
-      "__meta": {
-        "name": "Simple Shops"
-      }
-    },
-    {
       "projectID": 520110,
       "fileID": 4010801,
       "required": true,
@@ -2267,6 +2294,14 @@
       "required": true,
       "__meta": {
         "name": "Magnesium/Rubidium Dynamic Lights"
+      }
+    },
+    {
+      "projectID": 557796,
+      "fileID": 4012409,
+      "required": true,
+      "__meta": {
+        "name": "Effective (Forge)"
       }
     },
     {
