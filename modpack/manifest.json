@@ -757,7 +757,7 @@
     },
     {
       "projectID": 300331,
-      "fileID": 3741435,
+      "fileID": 4016411,
       "required": true,
       "__meta": {
         "name": "Simply Light"
@@ -850,6 +850,17 @@
           465066,
           309927,
           309927
+        ]
+      }
+    },
+    {
+      "projectID": 312918,
+      "fileID": 3788736,
+      "required": true,
+      "__meta": {
+        "name": "Blue Skies",
+        "dependencies": [
+          378802
         ]
       }
     },
@@ -1176,14 +1187,6 @@
       }
     },
     {
-      "projectID": 363703,
-      "fileID": 4010650,
-      "required": true,
-      "__meta": {
-        "name": "Goblin Traders"
-      }
-    },
-    {
       "projectID": 365460,
       "fileID": 3951942,
       "required": true,
@@ -1231,7 +1234,7 @@
     },
     {
       "projectID": 376876,
-      "fileID": 3998378,
+      "fileID": 4012432,
       "required": true,
       "__meta": {
         "name": "Tinkers Reforged",
@@ -1261,7 +1264,7 @@
     },
     {
       "projectID": 377897,
-      "fileID": 3995833,
+      "fileID": 4012712,
       "required": true,
       "__meta": {
         "name": "Productive Bees"
@@ -1273,6 +1276,15 @@
       "required": true,
       "__meta": {
         "name": "Macaw's Doors"
+      }
+    },
+    {
+      "projectID": 378802,
+      "fileID": 3861133,
+      "required": true,
+      "__meta": {
+        "name": "Structure Gel API",
+        "explicit": false
       }
     },
     {
@@ -1996,6 +2008,14 @@
       }
     },
     {
+      "projectID": 496698,
+      "fileID": 3734625,
+      "required": true,
+      "__meta": {
+        "name": "Castle in the Sky"
+      }
+    },
+    {
       "projectID": 499826,
       "fileID": 3856125,
       "required": true,
@@ -2213,7 +2233,7 @@
     },
     {
       "projectID": 541466,
-      "fileID": 4001207,
+      "fileID": 4015630,
       "required": true,
       "__meta": {
         "name": "Nameless Trinkets",
@@ -2294,6 +2314,17 @@
       "required": true,
       "__meta": {
         "name": "Magnesium/Rubidium Dynamic Lights"
+      }
+    },
+    {
+      "projectID": 552574,
+      "fileID": 3945980,
+      "required": true,
+      "__meta": {
+        "name": "Hostile Neural Networks",
+        "dependencies": [
+          283644
+        ]
       }
     },
     {
@@ -2457,6 +2488,14 @@
       }
     },
     {
+      "projectID": 573099,
+      "fileID": 4016720,
+      "required": true,
+      "__meta": {
+        "name": "Pyrologer And Friends"
+      }
+    },
+    {
       "projectID": 574856,
       "fileID": 3929515,
       "required": true,
@@ -2474,6 +2513,14 @@
           401955,
           328085
         ]
+      }
+    },
+    {
+      "projectID": 576368,
+      "fileID": 3912773,
+      "required": true,
+      "__meta": {
+        "name": "Illage and Spillage"
       }
     },
     {
@@ -2775,8 +2822,20 @@
       }
     },
     {
+      "projectID": 639842,
+      "fileID": 4015126,
+      "required": true,
+      "__meta": {
+        "name": "Better Combat [Fabric & Forge]",
+        "dependencies": [
+          348521,
+          658587
+        ]
+      }
+    },
+    {
       "projectID": 643106,
-      "fileID": 3874722,
+      "fileID": 3973202,
       "required": true,
       "__meta": {
         "name": "Spice of Life: Sweet Potato Edition"
@@ -2791,6 +2850,23 @@
         "dependencies": [
           328085
         ]
+      }
+    },
+    {
+      "projectID": 658587,
+      "fileID": 3987589,
+      "required": true,
+      "__meta": {
+        "name": "playerAnimator",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 659887,
+      "fileID": 3975717,
+      "required": true,
+      "__meta": {
+        "name": "Simply Swords"
       }
     },
     {
