@@ -317,7 +317,7 @@
     },
     {
       "projectID": 243707,
-      "fileID": 4005928,
+      "fileID": 4014132,
       "required": true,
       "__meta": {
         "name": "Corail Tombstone"
@@ -661,14 +661,6 @@
       }
     },
     {
-      "projectID": 289240,
-      "fileID": 3963351,
-      "required": true,
-      "__meta": {
-        "name": "Paragliders"
-      }
-    },
-    {
       "projectID": 289310,
       "fileID": 3820461,
       "required": true,
@@ -687,6 +679,17 @@
           419699,
           404468,
           404465
+        ]
+      }
+    },
+    {
+      "projectID": 289466,
+      "fileID": 3983337,
+      "required": true,
+      "__meta": {
+        "name": "Progressive Bosses",
+        "dependencies": [
+          465109
         ]
       }
     },
@@ -841,6 +844,14 @@
       }
     },
     {
+      "projectID": 311927,
+      "fileID": 3725237,
+      "required": true,
+      "__meta": {
+        "name": "Nimble (Forge)"
+      }
+    },
+    {
       "projectID": 312353,
       "fileID": 3771085,
       "required": true,
@@ -951,17 +962,6 @@
       "required": true,
       "__meta": {
         "name": "Corail Woodcutter"
-      }
-    },
-    {
-      "projectID": 333396,
-      "fileID": 3849197,
-      "required": true,
-      "__meta": {
-        "name": "Angel Ring",
-        "dependencies": [
-          309927
-        ]
       }
     },
     {
@@ -1333,7 +1333,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 3989823,
+      "fileID": 4017008,
       "required": true,
       "__meta": {
         "name": "GeckoLib"
@@ -1694,6 +1694,14 @@
       }
     },
     {
+      "projectID": 440647,
+      "fileID": 3971227,
+      "required": true,
+      "__meta": {
+        "name": "The Abyss II - The Other Side"
+      }
+    },
+    {
       "projectID": 441114,
       "fileID": 3780211,
       "required": true,
@@ -1817,6 +1825,15 @@
       "required": true,
       "__meta": {
         "name": "ExpandAbility"
+      }
+    },
+    {
+      "projectID": 465109,
+      "fileID": 3833474,
+      "required": true,
+      "__meta": {
+        "name": "InsaneLib",
+        "explicit": false
       }
     },
     {
@@ -2008,14 +2025,6 @@
       }
     },
     {
-      "projectID": 496698,
-      "fileID": 3734625,
-      "required": true,
-      "__meta": {
-        "name": "Castle in the Sky"
-      }
-    },
-    {
       "projectID": 499826,
       "fileID": 3856125,
       "required": true,
@@ -2093,7 +2102,7 @@
     },
     {
       "projectID": 511040,
-      "fileID": 3774054,
+      "fileID": 4016226,
       "required": true,
       "__meta": {
         "name": "Durability Tooltip",
@@ -2214,7 +2223,7 @@
     },
     {
       "projectID": 538392,
-      "fileID": 4008503,
+      "fileID": 4017834,
       "required": true,
       "__meta": {
         "name": "Modonomicon"
@@ -2233,7 +2242,7 @@
     },
     {
       "projectID": 541466,
-      "fileID": 4015630,
+      "fileID": 4017479,
       "required": true,
       "__meta": {
         "name": "Nameless Trinkets",
@@ -2751,6 +2760,22 @@
       }
     },
     {
+      "projectID": 629733,
+      "fileID": 3813627,
+      "required": true,
+      "__meta": {
+        "name": "Alcocraft: Beer & Stuff"
+      }
+    },
+    {
+      "projectID": 630620,
+      "fileID": 3975275,
+      "required": true,
+      "__meta": {
+        "name": "Fastload"
+      }
+    },
+    {
       "projectID": 631016,
       "fileID": 3950598,
       "required": true,
@@ -2794,17 +2819,6 @@
       "required": true,
       "__meta": {
         "name": "Delightful",
-        "dependencies": [
-          398521
-        ]
-      }
-    },
-    {
-      "projectID": 637808,
-      "fileID": 3854764,
-      "required": true,
-      "__meta": {
-        "name": "Brewin' And Chewin'",
         "dependencies": [
           398521
         ]
@@ -2863,7 +2877,7 @@
     },
     {
       "projectID": 659887,
-      "fileID": 3975717,
+      "fileID": 4016850,
       "required": true,
       "__meta": {
         "name": "Simply Swords"
