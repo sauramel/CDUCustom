@@ -358,7 +358,7 @@
     },
     {
       "projectID": 247560,
-      "fileID": 3868886,
+      "fileID": 3956521,
       "required": true,
       "__meta": {
         "name": "Oh The Biomes You'll Go",
@@ -966,7 +966,7 @@
     },
     {
       "projectID": 334853,
-      "fileID": 3907506,
+      "fileID": 3968167,
       "required": true,
       "__meta": {
         "name": "Simple Discord Rich Presence (Forge /  Fabric)",
@@ -2171,14 +2171,6 @@
         "dependencies": [
           328085
         ]
-      }
-    },
-    {
-      "projectID": 535096,
-      "fileID": 3785691,
-      "required": true,
-      "__meta": {
-        "name": "Goblins & Dungeons"
       }
     },
     {
