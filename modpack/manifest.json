@@ -41,7 +41,7 @@
     },
     {
       "projectID": 69162,
-      "fileID": 4022665,
+      "fileID": 3838025,
       "required": true,
       "__meta": {
         "name": "CoFH Core"
@@ -49,7 +49,7 @@
     },
     {
       "projectID": 69163,
-      "fileID": 4022681,
+      "fileID": 3837868,
       "required": true,
       "__meta": {
         "name": "Thermal Expansion",
@@ -79,7 +79,7 @@
     },
     {
       "projectID": 222880,
-      "fileID": 4022682,
+      "fileID": 3837827,
       "required": true,
       "__meta": {
         "name": "Thermal Foundation",
@@ -169,7 +169,7 @@
     },
     {
       "projectID": 231484,
-      "fileID": 4019015,
+      "fileID": 3830862,
       "required": true,
       "__meta": {
         "name": "Cooking for Blockheads",
@@ -196,7 +196,7 @@
     },
     {
       "projectID": 233019,
-      "fileID": 4019126,
+      "fileID": 3798941,
       "required": true,
       "__meta": {
         "name": "AI Improvements"
@@ -546,7 +546,7 @@
     },
     {
       "projectID": 271835,
-      "fileID": 4022680,
+      "fileID": 3837822,
       "required": true,
       "__meta": {
         "name": "Thermal Cultivation",
@@ -589,7 +589,7 @@
     },
     {
       "projectID": 276951,
-      "fileID": 4019552,
+      "fileID": 3682307,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
@@ -635,7 +635,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 3956308,
+      "fileID": 3950736,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -695,7 +695,7 @@
     },
     {
       "projectID": 291737,
-      "fileID": 4022683,
+      "fileID": 3837829,
       "required": true,
       "__meta": {
         "name": "Thermal Innovation",
@@ -799,7 +799,7 @@
     },
     {
       "projectID": 307152,
-      "fileID": 4021711,
+      "fileID": 3840878,
       "required": true,
       "__meta": {
         "name": "Champions"
@@ -1108,7 +1108,7 @@
     },
     {
       "projectID": 353399,
-      "fileID": 4022667,
+      "fileID": 3837815,
       "required": true,
       "__meta": {
         "name": "Archer's Paradox",
@@ -1196,7 +1196,7 @@
     },
     {
       "projectID": 366916,
-      "fileID": 3951074,
+      "fileID": 3669166,
       "required": true,
       "__meta": {
         "name": "Set World Spawn Point (Forge)",
@@ -1280,7 +1280,7 @@
     },
     {
       "projectID": 378802,
-      "fileID": 4018606,
+      "fileID": 3861133,
       "required": true,
       "__meta": {
         "name": "Structure Gel API",
@@ -1332,21 +1332,8 @@
       }
     },
     {
-      "projectID": 386380,
-      "fileID": 4011207,
-      "required": true,
-      "__meta": {
-        "name": "Iam Music Player [Forge/Fabric]",
-        "dependencies": [
-          400337,
-          419699,
-          348521
-        ]
-      }
-    },
-    {
       "projectID": 388172,
-      "fileID": 4019764,
+      "fileID": 4017008,
       "required": true,
       "__meta": {
         "name": "GeckoLib"
@@ -1362,7 +1349,7 @@
     },
     {
       "projectID": 388800,
-      "fileID": 3995029,
+      "fileID": 3793106,
       "required": true,
       "__meta": {
         "name": "Polymorph (Forge)"
@@ -1415,19 +1402,6 @@
         "dependencies": [
           412525,
           225643
-        ]
-      }
-    },
-    {
-      "projectID": 400337,
-      "fileID": 3754868,
-      "required": true,
-      "__meta": {
-        "name": "Otyacraft Engine [Forge/Fabric]",
-        "explicit": false,
-        "dependencies": [
-          419699,
-          348521
         ]
       }
     },
@@ -1532,7 +1506,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 4022240,
+      "fileID": 4012521,
       "required": true,
       "__meta": {
         "name": "Supplementaries",
@@ -1745,7 +1719,7 @@
     },
     {
       "projectID": 441647,
-      "fileID": 4018363,
+      "fileID": 4009762,
       "required": true,
       "__meta": {
         "name": "FramedBlocks"
@@ -1918,10 +1892,18 @@
     },
     {
       "projectID": 474817,
-      "fileID": 4022451,
+      "fileID": 3739601,
       "required": true,
       "__meta": {
         "name": "Stalwart Dungeons"
+      }
+    },
+    {
+      "projectID": 474849,
+      "fileID": 3593620,
+      "required": true,
+      "__meta": {
+        "name": "Better 3D Ores   [ Glow Ores : Emissive Textures ]"
       }
     },
     {
@@ -2181,14 +2163,6 @@
       }
     },
     {
-      "projectID": 527361,
-      "fileID": 3863762,
-      "required": true,
-      "__meta": {
-        "name": "Domum Ornamentum"
-      }
-    },
-    {
       "projectID": 531761,
       "fileID": 3914491,
       "required": true,
@@ -2353,13 +2327,21 @@
     },
     {
       "projectID": 552574,
-      "fileID": 4019567,
+      "fileID": 3945980,
       "required": true,
       "__meta": {
         "name": "Hostile Neural Networks",
         "dependencies": [
           283644
         ]
+      }
+    },
+    {
+      "projectID": 557796,
+      "fileID": 4012409,
+      "required": true,
+      "__meta": {
+        "name": "Effective (Forge)"
       }
     },
     {
@@ -2598,7 +2580,7 @@
     },
     {
       "projectID": 581652,
-      "fileID": 4019735,
+      "fileID": 3998894,
       "required": true,
       "__meta": {
         "name": "Vanilla Expanded - Orcz"
@@ -2638,7 +2620,7 @@
     },
     {
       "projectID": 599276,
-      "fileID": 4023437,
+      "fileID": 3996717,
       "required": true,
       "__meta": {
         "name": "Mine-Pop!"
@@ -2736,7 +2718,7 @@
     },
     {
       "projectID": 626708,
-      "fileID": 4022684,
+      "fileID": 3837830,
       "required": true,
       "__meta": {
         "name": "Thermal Integration",
@@ -2871,14 +2853,6 @@
       "required": true,
       "__meta": {
         "name": "Spice of Life: Sweet Potato Edition"
-      }
-    },
-    {
-      "projectID": 645743,
-      "fileID": 4022096,
-      "required": true,
-      "__meta": {
-        "name": "Astral Dimension"
       }
     },
     {
