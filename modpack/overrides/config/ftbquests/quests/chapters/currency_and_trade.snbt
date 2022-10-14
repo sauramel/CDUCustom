@@ -699,7 +699,7 @@
 		}
 		{
 			title: "Shelves"
-			x: -2.5d
+			x: -3.5d
 			y: 3.0d
 			subtitle: "Any Variant"
 			description: [
@@ -737,7 +737,7 @@
 		}
 		{
 			title: "Card Display"
-			x: -1.0d
+			x: -2.0d
 			y: 3.0d
 			subtitle: "Any Variant"
 			description: [
@@ -774,7 +774,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -0.5d
 			y: 3.0d
 			description: [
 				"                  Display Case"
@@ -838,6 +838,40 @@
 					tag: { }
 				}
 				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			description: [
+				"               Battery Shop"
+				"Along with the Fluid tap we have Battery shop for selling energy using battery"
+				"You can fill it up to 100k FE"
+				""
+				"[Can upgrade trading machines with upgrades]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2F213066BA7B419E"]
+			optional: true
+			id: "30F1C3DCEE1DDFB0"
+			tasks: [{
+				id: "5EC1C30FB6055BC8"
+				type: "item"
+				item: {
+					id: "lctech:battery_shop"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7A4BB0EA2D121835"
+				type: "item"
+				item: {
+					id: "lightmanscurrency:coin_iron"
+					Count: 1b
+					tag: { }
+				}
+				count: 3
 			}]
 		}
 		{
@@ -910,6 +944,75 @@
 			}]
 			rewards: [{
 				id: "6C8AAA6023E7794A"
+				type: "item"
+				item: {
+					id: "lightmanscurrency:coin_iron"
+					Count: 1b
+					tag: { }
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: [
+				"                    Fluid Tap"
+				"With Lightman's Currency Tech a addons for the main mod to sell fluids and energy"
+				"with fluid tap you can sell 1 bucket of fluid"
+				"you can fill the tank by setting up what will you sell at the trading menu then going to storage section then right-click the buck unto to the tank panel to fill it up it can fil up 10 buckets worth of fluid"
+				""
+				"[Can upgrade trading machines with upgrades]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2F213066BA7B419E"]
+			optional: true
+			id: "2C8A4149CF879A32"
+			tasks: [{
+				id: "11B1870430EEF51B"
+				type: "item"
+				item: {
+					id: "lctech:fluid_tap"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "623B0917DBDA884B"
+				type: "item"
+				item: {
+					id: "lightmanscurrency:coin_iron"
+					Count: 1b
+					tag: { }
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			description: [
+				"               Large Fluid Tap"
+				"You can sell 4 buckets of fluid"
+				"you can fill the tank by setting up what will you sell at the trading menu then going to storage section then right-click the buck unto to the tank panel to fill it up it can fil up 10 buckets worth of fluid in each panel"
+				""
+				"[Can upgrade trading machines with upgrades]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2F213066BA7B419E"]
+			optional: true
+			id: "36A6B4E9551D4BAA"
+			tasks: [{
+				id: "3DCFD47B538DCD6D"
+				type: "item"
+				item: {
+					id: "lctech:fluid_tap_bundle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6E7E63400F259DE2"
 				type: "item"
 				item: {
 					id: "lightmanscurrency:coin_iron"
@@ -1001,8 +1104,110 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.5d
+			y: 8.0d
+			description: [
+				"A universal fluid trader behaves exactly like a normal Fluid Trading Machine, however unlike normal traders they can be accessed from anywhere by using a Trading Terminal, Only sells Fluid."
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["2F213066BA7B419E"]
+			id: "7E0D037B29AF8AB1"
+			tasks: [{
+				id: "551531479EA6762F"
+				type: "item"
+				item: {
+					id: "lctech:fluid_trader_server_sml"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			dependencies: ["7E0D037B29AF8AB1"]
+			id: "5A1AE16F82F4978F"
+			tasks: [{
+				id: "2DA2892DD07B2F04"
+				type: "item"
+				item: {
+					id: "lctech:fluid_trader_server_med"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["5A1AE16F82F4978F"]
+			id: "6A132239E744BF1D"
+			tasks: [{
+				id: "061E235E5B3D2E66"
+				type: "item"
+				item: {
+					id: "lctech:fluid_trader_server_lrg"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			dependencies: ["6A132239E744BF1D"]
+			id: "0D5B902352F18E4E"
+			tasks: [{
+				id: "45ED0F43D072670A"
+				type: "item"
+				item: {
+					id: "lctech:fluid_trader_server_xlrg"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
 			y: 7.5d
+			description: [
+				"      Fluid Trader Interface Terminal"
+				""
+				"      Can access Fluid trader terminal"
+				"You can sell/buy stuff in the interface and you can also restock or drain stuff from your own Fluid Trader Terminal"
+			]
+			dependencies: ["519F301CC6BF3094"]
+			id: "258C1645D82AA310"
+			tasks: [{
+				id: "3FD24F8F48EE86DE"
+				type: "item"
+				item: {
+					id: "lctech:fluid_trader_interface"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["2F213066BA7B419E"]
+			id: "6157F700C29E910D"
+			tasks: [{
+				id: "5F1C80707B7B4E26"
+				type: "item"
+				item: {
+					id: "lctech:energy_trader_server"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
 			description: [
 				"                   Paygate"
 				"The Paygate is a unique trading machine in that it doesn't give an item in return for the payment, but it instead activates a redstone signal of the duration defined by the trade."
@@ -1024,7 +1229,7 @@
 		}
 		{
 			x: 1.5d
-			y: 7.5d
+			y: 9.5d
 			description: [
 				"                  Ticket Kiosk"
 				""
@@ -1128,6 +1333,27 @@
 			}]
 		}
 		{
+			x: 6.5d
+			y: 9.0d
+			description: [
+				"      Energy Trader Interface Terminal"
+				""
+				"      Can access Energy trader terminal"
+				"You can sell/buy stuff in the interface and you can also restock or drain stuff from your own Energy Trader Terminal"
+			]
+			dependencies: ["519F301CC6BF3094"]
+			id: "7300B08BEC7E7E82"
+			tasks: [{
+				id: "307AEDB668E5D837"
+				type: "item"
+				item: {
+					id: "lctech:energy_trader_interface"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
 			title: "Machines"
 			x: 9.5d
 			y: 5.5d
@@ -1149,7 +1375,7 @@
 		}
 		{
 			x: 6.5d
-			y: 7.5d
+			y: 10.5d
 			description: [
 				"                Ticket Machine"
 				""
@@ -1173,7 +1399,7 @@
 		}
 		{
 			x: 3.5d
-			y: 7.5d
+			y: 11.0d
 			description: [
 				"                     Ticket"
 				""
@@ -1196,7 +1422,7 @@
 		}
 		{
 			x: 5.0d
-			y: 7.5d
+			y: 11.0d
 			description: [
 				"                 Master Ticket"
 				""
@@ -1214,6 +1440,62 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["30F1C3DCEE1DDFB0"]
+			hide: true
+			id: "6BFD417FF54BABD4"
+			tasks: [{
+				id: "54C89D0F4467CA03"
+				type: "item"
+				item: {
+					id: "lctech:battery"
+					Count: 1b
+					tag: {
+						Battery: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FCAC6C857EE73B2"
+				type: "item"
+				item: {
+					id: "lightmanscurrency:coin_copper"
+					Count: 1b
+					tag: { }
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["30F1C3DCEE1DDFB0"]
+			hide: true
+			id: "13B211DCDAF8BEF2"
+			tasks: [{
+				id: "42F56D590678F07C"
+				type: "item"
+				item: {
+					id: "lctech:battery_large"
+					Count: 1b
+					tag: {
+						Battery: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "350EED4A0D769489"
+				type: "item"
+				item: {
+					id: "lightmanscurrency:coin_iron"
+					Count: 1b
+					tag: { }
+				}
+				count: 2
 			}]
 		}
 		{
@@ -1240,7 +1522,7 @@
 		}
 		{
 			x: 12.5d
-			y: 6.5d
+			y: 5.0d
 			description: [
 				"Crafted by chest with iron in the smithing table"
 				"Increases storage capacity of the trader by 192"
@@ -1258,8 +1540,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 6.5d
+			x: 13.5d
+			y: 5.0d
 			description: ["Increases storage capacity of the trader by 384"]
 			dependencies: ["791A37E201408254"]
 			id: "35CA6AB8FD5B382A"
@@ -1274,8 +1556,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 6.5d
+			x: 14.5d
+			y: 5.0d
 			description: ["Increases storage capacity of the trader by 576"]
 			dependencies: ["35CA6AB8FD5B382A"]
 			id: "7FF488C1939FA2B8"
@@ -1370,6 +1652,108 @@
 			}]
 		}
 		{
+			x: 12.5d
+			y: 6.0d
+			description: [
+				"Crafted by Bucket and an Iron inside the Smithing Table"
+				"Increases the Fluid Capacity by 10 buckets"
+			]
+			dependencies: ["208EC14F423DB308"]
+			id: "47E44D8F2714B67A"
+			tasks: [{
+				id: "0254AFC2BA2BAE4C"
+				type: "item"
+				item: {
+					id: "lctech:fluid_capacity_upgrade_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			description: ["Increases the Fluid Capacity by 25 Buckets"]
+			dependencies: ["47E44D8F2714B67A"]
+			id: "6AD8A3989D83AFA8"
+			tasks: [{
+				id: "540F857F5A9C6753"
+				type: "item"
+				item: {
+					id: "lctech:fluid_capacity_upgrade_2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 6.0d
+			description: ["Increases the Fluid Capacity by 100 buckets"]
+			dependencies: ["6AD8A3989D83AFA8"]
+			id: "706C558A72A0CCEA"
+			tasks: [{
+				id: "2210270FE190C72F"
+				type: "item"
+				item: {
+					id: "lctech:fluid_capacity_upgrade_3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 7.0d
+			description: [
+				"Crafted by Battery and Iron inside the Smithing Table"
+				"Increases the FE capacity by 100k FE"
+			]
+			dependencies: ["208EC14F423DB308"]
+			id: "59247EB83BA46A23"
+			tasks: [{
+				id: "556482CB9E3B091D"
+				type: "item"
+				item: {
+					id: "lctech:energy_capacity_upgrade_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 7.0d
+			description: ["Increases the FE capacity by 250k FE"]
+			dependencies: ["59247EB83BA46A23"]
+			id: "7670DAFD00DADF5E"
+			tasks: [{
+				id: "3101342125E324BC"
+				type: "item"
+				item: {
+					id: "lctech:energy_capacity_upgrade_2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 7.0d
+			description: ["Increases the FE capacity by 1M FE"]
+			dependencies: ["7670DAFD00DADF5E"]
+			id: "591261F1CE8AE899"
+			tasks: [{
+				id: "1C20C6238541A047"
+				type: "item"
+				item: {
+					id: "lctech:energy_capacity_upgrade_3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
 			x: 5.0d
 			y: 4.5d
 			description: [
@@ -1411,8 +1795,56 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 7.5d
+			x: 9.5d
+			y: 9.0d
+			description: ["          Capacity of 10,000 mb"]
+			dependencies: ["208EC14F423DB308"]
+			id: "471C4AA5F9448EEE"
+			tasks: [{
+				id: "1D1656DE3E97AE0D"
+				type: "item"
+				item: {
+					id: "lctech:iron_tank"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.0d
+			description: ["           Capacity of 25,000 mb"]
+			dependencies: ["208EC14F423DB308"]
+			id: "7C02A534A27B52DB"
+			tasks: [{
+				id: "20735024DFD579A2"
+				type: "item"
+				item: {
+					id: "lctech:gold_tank"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 9.0d
+			description: ["          Capacity of 100,000 mb"]
+			dependencies: ["208EC14F423DB308"]
+			id: "013D3BE08C5DF65F"
+			tasks: [{
+				id: "4F42CD9F9E3D8509"
+				type: "item"
+				item: {
+					id: "lctech:diamond_tank"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 11.0d
 			description: ["This is a broken Ticket that will be return to the Costumer when they use the ticket in the paygate"]
 			dependencies: ["5679F7C52EA9E802"]
 			id: "340F0500E0983D62"
