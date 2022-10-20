@@ -88,17 +88,17 @@
 	#Range: > 0
 	potionRegen = 10
 	#Range: > 0
-	noviceArmorManaBoost = 50
+	noviceArmorManaBoost = 25
 	#Range: > 0
-	noviceArmorManaRegenBonus = 5
+	noviceArmorManaRegenBonus = 2
 	#Range: > 0
-	apprenticeArmorManaBoost = 75
+	apprenticeArmorManaBoost = 40
 	#Range: > 0
-	apprenticeArmorManaRegenBonus = 10
+	apprenticeArmorManaRegenBonus = 4
 	#Range: > 0
-	masterArmorManaBoost = 100
+	masterArmorManaBoost = 80
 	#Range: > 0
-	masterArmorManaRegenBonus = 20
+	masterArmorManaRegenBonus = 6
 	#Range: > 0
 	discountRingManaBoost = 10
 	#Range: > 0

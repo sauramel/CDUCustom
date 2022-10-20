@@ -41,7 +41,7 @@
     },
     {
       "projectID": 69162,
-      "fileID": 4022665,
+      "fileID": 3838025,
       "required": true,
       "__meta": {
         "name": "CoFH Core"
@@ -49,7 +49,7 @@
     },
     {
       "projectID": 69163,
-      "fileID": 4022681,
+      "fileID": 3837868,
       "required": true,
       "__meta": {
         "name": "Thermal Expansion",
@@ -79,7 +79,7 @@
     },
     {
       "projectID": 222880,
-      "fileID": 4022682,
+      "fileID": 3837827,
       "required": true,
       "__meta": {
         "name": "Thermal Foundation",
@@ -177,7 +177,7 @@
     },
     {
       "projectID": 231484,
-      "fileID": 4019015,
+      "fileID": 3830862,
       "required": true,
       "__meta": {
         "name": "Cooking for Blockheads",
@@ -204,7 +204,7 @@
     },
     {
       "projectID": 233019,
-      "fileID": 4019126,
+      "fileID": 3798941,
       "required": true,
       "__meta": {
         "name": "AI Improvements"
@@ -231,10 +231,11 @@
     },
     {
       "projectID": 238086,
-      "fileID": 4022967,
+      "fileID": 3888614,
       "required": true,
       "__meta": {
         "name": "KubeJS",
+        "pinned": true,
         "dependencies": [
           419699,
           416294
@@ -243,7 +244,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 4030311,
+      "fileID": 3904349,
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)",
@@ -298,7 +299,7 @@
     },
     {
       "projectID": 242818,
-      "fileID": 4009409,
+      "fileID": 3843718,
       "required": true,
       "__meta": {
         "name": "CodeChicken Lib 1.8.+"
@@ -317,7 +318,7 @@
     },
     {
       "projectID": 243707,
-      "fileID": 4014132,
+      "fileID": 3995474,
       "required": true,
       "__meta": {
         "name": "Corail Tombstone"
@@ -358,7 +359,7 @@
     },
     {
       "projectID": 247560,
-      "fileID": 4027275,
+      "fileID": 3868886,
       "required": true,
       "__meta": {
         "name": "Oh The Biomes You'll Go",
@@ -369,7 +370,7 @@
     },
     {
       "projectID": 248020,
-      "fileID": 3932148,
+      "fileID": 3888461,
       "required": true,
       "__meta": {
         "name": "Flux Networks"
@@ -405,7 +406,7 @@
     },
     {
       "projectID": 250398,
-      "fileID": 3950209,
+      "fileID": 3860454,
       "required": true,
       "__meta": {
         "name": "Controlling"
@@ -470,7 +471,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3948720,
+      "fileID": 3834521,
       "required": true,
       "__meta": {
         "name": "CreativeCore"
@@ -478,7 +479,7 @@
     },
     {
       "projectID": 261837,
-      "fileID": 4031488,
+      "fileID": 3703928,
       "required": true,
       "__meta": {
         "name": "Signpost"
@@ -508,7 +509,7 @@
     },
     {
       "projectID": 266707,
-      "fileID": 4032938,
+      "fileID": 3985297,
       "required": true,
       "__meta": {
         "name": "Minecraft Transit Railway",
@@ -519,7 +520,7 @@
     },
     {
       "projectID": 267602,
-      "fileID": 3933537,
+      "fileID": 3737369,
       "required": true,
       "__meta": {
         "name": "ConnectedTexturesMod"
@@ -546,7 +547,7 @@
     },
     {
       "projectID": 271835,
-      "fileID": 4022680,
+      "fileID": 3837822,
       "required": true,
       "__meta": {
         "name": "Thermal Cultivation",
@@ -557,7 +558,7 @@
     },
     {
       "projectID": 272335,
-      "fileID": 4005476,
+      "fileID": 3859559,
       "required": true,
       "__meta": {
         "name": "Cucumber Library"
@@ -581,7 +582,7 @@
     },
     {
       "projectID": 276951,
-      "fileID": 4019552,
+      "fileID": 3682307,
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
@@ -627,7 +628,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 4027410,
+      "fileID": 3950736,
       "required": true,
       "__meta": {
         "name": "Placebo"
@@ -643,13 +644,21 @@
     },
     {
       "projectID": 288885,
-      "fileID": 4030000,
+      "fileID": 3717873,
       "required": true,
       "__meta": {
         "name": "FastWorkbench",
         "dependencies": [
           283644
         ]
+      }
+    },
+    {
+      "projectID": 289240,
+      "fileID": 3963351,
+      "required": true,
+      "__meta": {
+        "name": "Paragliders"
       }
     },
     {
@@ -675,19 +684,8 @@
       }
     },
     {
-      "projectID": 289466,
-      "fileID": 3983337,
-      "required": true,
-      "__meta": {
-        "name": "Progressive Bosses",
-        "dependencies": [
-          465109
-        ]
-      }
-    },
-    {
       "projectID": 291737,
-      "fileID": 4022683,
+      "fileID": 3837829,
       "required": true,
       "__meta": {
         "name": "Thermal Innovation",
@@ -752,7 +750,7 @@
     },
     {
       "projectID": 300331,
-      "fileID": 4016411,
+      "fileID": 3741435,
       "required": true,
       "__meta": {
         "name": "Simply Light"
@@ -791,7 +789,7 @@
     },
     {
       "projectID": 307152,
-      "fileID": 4021711,
+      "fileID": 3840878,
       "required": true,
       "__meta": {
         "name": "Champions"
@@ -849,19 +847,8 @@
       }
     },
     {
-      "projectID": 312918,
-      "fileID": 3788736,
-      "required": true,
-      "__meta": {
-        "name": "Blue Skies",
-        "dependencies": [
-          378802
-        ]
-      }
-    },
-    {
       "projectID": 313970,
-      "fileID": 4027804,
+      "fileID": 3950762,
       "required": true,
       "__meta": {
         "name": "Apotheosis",
@@ -892,8 +879,8 @@
         "name": "FTB Chunks (Forge)",
         "dependencies": [
           404465,
-          404468,
-          419699
+          419699,
+          404468
         ]
       }
     },
@@ -923,7 +910,7 @@
     },
     {
       "projectID": 328085,
-      "fileID": 4007544,
+      "fileID": 3934676,
       "required": true,
       "__meta": {
         "name": "Create",
@@ -949,8 +936,19 @@
       }
     },
     {
+      "projectID": 333396,
+      "fileID": 3849197,
+      "required": true,
+      "__meta": {
+        "name": "Angel Ring",
+        "dependencies": [
+          309927
+        ]
+      }
+    },
+    {
       "projectID": 334853,
-      "fileID": 3968167,
+      "fileID": 3907506,
       "required": true,
       "__meta": {
         "name": "Simple Discord Rich Presence (Forge /  Fabric)",
@@ -990,7 +988,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 4034159,
+      "fileID": 3996370,
       "required": true,
       "__meta": {
         "name": "Collective (Forge)"
@@ -1041,7 +1039,7 @@
     },
     {
       "projectID": 348521,
-      "fileID": 3972426,
+      "fileID": 3782776,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)"
@@ -1092,7 +1090,7 @@
     },
     {
       "projectID": 353399,
-      "fileID": 4022667,
+      "fileID": 3837815,
       "required": true,
       "__meta": {
         "name": "Archer's Paradox",
@@ -1127,7 +1125,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 4029669,
+      "fileID": 3998312,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1144,14 +1142,6 @@
       "required": true,
       "__meta": {
         "name": "Lootr (Forge)"
-      }
-    },
-    {
-      "projectID": 361385,
-      "fileID": 3952167,
-      "required": true,
-      "__meta": {
-        "name": "Pam's HarvestCraft 2 - Crops"
       }
     },
     {
@@ -1172,23 +1162,15 @@
     },
     {
       "projectID": 363703,
-      "fileID": 4010650,
+      "fileID": 3780535,
       "required": true,
       "__meta": {
         "name": "Goblin Traders"
       }
     },
     {
-      "projectID": 365460,
-      "fileID": 3951942,
-      "required": true,
-      "__meta": {
-        "name": "Pam's HarvestCraft 2 - Trees"
-      }
-    },
-    {
       "projectID": 366916,
-      "fileID": 3951074,
+      "fileID": 3669166,
       "required": true,
       "__meta": {
         "name": "Set World Spawn Point (Forge)",
@@ -1209,14 +1191,6 @@
       }
     },
     {
-      "projectID": 372534,
-      "fileID": 3951938,
-      "required": true,
-      "__meta": {
-        "name": "Pam's HarvestCraft 2 - Food Core"
-      }
-    },
-    {
       "projectID": 374771,
       "fileID": 3858458,
       "required": true,
@@ -1226,7 +1200,7 @@
     },
     {
       "projectID": 376876,
-      "fileID": 4012432,
+      "fileID": 3998378,
       "required": true,
       "__meta": {
         "name": "Tinkers Reforged",
@@ -1256,7 +1230,7 @@
     },
     {
       "projectID": 377897,
-      "fileID": 4012712,
+      "fileID": 3995833,
       "required": true,
       "__meta": {
         "name": "Productive Bees"
@@ -1268,15 +1242,6 @@
       "required": true,
       "__meta": {
         "name": "Macaw's Doors"
-      }
-    },
-    {
-      "projectID": 378802,
-      "fileID": 4018606,
-      "required": true,
-      "__meta": {
-        "name": "Structure Gel API",
-        "explicit": false
       }
     },
     {
@@ -1325,7 +1290,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 4031276,
+      "fileID": 3989823,
       "required": true,
       "__meta": {
         "name": "GeckoLib"
@@ -1341,7 +1306,7 @@
     },
     {
       "projectID": 388800,
-      "fileID": 3995029,
+      "fileID": 3793106,
       "required": true,
       "__meta": {
         "name": "Polymorph (Forge)"
@@ -1415,7 +1380,7 @@
     },
     {
       "projectID": 401955,
-      "fileID": 4031596,
+      "fileID": 3983779,
       "required": true,
       "__meta": {
         "name": "Ars Nouveau",
@@ -1423,17 +1388,6 @@
           306770,
           309927,
           388172
-        ]
-      }
-    },
-    {
-      "projectID": 402231,
-      "fileID": 3998848,
-      "required": true,
-      "__meta": {
-        "name": "Pam's HarvestCraft 2 - Food Extended",
-        "dependencies": [
-          372534
         ]
       }
     },
@@ -1450,11 +1404,10 @@
     },
     {
       "projectID": 404468,
-      "fileID": 3725501,
+      "fileID": 3990419,
       "required": true,
       "__meta": {
         "name": "FTB Teams (Forge)",
-        "pinned": true,
         "dependencies": [
           404465,
           419699
@@ -1498,7 +1451,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 4029367,
+      "fileID": 3998970,
       "required": true,
       "__meta": {
         "name": "Supplementaries",
@@ -1536,7 +1489,7 @@
     },
     {
       "projectID": 416294,
-      "fileID": 4022965,
+      "fileID": 3919350,
       "required": true,
       "__meta": {
         "name": "Rhino",
@@ -1564,7 +1517,7 @@
     },
     {
       "projectID": 420735,
-      "fileID": 4011197,
+      "fileID": 3888282,
       "required": true,
       "__meta": {
         "name": "Harder Natural Healing"
@@ -1596,7 +1549,7 @@
     },
     {
       "projectID": 421850,
-      "fileID": 4032728,
+      "fileID": 3779088,
       "required": true,
       "__meta": {
         "name": "YUNG's API (Forge)"
@@ -1637,14 +1590,6 @@
       }
     },
     {
-      "projectID": 426386,
-      "fileID": 3786356,
-      "required": true,
-      "__meta": {
-        "name": "Shrink."
-      }
-    },
-    {
       "projectID": 429235,
       "fileID": 3767288,
       "required": true,
@@ -1654,10 +1599,11 @@
     },
     {
       "projectID": 429371,
-      "fileID": 3923657,
+      "fileID": 3815884,
       "required": true,
       "__meta": {
         "name": "KubeJS Create",
+        "pinned": true,
         "dependencies": [
           238086,
           328085
@@ -1693,16 +1639,8 @@
       }
     },
     {
-      "projectID": 441114,
-      "fileID": 3780211,
-      "required": true,
-      "__meta": {
-        "name": "Neko's Enchanted Books"
-      }
-    },
-    {
       "projectID": 441647,
-      "fileID": 4018363,
+      "fileID": 3968756,
       "required": true,
       "__meta": {
         "name": "FramedBlocks"
@@ -1796,7 +1734,7 @@
     },
     {
       "projectID": 457570,
-      "fileID": 4010624,
+      "fileID": 3946495,
       "required": true,
       "__meta": {
         "name": "Configured"
@@ -1819,15 +1757,6 @@
       }
     },
     {
-      "projectID": 465109,
-      "fileID": 3833474,
-      "required": true,
-      "__meta": {
-        "name": "InsaneLib",
-        "explicit": false
-      }
-    },
-    {
       "projectID": 465575,
       "fileID": 3778231,
       "required": true,
@@ -1840,7 +1769,7 @@
     },
     {
       "projectID": 466792,
-      "fileID": 4010704,
+      "fileID": 3994550,
       "required": true,
       "__meta": {
         "name": "Create Stuff Additions",
@@ -1867,18 +1796,37 @@
     },
     {
       "projectID": 472521,
-      "fileID": 4011989,
+      "fileID": 3998851,
       "required": true,
       "__meta": {
         "name": "Lightman's Currency"
       }
     },
     {
+      "projectID": 474438,
+      "fileID": 3889853,
+      "required": true,
+      "__meta": {
+        "name": "Origins (Forge)",
+        "dependencies": [
+          308989
+        ]
+      }
+    },
+    {
       "projectID": 474817,
-      "fileID": 4022451,
+      "fileID": 3739601,
       "required": true,
       "__meta": {
         "name": "Stalwart Dungeons"
+      }
+    },
+    {
+      "projectID": 474849,
+      "fileID": 3593620,
+      "required": true,
+      "__meta": {
+        "name": "Better 3D Ores   [ Glow Ores : Emissive Textures ]"
       }
     },
     {
@@ -1916,7 +1864,7 @@
     },
     {
       "projectID": 484064,
-      "fileID": 4001018,
+      "fileID": 3999737,
       "required": true,
       "__meta": {
         "name": "Malum",
@@ -2063,7 +2011,7 @@
     },
     {
       "projectID": 509285,
-      "fileID": 4009050,
+      "fileID": 3956169,
       "required": true,
       "__meta": {
         "name": "Create Deco",
@@ -2085,7 +2033,7 @@
     },
     {
       "projectID": 511040,
-      "fileID": 4016226,
+      "fileID": 3774054,
       "required": true,
       "__meta": {
         "name": "Durability Tooltip",
@@ -2103,8 +2051,16 @@
       }
     },
     {
+      "projectID": 517272,
+      "fileID": 3806656,
+      "required": true,
+      "__meta": {
+        "name": "Simple Shops"
+      }
+    },
+    {
       "projectID": 520110,
-      "fileID": 4010801,
+      "fileID": 3800622,
       "required": true,
       "__meta": {
         "name": "Iceberg"
@@ -2138,14 +2094,6 @@
       }
     },
     {
-      "projectID": 527361,
-      "fileID": 3863762,
-      "required": true,
-      "__meta": {
-        "name": "Domum Ornamentum"
-      }
-    },
-    {
       "projectID": 531761,
       "fileID": 3914491,
       "required": true,
@@ -2162,6 +2110,14 @@
         "dependencies": [
           328085
         ]
+      }
+    },
+    {
+      "projectID": 535096,
+      "fileID": 3785691,
+      "required": true,
+      "__meta": {
+        "name": "Goblins & Dungeons"
       }
     },
     {
@@ -2206,7 +2162,7 @@
     },
     {
       "projectID": 538392,
-      "fileID": 4017834,
+      "fileID": 3999299,
       "required": true,
       "__meta": {
         "name": "Modonomicon"
@@ -2225,7 +2181,7 @@
     },
     {
       "projectID": 541466,
-      "fileID": 4031343,
+      "fileID": 3999966,
       "required": true,
       "__meta": {
         "name": "Nameless Trinkets",
@@ -2306,17 +2262,6 @@
       "required": true,
       "__meta": {
         "name": "Magnesium/Rubidium Dynamic Lights"
-      }
-    },
-    {
-      "projectID": 552574,
-      "fileID": 4019567,
-      "required": true,
-      "__meta": {
-        "name": "Hostile Neural Networks",
-        "dependencies": [
-          283644
-        ]
       }
     },
     {
@@ -2472,16 +2417,8 @@
       }
     },
     {
-      "projectID": 573099,
-      "fileID": 4016720,
-      "required": true,
-      "__meta": {
-        "name": "Pyrologer And Friends"
-      }
-    },
-    {
       "projectID": 574856,
-      "fileID": 4024781,
+      "fileID": 3929515,
       "required": true,
       "__meta": {
         "name": "Rubidium"
@@ -2497,14 +2434,6 @@
           401955,
           328085
         ]
-      }
-    },
-    {
-      "projectID": 576368,
-      "fileID": 3912773,
-      "required": true,
-      "__meta": {
-        "name": "Illage and Spillage"
       }
     },
     {
@@ -2539,9 +2468,8 @@
       "__meta": {
         "name": "Quests Additions (Forge)",
         "dependencies": [
-          289412,
           419699,
-          419699
+          289412
         ]
       }
     },
@@ -2555,7 +2483,7 @@
     },
     {
       "projectID": 581652,
-      "fileID": 4026348,
+      "fileID": 3998894,
       "required": true,
       "__meta": {
         "name": "Vanilla Expanded - Orcz"
@@ -2595,7 +2523,7 @@
     },
     {
       "projectID": 599276,
-      "fileID": 4023437,
+      "fileID": 3996717,
       "required": true,
       "__meta": {
         "name": "Mine-Pop!"
@@ -2603,7 +2531,7 @@
     },
     {
       "projectID": 602680,
-      "fileID": 4027673,
+      "fileID": 3986565,
       "required": true,
       "__meta": {
         "name": "Tinkers' Integrations and Tweaks",
@@ -2693,7 +2621,7 @@
     },
     {
       "projectID": 626708,
-      "fileID": 4022684,
+      "fileID": 3837830,
       "required": true,
       "__meta": {
         "name": "Thermal Integration",
@@ -2732,14 +2660,6 @@
       "required": true,
       "__meta": {
         "name": "Macaw's Paths and Pavings"
-      }
-    },
-    {
-      "projectID": 630620,
-      "fileID": 4026322,
-      "required": true,
-      "__meta": {
-        "name": "Fastload"
       }
     },
     {
@@ -2784,6 +2704,17 @@
       }
     },
     {
+      "projectID": 637808,
+      "fileID": 3854764,
+      "required": true,
+      "__meta": {
+        "name": "Brewin' And Chewin'",
+        "dependencies": [
+          398521
+        ]
+      }
+    },
+    {
       "projectID": 639723,
       "fileID": 3858556,
       "required": true,
@@ -2795,20 +2726,8 @@
       }
     },
     {
-      "projectID": 639842,
-      "fileID": 4015126,
-      "required": true,
-      "__meta": {
-        "name": "Better Combat [Fabric & Forge]",
-        "dependencies": [
-          348521,
-          658587
-        ]
-      }
-    },
-    {
       "projectID": 643106,
-      "fileID": 4030253,
+      "fileID": 3874722,
       "required": true,
       "__meta": {
         "name": "Spice of Life: Sweet Potato Edition"
@@ -2826,57 +2745,22 @@
       }
     },
     {
-      "projectID": 658587,
-      "fileID": 3987589,
+      "projectID": 654430,
+      "fileID": 3993661,
       "required": true,
       "__meta": {
-        "name": "playerAnimator",
-        "explicit": false
-      }
-    },
-    {
-      "projectID": 659887,
-      "fileID": 4016850,
-      "required": true,
-      "__meta": {
-        "name": "Simply Swords [Fabric & Forge]",
-        "dependencies": [
-          419699
-        ]
+        "name": "ExtraBotany2"
       }
     },
     {
       "projectID": 669724,
-      "fileID": 4010039,
+      "fileID": 3996904,
       "required": true,
       "__meta": {
         "name": "Create: Crystal Clear",
         "dependencies": [
           486392,
           328085
-        ]
-      }
-    },
-    {
-      "projectID": 688768,
-      "fileID": 4029577,
-      "required": true,
-      "__meta": {
-        "name": "Create Enchantment Industry",
-        "dependencies": [
-          328085,
-          328085
-        ]
-      }
-    },
-    {
-      "projectID": 689238,
-      "fileID": 4032731,
-      "required": true,
-      "__meta": {
-        "name": "YUNG's Better Ocean Monuments (Forge)",
-        "dependencies": [
-          421850
         ]
       }
     }
