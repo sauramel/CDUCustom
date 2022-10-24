@@ -627,13 +627,13 @@
     I:TheInfinitumUndeadProbability=85
 
     # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
-    D:TheTwistAttackDamage=8.0
+    D:TheTwistAttackDamage=12.0
 
     # Attack speed of The Twist. [range: -32768.0 ~ 32768.0, default: -1.8, synchronized: yes]
-    D:TheTwistAttackSpeed=-1.8
+    D:TheTwistAttackSpeed=-1.2
 
     # Attack damage bonus of The Twist against players and bossess. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistBossDamageBonus=300
+    I:TheTwistBossDamageBonus=200
 
     # Knockback bonus of The Twist. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 300, synchronized: yes]
     I:TheTwistKnockbackPowerBonus=300
@@ -707,7 +707,7 @@
 
 "The Seven Curses" {
     # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
-    I:CursedRingArmorDebuff=30
+    I:CursedRingArmorDebuff=40
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
     B:CursedRingAutoEquip=false
@@ -716,7 +716,7 @@
     B:CursedRingEnableSpecialDrops=true
 
     # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 10, synchronized: yes]
-    I:CursedRingEnchantingBonus=10
+    I:CursedRingEnchantingBonus=15
 
     # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
     D:CursedRingEndermenRandomportFrequency=1.0
@@ -725,16 +725,16 @@
     D:CursedRingEndermenRandomportRange=32.0
 
     # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
-    I:CursedRingExperienceBonus=400
+    I:CursedRingExperienceBonus=450
 
     # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
-    I:CursedRingFortuneBonus=1
+    I:CursedRingFortuneBonus=2
 
     # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingKnockbackDebuff=200
 
     # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
-    I:CursedRingLootingBonus=1
+    I:CursedRingLootingBonus=2
 
     # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
     I:CursedRingMonsterDamageDebuff=50
@@ -750,7 +750,7 @@
     D:CursedRingNeutralXRayRange=4.0
 
     # Defines how much damage bearers of the ring receive from any source. Measured as percentage. [range: 0 ~ 32768, default: 200, synchronized: yes]
-    I:CursedRingPainModifier=200
+    I:CursedRingPainModifier=250
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when entering a new world, instead of just being added to their inventory. [default: false, synchronized: yes]
     B:CursedRingUltraHardcode=false

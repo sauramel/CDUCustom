@@ -7,7 +7,7 @@ enableHoppingUpgrade = true
 #Enable auto cutting upgrades? (Can still be inserted into upgrade slots, but effects are disabled.)
 enableAutoCuttingUpgrade = true
 #Auto-cutting does damage to the used axe upgrade
-autoCuttingDamagesItems = false
+autoCuttingDamagesItems = true
 #How likely is it that the axe upgrade takes damage for each tree it cuts?
 #Range: 0.0 ~ 1.0
 autoCuttingDamageChance = 0.07500000298023224
@@ -28,8 +28,8 @@ allowBonemeal = true
 bonemealSuccessChance = 0.45
 #How many ticks to wait before trying to insert items into the inventory below after failure?
 #Range: 20 ~ 1200
-hoppingCooldown = 60
+hoppingCooldown = 120
 #How many ticks to wait before trying to cut the tree automatically after failing to do so?
 #Range: 20 ~ 1200
-cuttingCooldown = 60
+cuttingCooldown = 120
 
