@@ -119,7 +119,7 @@ key_key.journeymap.create_waypoint:key.keyboard.b
 key_key.journeymap.toggle_waypoints:key.keyboard.z
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c
-key_key.journeymap.map_toggle_alt:key.keyboard.j
+key_key.journeymap.map_toggle_alt:key.keyboard.m
 key_key.journeymap.fullscreen_waypoints:key.keyboard.b:CONTROL
 key_key.journeymap.minimap_toggle_alt:key.keyboard.j:CONTROL
 key_key.journeymap.fullscreen_options:key.keyboard.o
@@ -128,7 +128,7 @@ key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
-key_key.ftbchunks.map:key.keyboard.m
+key_key.ftbchunks.map:key.keyboard.j
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_bloodmagic.keybind.open_holding:key.keyboard.unknown
