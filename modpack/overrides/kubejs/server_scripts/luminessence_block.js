@@ -14,7 +14,7 @@ onEvent('recipes', event => {
               "AABBBBBAA"
             ],
             "key": {
-              "A": "bloodmagic:reagentbinding" ,
+              "A": "quark:moss_paste" ,
               "B": "extendedcrafting:luminessence",
               "C": "ars_nouveau:jar_of_light",
               "D": "thermal:glowstone_bucket",

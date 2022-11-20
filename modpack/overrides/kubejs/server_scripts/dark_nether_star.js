@@ -15,7 +15,7 @@ onEvent('recipes', event => {
               "A": "enigmaticlegacy:evil_essence" ,
               "B": "forbidden_arcanus:dark_soul",
               "C": "forbidden_arcanus:dark_matter",
-              "D": "bloodmagic:voidsigil",
+              "D": "malum:corrupted_resonance",
               "E": "forbidden_arcanus:corrupted_pixie",
               "F": "enigmaticlegacy:evil_ingot",
               "G": "minecraft:nether_star",
