@@ -31,7 +31,6 @@
 				""
 				"                   [Optional]"
 			]
-			optional: true
 			id: "7ACCFACDF2C20374"
 			tasks: [{
 				id: "535A1DD98D5A186A"
@@ -161,7 +160,6 @@
 				""
 				"                   [Optional]"
 			]
-			optional: true
 			id: "673249395812CDE0"
 			tasks: [{
 				id: "064622725F99DF97"
@@ -249,7 +247,6 @@
 				"You will unlock more power and find cursed artifact"
 			]
 			size: 2.0d
-			optional: true
 			id: "0AFA95565915B25A"
 			tasks: [{
 				id: "42FED5EF95BFEE2F"
@@ -280,7 +277,6 @@
 			x: 0.0d
 			y: -14.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "6CEBBF04ABA15E90"
 			tasks: [{
 				id: "270A3EE350E51A05"
@@ -356,7 +352,6 @@
 			x: 0.0d
 			y: -17.5d
 			description: ["              Found in loot chest"]
-			optional: true
 			id: "5BBED67504070831"
 			tasks: [{
 				id: "40DF35E08ACD52D2"
@@ -372,7 +367,6 @@
 			x: 1.5d
 			y: -17.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "6DA4810AD3BEE4A6"
 			tasks: [{
 				id: "581058B5ADC5D950"
@@ -448,7 +442,6 @@
 			x: -1.5d
 			y: -17.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "51486A0438A42C73"
 			tasks: [{
 				id: "315AD9F6FA9F958B"
@@ -464,7 +457,6 @@
 			x: -2.0d
 			y: -14.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "6B49F620DF36A778"
 			tasks: [{
 				id: "145C64ADF4C95D2F"
@@ -480,7 +472,6 @@
 			x: -2.0d
 			y: -19.0d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "67EC698ED78CE033"
 			tasks: [{
 				id: "67E7513860C78C1A"
@@ -499,7 +490,6 @@
 				"                       ???"
 				""
 			]
-			optional: true
 			id: "183757BFADDD742A"
 			tasks: [{
 				id: "7468FB9980289725"
@@ -560,7 +550,6 @@
 			x: -5.0d
 			y: -3.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "4D753B8EBF82D3D7"
 			tasks: [{
 				id: "7AC544847DAE4681"
@@ -576,7 +565,6 @@
 			x: 3.5d
 			y: -4.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "5268E2762C33AA3A"
 			tasks: [{
 				id: "52969089064B381F"
@@ -594,7 +582,6 @@
 			x: -4.5d
 			y: -4.5d
 			description: ["             Found in loot chest"]
-			optional: true
 			id: "2F5DA4318DB8302F"
 			tasks: [{
 				id: "766CA741B5A99C76"
@@ -610,7 +597,6 @@
 			x: -4.0d
 			y: -3.5d
 			description: ["                      ???"]
-			optional: true
 			id: "41136D2DBC92BC37"
 			tasks: [{
 				id: "03FD67E6CC59D71A"
@@ -626,7 +612,6 @@
 			x: 4.0d
 			y: -3.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "00B33FF389BE35BA"
 			tasks: [{
 				id: "4A5FBABE897E04C8"
@@ -642,7 +627,6 @@
 			x: 4.5d
 			y: -4.5d
 			description: ["             Found in loot chest"]
-			optional: true
 			id: "5CF903053B4369CC"
 			tasks: [{
 				id: "7CAA57BAAF65553E"
@@ -658,7 +642,6 @@
 			x: -4.5d
 			y: -2.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "134FB05B658375D1"
 			tasks: [{
 				id: "03F86374BC124098"
@@ -674,7 +657,6 @@
 			x: -5.5d
 			y: -4.5d
 			description: ["                      ???"]
-			optional: true
 			id: "4BFCD9EF27303CB2"
 			tasks: [{
 				id: "67378DF3A9B8BCFA"
@@ -690,7 +672,6 @@
 			x: 1.0d
 			y: -0.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "0F974AA6537A1FE7"
 			tasks: [{
 				id: "6BB3372CC0D8FB5D"
@@ -706,7 +687,6 @@
 			x: 1.5d
 			y: -11.0d
 			description: ["             Found in loot chest"]
-			optional: true
 			id: "2671D954478B6889"
 			tasks: [{
 				id: "2134B1046AE182FB"
@@ -722,7 +702,6 @@
 			x: 0.0d
 			y: 0.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "0638E7CE5B05C4A7"
 			tasks: [{
 				id: "36B75847FF05065E"
@@ -738,7 +717,6 @@
 			x: -1.0d
 			y: -0.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "6C49ABF8241CA3A0"
 			tasks: [{
 				id: "236DAA6A7ED6C2AB"
@@ -769,7 +747,6 @@
 			x: 5.5d
 			y: -4.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "083306C36F52B5E3"
 			tasks: [{
 				id: "0BA37DA2EE606A7F"
@@ -785,7 +762,6 @@
 			x: 5.0d
 			y: -3.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "63B1150900F78630"
 			tasks: [{
 				id: "382FFB520BD84882"
@@ -803,7 +779,6 @@
 			x: -3.5d
 			y: -4.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "380152EDCBC41A20"
 			tasks: [{
 				id: "37C753472BAED4B9"
@@ -821,7 +796,6 @@
 			x: -1.5d
 			y: -11.0d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "43BF721A2906BC9B"
 			tasks: [{
 				id: "7947219BDD1A283B"
@@ -837,7 +811,6 @@
 			x: 4.5d
 			y: -2.5d
 			description: ["        You spawn with this item ;)"]
-			optional: true
 			id: "4471C6DAD52BE132"
 			tasks: [{
 				id: "74AB4DBBB94DEA36"
@@ -855,7 +828,6 @@
 			x: -6.0d
 			y: -3.0d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "43E0AB15BA202D8E"
 			tasks: [{
 				id: "743BD7F5DC4A422B"
@@ -871,7 +843,6 @@
 			x: 6.0d
 			y: -3.0d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "7FEEB6C3F9548804"
 			tasks: [{
 				id: "6289AFD77BF94D55"
@@ -902,7 +873,6 @@
 			x: -2.5d
 			y: -16.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "453EC1752C92E2D9"
 			tasks: [{
 				id: "3D0D9496FA155A90"
@@ -918,7 +888,6 @@
 			x: 2.0d
 			y: -14.5d
 			description: ["                      ???"]
-			optional: true
 			id: "1FE9F3D2CB32DED5"
 			tasks: [{
 				id: "16D95C1161A4FE9A"
@@ -934,7 +903,6 @@
 			x: 3.5d
 			y: -15.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "4E1F323BE27666A0"
 			tasks: [{
 				id: "3959B2A653063EB9"
@@ -950,7 +918,6 @@
 			x: 2.0d
 			y: -19.0d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "1E45BCC7CCD83669"
 			tasks: [{
 				id: "052BA4F2CA3660F7"
@@ -966,7 +933,6 @@
 			x: -1.5d
 			y: -20.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "2A0BA242751389D7"
 			tasks: [{
 				id: "170B949F1BA4A063"
@@ -984,7 +950,6 @@
 			x: 1.5d
 			y: -20.5d
 			description: ["                      ???"]
-			optional: true
 			id: "638ECCB6676564B0"
 			tasks: [{
 				id: "38963CE09E6BCB7F"
@@ -1000,7 +965,6 @@
 			x: 2.5d
 			y: -16.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "456C9798E84F3D52"
 			tasks: [{
 				id: "46355ADFD4CF0D13"
@@ -1018,7 +982,6 @@
 			x: -3.5d
 			y: -15.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "7B746EA821E178F7"
 			tasks: [{
 				id: "7B4730A62B9CCCDB"
@@ -1049,7 +1012,6 @@
 			x: 0.0d
 			y: -19.0d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "139BDB8F91801F1E"
 			tasks: [{
 				id: "6D22E0670148A31D"
@@ -1065,7 +1027,6 @@
 			x: 3.5d
 			y: -18.0d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "4FE278BAB0484EE7"
 			tasks: [{
 				id: "2E4B093CDBAB504D"
@@ -1081,7 +1042,6 @@
 			x: -3.5d
 			y: -18.0d
 			description: ["                       ???"]
-			optional: true
 			id: "466487B027FD1183"
 			tasks: [{
 				id: "49624E860B1B146C"
@@ -1097,7 +1057,6 @@
 			x: 0.0d
 			y: -13.5d
 			description: ["It can be created in a Crafting Table"]
-			optional: true
 			id: "5A5086CA322D4617"
 			tasks: [{
 				id: "47E9CD773DD7697B"
@@ -1200,4 +1159,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

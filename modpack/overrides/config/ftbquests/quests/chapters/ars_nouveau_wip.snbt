@@ -1,7 +1,7 @@
 {
 	id: "24BB8DE884C3396E"
 	group: "5E7C410653595BD1"
-	order_index: 2
+	order_index: 1
 	filename: "ars_nouveau_wip"
 	title: "Ars Nouveau"
 	icon: "ars_nouveau:archmage_spell_book"
@@ -51,6 +51,7 @@
 					id: "7FF50965E36C7749"
 					type: "questsadditions:break"
 					icon: "minecraft:dirt"
+					block_type: 0
 					block: "minecraft:dirt"
 					value: 5L
 					checkItem: true
@@ -60,6 +61,7 @@
 					id: "18EE3284591E51FC"
 					type: "questsadditions:break"
 					icon: "minecraft:cobblestone"
+					block_type: 0
 					block: "minecraft:cobblestone"
 					value: 5L
 					checkItem: true
@@ -1060,7 +1062,6 @@
 			subtitle: "Fast Starbuncles!"
 			description: ["You can make the Starbuncles move faster with this ritual."]
 			dependencies: ["2E8C2EC876E0E964"]
-			optional: true
 			secret: true
 			id: "3CA6F0F57108CFEB"
 			tasks: [{
@@ -1276,7 +1277,6 @@
 			subtitle: "Spells for Familiars?"
 			description: ["These can be given specified spells on a Scribe's Table."]
 			dependencies: ["6ED5D5483A3F5289"]
-			optional: true
 			secret: true
 			id: "089B56881F8DF0C7"
 			tasks: [{
@@ -1709,6 +1709,7 @@
 			tasks: [{
 				id: "336C9FD016077767"
 				type: "questsadditions:use"
+				block_type: 0
 				block: "ars_nouveau:scribes_table"
 				value: 1L
 				checkItem: false
@@ -2064,7 +2065,6 @@
 			subtitle: "Yes, you can mix potions."
 			description: ["Converts three doses of a potion from 2 adjacent Potion Jars, and outputs a single dose of mixed potion into a Potion Jar beneath it. Requires source per mix."]
 			dependencies: ["2F538FF2CCB4357D"]
-			optional: true
 			secret: true
 			id: "117B344B77991608"
 			tasks: [{
@@ -2098,408 +2098,6 @@
 				type: "item"
 				item: "lightmanscurrency:coin_gold"
 				count: 3
-			}]
-		}
-		{
-			title: "Netherite? Meh"
-			x: -5.0d
-			y: 29.0d
-			subtitle: "Craft Source Steel Gear"
-			description: ["Mid-game tier gear. Will finally help you beat a Wilden Chimera."]
-			dependencies: ["59AFBF3435BF032A"]
-			id: "026E12C8AAA0DAC7"
-			tasks: [
-				{
-					id: "7168869FDD225DD4"
-					type: "item"
-					item: "arsarsenal:source_steel_ingot"
-				}
-				{
-					id: "71348729DCE6104B"
-					type: "item"
-					item: {
-						id: "arsarsenal:source_steel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "31A1D6FC1C257616"
-					type: "item"
-					item: {
-						id: "arsarsenal:source_steel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "17AEC42489581C02"
-					type: "item"
-					item: {
-						id: "arsarsenal:source_steel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4BD540A2D1906E21"
-					type: "item"
-					item: {
-						id: "arsarsenal:source_steel_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "3692576692D37054"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-				count: 5
-			}]
-		}
-		{
-			title: "Source Steel Tools"
-			x: -4.0d
-			y: 29.0d
-			subtitle: "Craft Source Steel Tools"
-			description: ["Can be inscripted with spells like Break and Fell."]
-			dependencies: ["026E12C8AAA0DAC7"]
-			optional: true
-			secret: true
-			id: "7AA2EB1B8BB0BEBB"
-			tasks: [
-				{
-					id: "05EC7CDE10B1791E"
-					type: "item"
-					item: {
-						id: "arsarsenal:source_steel_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "5853EAC6132E90A9"
-					type: "item"
-					item: {
-						id: "arsarsenal:source_steel_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "231E7D532F7C040F"
-				type: "item"
-				item: "lightmanscurrency:coin_iron"
-			}]
-		}
-		{
-			title: "Sigil of Pyromancy"
-			x: -7.0d
-			y: 32.5d
-			subtitle: "Obtain the Sigil of Pyromancy"
-			id: "7FE53265C8838018"
-			tasks: [{
-				id: "51FF1736F4498D5E"
-				type: "item"
-				item: "arsarsenal:sigil_of_pyromancy"
-				count: 4L
-			}]
-		}
-		{
-			x: -6.5d
-			y: 34.5d
-			subtitle: "Obtain the Sigil of Aquamancy"
-			id: "75A00F6F83535A58"
-			tasks: [{
-				id: "032AEEDE950374BC"
-				type: "item"
-				title: "Sigil of Aquamancy"
-				item: "arsarsenal:sigil_of_aquamancy"
-				count: 4L
-			}]
-		}
-		{
-			title: "Sigil of Geomancy"
-			x: -4.0d
-			y: 34.5d
-			subtitle: "Obtain the Sigil of Geomancy"
-			id: "410E399D0A831005"
-			tasks: [{
-				id: "76A7ADCD65CF7048"
-				type: "item"
-				item: "arsarsenal:sigil_of_geomancy"
-				count: 4L
-			}]
-		}
-		{
-			x: -3.0d
-			y: 32.5d
-			subtitle: "Obtain the Sigil of Aethermancy"
-			id: "4A53BCCAB80A1ED0"
-			tasks: [{
-				id: "1E4A12F179C0116F"
-				type: "item"
-				title: "Sigil of Aquamancy"
-				item: "arsarsenal:sigil_of_aethermancy"
-				count: 4L
-			}]
-		}
-		{
-			title: "Pyromancer Specialty"
-			x: -8.5d
-			y: 32.5d
-			subtitle: "Craft the Full Gear of Pyromancer Set"
-			description: ["This set work closely with fire. Gives incredible amount of Fire Protection. Additionally, spells from the school of Fire are improved and consume less mana."]
-			dependencies: ["7FE53265C8838018"]
-			id: "1921C3EEBCCC5212"
-			tasks: [
-				{
-					id: "7A11CB349C8EC8E4"
-					type: "item"
-					item: {
-						id: "arsarsenal:fire_hat"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7E4080CDE0F330BA"
-					type: "item"
-					item: {
-						id: "arsarsenal:fire_robes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "293C95555B464788"
-					type: "item"
-					item: {
-						id: "arsarsenal:fire_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0B10D7DBDCCC648A"
-					type: "item"
-					item: {
-						id: "arsarsenal:fire_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "372B81E9298B6295"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 4
-			}]
-		}
-		{
-			title: "Aquamancer Specialty"
-			x: -7.5d
-			y: 35.5d
-			subtitle: "Craft the Full Gear of Aquamancer Set"
-			description: ["This set work closely with wet environments. Can trade some life force for air underwater. Additionally, spells from the school of Water are improved and consume less mana."]
-			dependencies: ["75A00F6F83535A58"]
-			id: "38AB79D8D871725E"
-			tasks: [
-				{
-					id: "771B2786DB92BA26"
-					type: "item"
-					item: {
-						id: "arsarsenal:aqua_hat"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "14D55F04AE18E9D9"
-					type: "item"
-					item: {
-						id: "arsarsenal:aqua_robes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0A76643524C7F820"
-					type: "item"
-					item: {
-						id: "arsarsenal:aqua_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "092B8E3DEEEDA4AE"
-					type: "item"
-					item: {
-						id: "arsarsenal:aqua_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "7F3FAF077E4C59B5"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 4
-			}]
-		}
-		{
-			title: "Geomancer Specialty"
-			x: -3.0d
-			y: 35.5d
-			subtitle: "Craft the full Geomancer gear set."
-			description: ["This set work closely with Earth. Allows players to take longer trips while underground. Additionally, spells from the school of Earth are improved and consume less mana."]
-			dependencies: ["410E399D0A831005"]
-			id: "40D87239DC45BCBE"
-			tasks: [
-				{
-					id: "190C34A862C5A97C"
-					type: "item"
-					item: {
-						id: "arsarsenal:earth_hat"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "54D86BC550BD359C"
-					type: "item"
-					item: {
-						id: "arsarsenal:earth_robes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7573B012C98C0746"
-					type: "item"
-					item: {
-						id: "arsarsenal:earth_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6C9DDB2C7BC15AD0"
-					type: "item"
-					item: {
-						id: "arsarsenal:earth_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "1440AE2DDEE46440"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 4
-			}]
-		}
-		{
-			title: "Aethermancer Specialty"
-			x: -1.5d
-			y: 32.5d
-			subtitle: "Craft the full Aethermancer gear set."
-			description: ["This set work closely with air. Allows player to safely land from heights most cannot. Additionally, spells from the school of Air are improved and consume less mana."]
-			dependencies: ["4A53BCCAB80A1ED0"]
-			id: "49063ACF6B6073FB"
-			tasks: [
-				{
-					id: "3E606D9031341350"
-					type: "item"
-					item: {
-						id: "arsarsenal:air_hat"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "17AFEC7534CA187A"
-					type: "item"
-					item: {
-						id: "arsarsenal:air_robes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "36DFCFA883A20564"
-					type: "item"
-					item: {
-						id: "arsarsenal:air_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "011B14F387DA881D"
-					type: "item"
-					item: {
-						id: "arsarsenal:air_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "7BEBBF8AC79320CD"
-				type: "item"
-				item: "lightmanscurrency:coin_gold"
-				count: 4
 			}]
 		}
 		{
@@ -2551,4 +2149,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

@@ -1,7 +1,7 @@
 {
 	id: "3D0984A3DD5F79EA"
 	group: "10AB955F3F3037EE"
-	order_index: 2
+	order_index: 1
 	filename: "create"
 	title: "Create"
 	icon: "create:red_toolbox"
@@ -151,7 +151,6 @@
 				"5871E3CBDD0C42CB"
 			]
 			hide: true
-			optional: true
 			secret: true
 			id: "4D966A93A3B010C0"
 			tasks: [{
@@ -176,7 +175,6 @@
 				"079D0CA03CEC12C6"
 			]
 			hide: true
-			optional: true
 			secret: true
 			id: "601EDBF454D52C16"
 			tasks: [{
@@ -202,7 +200,6 @@
 				"079D0CA03CEC12C6"
 			]
 			hide: true
-			optional: true
 			secret: true
 			id: "53170FA97A6C5311"
 			tasks: [{
@@ -1365,4 +1362,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

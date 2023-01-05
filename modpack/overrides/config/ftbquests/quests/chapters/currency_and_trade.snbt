@@ -484,7 +484,6 @@
 				"7182DA945CCD3994"
 			]
 			hide: true
-			optional: true
 			id: "46DD32226193F2E2"
 			tasks: [
 				{
@@ -562,7 +561,6 @@
 			hide_dependency_lines: true
 			dependencies: ["46DD32226193F2E2"]
 			hide: true
-			optional: true
 			id: "54B4E6D1A3F8C400"
 			tasks: [
 				{
@@ -710,7 +708,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["2F213066BA7B419E"]
-			optional: true
 			id: "6692C82E5E669992"
 			tasks: [{
 				id: "7D7D4AA248D4A360"
@@ -748,7 +745,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["2F213066BA7B419E"]
-			optional: true
 			id: "4CB287F64FAAFCB7"
 			tasks: [{
 				id: "56A0A5C5AD32DE44"
@@ -784,7 +780,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["2F213066BA7B419E"]
-			optional: true
 			id: "304A397F5D5D15FD"
 			tasks: [{
 				id: "5B2461B4F9DEC73D"
@@ -818,7 +813,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["2F213066BA7B419E"]
-			optional: true
 			id: "6EE3BD9D09054C21"
 			tasks: [{
 				id: "18143AEF6E631FB2"
@@ -855,7 +849,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["2F213066BA7B419E"]
-			optional: true
 			id: "1F962B77845FF68E"
 			tasks: [{
 				id: "57FD5D69B6CE61D9"
@@ -894,7 +887,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["2F213066BA7B419E"]
-			optional: true
 			id: "3848BDABC1796934"
 			tasks: [{
 				id: "202457A33713F066"
@@ -1427,4 +1419,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

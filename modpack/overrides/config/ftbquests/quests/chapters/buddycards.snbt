@@ -1052,7 +1052,6 @@
 				"You can put all of the cards you've been collected in the binder."
 				""
 			]
-			optional: true
 			id: "071F3388185F7CAF"
 			tasks: [{
 				id: "4D16C785B80A9EEB"
@@ -1068,7 +1067,6 @@
 			x: 0.0d
 			y: -1.0d
 			description: ["You can put all of the cards you've been collected in the binder."]
-			optional: true
 			id: "4E424D78A61C7B7A"
 			tasks: [{
 				id: "1DC9A9A6109090C4"
@@ -1084,7 +1082,6 @@
 			x: 4.0d
 			y: -1.0d
 			description: ["You can put all of the cards you've been collected in the binder."]
-			optional: true
 			id: "273D6C747EFC9372"
 			tasks: [{
 				id: "52B3B5D5A015D194"
@@ -1118,7 +1115,6 @@
 				"You can put all of the cards you've been collected in the binder."
 				"Additional you cant loose it when you die"
 			]
-			optional: true
 			id: "4A006992B9D3EC9B"
 			tasks: [{
 				id: "5DD26FE61449A434"
@@ -1138,7 +1134,6 @@
 				"Can be smelted into Buddysteel Ingot"
 				"Crafted by sacrificing any 3 cards with block of Lapis and Iron"
 			]
-			optional: true
 			id: "779DED9AD7A3C855"
 			tasks: [{
 				id: "323DB382B4B3A8EF"
@@ -1157,7 +1152,6 @@
 				"Smelted from Buddsteel Blend, used for armor and tools same as Diamond"
 				"Use for crafting Medal and Power Meter"
 			]
-			optional: true
 			id: "25B0DA5CE8DF2226"
 			tasks: [{
 				id: "00607A084135D59A"
@@ -1174,7 +1168,6 @@
 			y: 9.5d
 			subtitle: "Buddysteel Nugget"
 			description: ["Use for mainly crafting Grading sleves"]
-			optional: true
 			id: "5A9F024C00F18D69"
 			tasks: [{
 				id: "12026BAE46AE6CE6"
@@ -1190,7 +1183,6 @@
 			x: -2.0d
 			y: -1.0d
 			description: ["Just for Flexing all of your Buddycards"]
-			optional: true
 			id: "70503C09C6F565A9"
 			tasks: [{
 				id: "74B9A0970B908DB6"
@@ -1208,7 +1200,6 @@
 			x: 2.0d
 			y: -1.0d
 			description: ["Just for Flexing all of your Buddycards"]
-			optional: true
 			id: "1C8C9A6B9CCEA407"
 			tasks: [{
 				id: "086D9F894BD79122"
@@ -1226,7 +1217,6 @@
 			x: 6.0d
 			y: -1.0d
 			description: ["Just for Flexing all of your Buddycards"]
-			optional: true
 			id: "625966B30DFECC90"
 			tasks: [{
 				id: "3EE20C69C226BD47"
@@ -1263,7 +1253,6 @@
 			x: 2.5d
 			y: 10.5d
 			description: ["Just for Flexing all of your Buddycards"]
-			optional: true
 			id: "7068028BE44658FF"
 			tasks: [{
 				id: "54EED65440E7EB56"
@@ -1476,4 +1465,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

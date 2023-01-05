@@ -1,7 +1,7 @@
 {
 	id: "55FB154C8E602E1B"
 	group: "10AB955F3F3037EE"
-	order_index: 1
+	order_index: 0
 	filename: "immersive_engineering"
 	title: "Immersive Engineering"
 	default_quest_shape: ""
@@ -417,7 +417,6 @@
 			subtitle: "For Engineers. By Engineers. (Probably)"
 			description: ["It's got dedicated slots for your Engineer's tools. Some for your wires. For anything else, too. Check it out."]
 			dependencies: ["126F654E123CDFA0"]
-			optional: true
 			id: "3755C27217309382"
 			tasks: [{
 				id: "1516688798EF16CC"
@@ -1279,7 +1278,6 @@
 			subtitle: "Even faster, you say?"
 			description: ["Speed up the Blast Furnace by attaching a preheater to either side.                                                [Please Note: Preheaters require external power to function]."]
 			dependencies: ["6A94ACF2BEEF412C"]
-			optional: true
 			id: "5B96200F453DF6C3"
 			tasks: [{
 				id: "39B37FFCF6A3256E"
@@ -1417,7 +1415,6 @@
 			y: 2.5d
 			subtitle: "Something I wish I had known:"
 			description: ["With the Engineer's Manual open, you can simply type anything to automatically perform a search for the relevant page."]
-			optional: true
 			id: "3C7158E09D1B9F27"
 			tasks: [{
 				id: "18259ABF87266E14"
@@ -1426,4 +1423,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

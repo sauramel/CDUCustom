@@ -1,7 +1,7 @@
 {
 	id: "667932B606A409BA"
 	group: "5E7C410653595BD1"
-	order_index: 4
+	order_index: 2
 	filename: "occultism"
 	title: "Occultism"
 	icon: "occultism:dictionary_of_spirits"
@@ -4076,4 +4076,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }
