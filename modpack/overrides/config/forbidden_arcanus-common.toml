@@ -98,7 +98,7 @@
 		generate = false
 		#Maximum size of Stella Arcanum veins [default: 3]
 		#Range: 0 ~ 100
-		max_vein_size = 3
+		max_vein_size = 0
 		#Maximum Stella Arcanum veins per chunk [default: 2]
 		#Range: 1 ~ 100
 		count = 2
@@ -185,7 +185,7 @@
 		#Should Stella Arcanum explode when mined [default: true]
 		explode = true
 		#Should Stella Arcanum explosions deal Block Damage (if explosions enabled) [default: true]
-		block_damage = true
+		block_damage = false
 		#Radius of Stella Arcanum explosions (if explosions enabled) [default: 3]
 		#Range: 1 ~ 10
 		explosion_radius = 3

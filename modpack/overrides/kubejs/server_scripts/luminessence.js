@@ -11,7 +11,7 @@ onEvent('recipes', event => {
 		'thermal:gunpowder_block',
 		'thermal:gunpowder_block',
 		'quark:moss_paste',
-		'hexcasting:dye_colorizer_yellow'
+		'minecraft:yellow_dye'
       ]).heated()
 event.remove({output: 'extendedcrafting:luminessence'})
 })
