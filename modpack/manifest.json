@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 32274,
-      "fileID": 4240471,
+      "fileID": 4320615,
       "required": true,
       "__meta": {
         "name": "JourneyMap"
@@ -231,7 +231,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 4060538,
+      "fileID": 4118107,
       "required": true,
       "__meta": {
         "name": "KubeJS",
@@ -544,14 +544,6 @@
         "dependencies": [
           272335
         ]
-      }
-    },
-    {
-      "projectID": 268495,
-      "fileID": 3868680,
-      "required": true,
-      "__meta": {
-        "name": "Simple Storage Network"
       }
     },
     {
@@ -1032,7 +1024,7 @@
     },
     {
       "projectID": 351264,
-      "fileID": 4167046,
+      "fileID": 4311661,
       "required": true,
       "__meta": {
         "name": "Kotlin for Forge"
@@ -1099,7 +1091,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 4285372,
+      "fileID": 4318953,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1236,7 +1228,7 @@
     },
     {
       "projectID": 380617,
-      "fileID": 4226521,
+      "fileID": 4325732,
       "required": true,
       "__meta": {
         "name": "Dramatic Doors"
@@ -1267,19 +1259,6 @@
         "dependencies": [
           419699,
           404465
-        ]
-      }
-    },
-    {
-      "projectID": 386380,
-      "fileID": 4065476,
-      "required": true,
-      "__meta": {
-        "name": "Iam Music Player [Forge/Fabric]",
-        "dependencies": [
-          400337,
-          419699,
-          348521
         ]
       }
     },
@@ -1354,19 +1333,6 @@
         "dependencies": [
           412525,
           225643
-        ]
-      }
-    },
-    {
-      "projectID": 400337,
-      "fileID": 3754868,
-      "required": true,
-      "__meta": {
-        "name": "Otyacraft Engine [Forge/Fabric]",
-        "explicit": false,
-        "dependencies": [
-          419699,
-          348521
         ]
       }
     },
@@ -1521,7 +1487,7 @@
     },
     {
       "projectID": 416294,
-      "fileID": 4061359,
+      "fileID": 4069880,
       "required": true,
       "__meta": {
         "name": "Rhino",
@@ -1557,7 +1523,7 @@
     },
     {
       "projectID": 421694,
-      "fileID": 3834362,
+      "fileID": 4216196,
       "required": true,
       "__meta": {
         "name": "KubeJS Thermal",
@@ -1765,7 +1731,7 @@
     },
     {
       "projectID": 454372,
-      "fileID": 4287933,
+      "fileID": 4317018,
       "required": true,
       "__meta": {
         "name": "SuperMartijn642's Core Lib"
@@ -1827,7 +1793,7 @@
     },
     {
       "projectID": 465109,
-      "fileID": 3833474,
+      "fileID": 4307858,
       "required": true,
       "__meta": {
         "name": "InsaneLib",
@@ -2819,7 +2785,7 @@
     },
     {
       "projectID": 661293,
-      "fileID": 4277603,
+      "fileID": 4318519,
       "required": true,
       "__meta": {
         "name": "SmartBrainLib (Forge/Fabric/Quilt)"
