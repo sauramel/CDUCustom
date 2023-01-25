@@ -1,9 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "4C7C0FA7C70DE440", title: "Collectibles" }
-		{ id: "1A3A810D872897A7", title: "Basics" }
-		{ id: "4C15C70DD8227CDA", title: "Cuisine" }
-		{ id: "5E7C410653595BD1", title: "Magic" }
-		{ id: "10AB955F3F3037EE", title: "Tech" }
-	]
-}
