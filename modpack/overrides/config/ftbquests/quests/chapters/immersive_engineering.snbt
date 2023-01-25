@@ -1,0 +1,1427 @@
+{
+	id: "55FB154C8E602E1B"
+	group: "10AB955F3F3037EE"
+	order_index: 0
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 11.0d
+			y: 9.5d
+			width: 1.5d
+			height: 1.5d
+			rotation: 0.0d
+			image: "ftbteams:textures/add.png"
+			hover: [
+				"Please Note that Immersive Engineering has even more content than listed"
+				"  in this quest line!"
+				""
+				"For a more thorough guide to the content available, we strongly suggest"
+				"  to read through each chapter of the Engineer's Manual, especially"
+				"  the \"Simple Machines\" and \"Heavy Machinery\" sections!"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "immersiveengineering:textures/item/blueprint.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Start Here!"
+			x: 5.0d
+			y: 1.0d
+			shape: "circle"
+			subtitle: "Welcome to Immersive Engineering!"
+			description: [
+				"The Engineer's Manual is an Engineer's best friend! -- It contains detailed information about everything Immersive Engineering has to offer -- including structure guides for every Multiblock!     "
+				"Craft it now by combining a book and lever in a crafting table.                          "
+				"[Please refer to the Engineer's Manual for information on any topic not covered in these quests!]"
+			]
+			id: "40576BE0011A040F"
+			tasks: [
+				{
+					id: "627737AB4CA73E0F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:manual"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "61E0B03DAE123D07"
+					type: "checkmark"
+					title: "Read \"Overview and Resources -> Introduction\" Chapter"
+				}
+			]
+			rewards: [{
+				id: "761C7E7A3CE03E93"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Blueprint (Crafting Components)"
+			x: -1.0d
+			y: 8.5d
+			shape: "square"
+			subtitle: "So useful that you might want a spare!"
+			description: ["Allows you to make several common crafting components in the Engineer's Worktable."]
+			dependencies: ["0E4DCB5A575E8893"]
+			id: "26D6C76E5E266280"
+			tasks: [{
+				id: "5073106506CF1585"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "components"
+					}
+				}
+			}]
+		}
+		{
+			title: "Blueprint (Arc Furnace Electrodes)"
+			x: 1.5d
+			y: 5.5d
+			shape: "hexagon"
+			subtitle: "Required for the Arc Furnace Multiblock Structure."
+			description: ["Check the Engineer's Manual for further information."]
+			dependencies: ["0E4DCB5A575E8893"]
+			id: "21280D321B159A96"
+			tasks: [{
+				id: "371C5CFD339C0451"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+			}]
+		}
+		{
+			title: "Metal Press Molds!"
+			x: 1.5d
+			y: 11.0d
+			shape: "square"
+			subtitle: "Quite impressive indeed."
+			description: ["Metal Press Molds can be installed in a Metal Press to cheaply produce any of these ingredients."]
+			dependencies: ["0E4DCB5A575E8893"]
+			id: "294236204D456D38"
+			tasks: [
+				{
+					id: "1E3969CBE8208D74"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+				{
+					id: "79BF0D6E07962D1B"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Coke Oven"
+			x: 5.0d
+			y: 6.0d
+			shape: "hexagon"
+			subtitle: "Things are heating up."
+			dependencies: ["0B834778F587D833"]
+			id: "09F49F8EC8B58A0F"
+			tasks: [{
+				id: "349D7AF00B84CF0D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:cokebrick"
+					Count: 1b
+					tag: { }
+				}
+				count: 27L
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			shape: "hexagon"
+			subtitle: "I wonder what it tastes like?"
+			dependencies: ["09F49F8EC8B58A0F"]
+			id: "4D9321079E067408"
+			tasks: [{
+				id: "648312E88F8E2736"
+				type: "item"
+				item: {
+					id: "immersiveengineering:creosote_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Now the fun starts... (Engineer's Workbench)"
+			x: 1.5d
+			y: 8.5d
+			dependencies: ["126F654E123CDFA0"]
+			id: "0E4DCB5A575E8893"
+			tasks: [{
+				id: "1741D928881008FB"
+				type: "item"
+				item: {
+					id: "immersiveengineering:workbench"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			subtitle: "It schmooves!"
+			id: "6BF7326040D9914E"
+			tasks: [{
+				id: "797ACEDB3B5D6DCC"
+				type: "item"
+				item: {
+					id: "immersiveengineering:conveyor_basic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			subtitle: "Can be used to insert items into the block below."
+			dependencies: ["6BF7326040D9914E"]
+			id: "50FFFCDA0422B38B"
+			tasks: [{
+				id: "76810E0D8323DFB9"
+				type: "item"
+				item: {
+					id: "immersiveengineering:conveyor_dropper"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Can be used to extract items from an inventory."
+			dependencies: ["6BF7326040D9914E"]
+			id: "10E658DE04E28D3D"
+			tasks: [{
+				id: "13DC684DFFF768B2"
+				type: "item"
+				item: {
+					id: "immersiveengineering:conveyor_extract"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "A full set of Faraday Armour will protect you from Low Voltage shocks."
+			id: "7CA2292BF36CEB4B"
+			tasks: [{
+				id: "6B20EBF9802D5CCE"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_faraday_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "A full set of Faraday Armour will protect you from Low Voltage shocks."
+			id: "7E5DBDA25DF815E3"
+			tasks: [{
+				id: "59DED46A34758C0E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_faraday_chest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "A full set of Faraday Armour will protect you from Low Voltage shocks."
+			id: "7BD28C069292684B"
+			tasks: [{
+				id: "2F04A404B8265318"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_faraday_legs"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "A full set of Faraday Armour will protect you from Low Voltage shocks."
+			id: "7BC069CAD69FE476"
+			tasks: [{
+				id: "76FC1B6A6AEA6B03"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_faraday_feet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			subtitle: "A logical choice."
+			description: ["Please read the \"Power, Wires, Generators -> Logic Circuits\" guide in the Engineer's Manual for further information."]
+			dependencies: ["7C93F10B9BC03BE7"]
+			id: "54B332FBF8060588"
+			tasks: [{
+				id: "0A0A755F16116DF6"
+				type: "item"
+				item: {
+					id: "immersiveengineering:circuit_table"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			shape: "gear"
+			subtitle: "Detroit: Become Spiderman."
+			description: [
+				"Can hook onto Wires, Hemp Rope, and Steel Cables."
+				"Check the Engineer's Manual for further information."
+			]
+			dependencies: ["408BB1300EF1FE50"]
+			id: "341D53C291A8B4F7"
+			tasks: [{
+				id: "4ACF7CA364226488"
+				type: "item"
+				item: {
+					id: "immersiveengineering:skyhook"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			shape: "diamond"
+			subtitle: "I wonder what you can do with this..."
+			description: ["Please read the \"Power, Wires, Generators -> Logic Circuits\" guide in the Engineer's Manual for further information."]
+			dependencies: [
+				"3C24BC09C80D4FF3"
+				"60883E60B6B304D1"
+				"54B332FBF8060588"
+			]
+			id: "02068E38972994BA"
+			tasks: [{
+				id: "681AF0AA89B2B714"
+				type: "item"
+				item: {
+					id: "immersiveengineering:logic_circuit"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "Philips or Flathead?"
+			description: [
+				"Required to configure some Immersive Engineering blocks. "
+				"Check the Engineer's Manual for more information."
+			]
+			dependencies: ["40576BE0011A040F"]
+			id: "7AC7CC1165F53A8B"
+			tasks: [{
+				id: "2D27604DBB35BA7C"
+				type: "item"
+				item: {
+					id: "immersiveengineering:screwdriver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.5d
+			shape: "gear"
+			subtitle: "For Engineers. By Engineers. (Probably)"
+			description: ["It's got dedicated slots for your Engineer's tools. Some for your wires. For anything else, too. Check it out."]
+			dependencies: ["126F654E123CDFA0"]
+			id: "3755C27217309382"
+			tasks: [{
+				id: "1516688798EF16CC"
+				type: "item"
+				item: {
+					id: "immersiveengineering:toolbox"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 23
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "Snip snip..."
+			description: ["You'll need these to craft wires before you can automate this in the Metal Press."]
+			dependencies: ["40576BE0011A040F"]
+			id: "72F8A991456F9A94"
+			tasks: [{
+				id: "02B3A6A41F605572"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			shape: "hexagon"
+			subtitle: "When all you have is a hammer..."
+			description: [
+				"The Engineer's Hammer is used for finishing Immersive Engineering Multiblocks."
+				"It can also be used to craft ingredients such as plates."
+			]
+			dependencies: ["40576BE0011A040F"]
+			id: "0B834778F587D833"
+			tasks: [{
+				id: "126D3480FE99EFAF"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			shape: "diamond"
+			subtitle: "Bzzz..."
+			dependencies: ["26D6C76E5E266280"]
+			id: "60883E60B6B304D1"
+			tasks: [{
+				id: "14C546E0922A3C67"
+				type: "item"
+				item: {
+					id: "immersiveengineering:electron_tube"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			shape: "diamond"
+			subtitle: "It's green."
+			dependencies: ["26D6C76E5E266280"]
+			id: "3C24BC09C80D4FF3"
+			tasks: [{
+				id: "4D654E0F019811E7"
+				type: "item"
+				item: {
+					id: "immersiveengineering:circuit_board"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			shape: "diamond"
+			dependencies: ["294236204D456D38"]
+			id: "2B6CA978ABBAC181"
+			tasks: [{
+				id: "45614491D3A5E660"
+				type: "item"
+				item: {
+					id: "immersiveengineering:mold_plate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.0d
+			shape: "diamond"
+			dependencies: ["294236204D456D38"]
+			id: "1FB58F56B011C501"
+			tasks: [{
+				id: "013A2D27AF3EB9B5"
+				type: "item"
+				item: {
+					id: "immersiveengineering:mold_gear"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.0d
+			shape: "diamond"
+			dependencies: ["294236204D456D38"]
+			id: "2E4884F7E955EAC5"
+			tasks: [{
+				id: "19E38D1824EDB05A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:mold_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 12.0d
+			shape: "diamond"
+			dependencies: ["294236204D456D38"]
+			id: "6658C6D68C461B51"
+			tasks: [{
+				id: "2465D899B0F54836"
+				type: "item"
+				item: {
+					id: "immersiveengineering:mold_bullet_casing"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			shape: "diamond"
+			dependencies: ["294236204D456D38"]
+			id: "57AAC2298380FC55"
+			tasks: [{
+				id: "367F79CFA5E2E52D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:mold_wire"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 12.5d
+			shape: "diamond"
+			dependencies: ["294236204D456D38"]
+			id: "1377B8D620A0E855"
+			tasks: [{
+				id: "0D38EB89B0580953"
+				type: "item"
+				item: {
+					id: "immersiveengineering:mold_packing_4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.0d
+			shape: "diamond"
+			dependencies: ["294236204D456D38"]
+			id: "7676B5F0823417FB"
+			tasks: [{
+				id: "6A704605F318E484"
+				type: "item"
+				item: {
+					id: "immersiveengineering:mold_packing_9"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 13.0d
+			shape: "diamond"
+			dependencies: ["294236204D456D38"]
+			id: "05B03DA1AFD170A0"
+			tasks: [{
+				id: "05E2919F6C451029"
+				type: "item"
+				item: {
+					id: "immersiveengineering:mold_unpacking"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			shape: "diamond"
+			subtitle: "Burns hotter, for longer!"
+			dependencies: ["09F49F8EC8B58A0F"]
+			id: "2821E0757F021088"
+			tasks: [{
+				id: "583221985F5B7B22"
+				type: "item"
+				item: {
+					id: "immersiveengineering:coal_coke"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "181CD5FED1C60875"
+				type: "item"
+				item: {
+					id: "immersiveengineering:coal_coke"
+					Count: 1b
+					tag: { }
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Treating Wood"
+			x: 4.0d
+			y: 8.5d
+			shape: "hexagon"
+			subtitle: "Giving your logs a creo-soak"
+			dependencies: ["4D9321079E067408"]
+			id: "126F654E123CDFA0"
+			tasks: [{
+				id: "65984D431DC3E42A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:treated_wood_horizontal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			shape: "gear"
+			subtitle: "What!? - I can't hear you!!"
+			description: ["This stylish headgear will lower the perceived volume of any nearby sounds."]
+			id: "57563175177D08EB"
+			tasks: [{
+				id: "7C12AD0D3A14BA1C"
+				type: "item"
+				item: {
+					id: "immersiveengineering:earmuffs"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			subtitle: "Engineering: Now in block form!"
+			description: ["The Engineering Blocks are commonly used as a structural ingredient in Immersive Engineering Multiblock structures."]
+			dependencies: ["408BB1300EF1FE50"]
+			id: "7C93F10B9BC03BE7"
+			tasks: [{
+				id: "09940AC5EFD499DF"
+				type: "item"
+				item: {
+					id: "immersiveengineering:light_engineering"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			subtitle: "Engineering: Heavier than ever!"
+			description: ["The Engineering Blocks are commonly used as a structural ingredient in Immersive Engineering Multiblock structures."]
+			dependencies: ["59CBD502E5F1DC6E"]
+			id: "379CB077E93F55F1"
+			tasks: [{
+				id: "119A1B710717A3CC"
+				type: "item"
+				item: {
+					id: "immersiveengineering:heavy_engineering"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 12.0d
+			id: "347821DAAA87CBA9"
+			tasks: [{
+				id: "5CDC96E0D45D6767"
+				type: "item"
+				item: {
+					id: "immersiveengineering:rs_engineering"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 10.0d
+			subtitle: "High Voltage Warning!"
+			description: [
+				"Can be configured by shift-right clicking with a screwdriver between Low Power (lethal) and High Power (even more lethal) modes!                               "
+				"Check the Engineer's Manual for further information."
+			]
+			dependencies: ["1CA6ED4A25D39F81"]
+			id: "5862BA3282156CD7"
+			tasks: [{
+				id: "5A8193D58B9F2E8B"
+				type: "item"
+				item: {
+					id: "immersiveengineering:tesla_coil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 8.0d
+			shape: "gear"
+			subtitle: "Like a farm in a bottle."
+			description: ["The Garden Cloche can be used to automatically grow and harvest crops at an increased rate."]
+			dependencies: ["60883E60B6B304D1"]
+			id: "18F73503D4C55AC7"
+			tasks: [{
+				id: "5E948C972D0EE4D7"
+				type: "item"
+				item: {
+					id: "immersiveengineering:cloche"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Please read the \"Simple Machines\" chapter of the Engineer's Manual for further information."
+			id: "23BAF96371D0E611"
+			tasks: [{
+				id: "3223B31512580C57"
+				type: "item"
+				item: {
+					id: "immersiveengineering:sorter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Please read the \"Simple Machines\" chapter of the Engineer's Manual for further information."
+			id: "44DE58250AA03919"
+			tasks: [{
+				id: "3E713C0F91674CCE"
+				type: "item"
+				item: {
+					id: "immersiveengineering:item_batcher"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Give this one a spin."
+			description: ["A bayonet can be attached for extra stabbing power."]
+			id: "551F0235FCC89FBE"
+			tasks: [{
+				id: "319169318EA0E300"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Improved Blast Furnace"
+			x: 7.0d
+			y: 7.0d
+			subtitle: "Like the Blast Furnace, but faster!"
+			description: ["Check the Engineer's Manual for further instructions."]
+			dependencies: ["43658064784B5B65"]
+			id: "6A94ACF2BEEF412C"
+			tasks: [
+				{
+					id: "7D4804EB38A1D2FC"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blastbrick_reinforced"
+						Count: 1b
+						tag: { }
+					}
+					count: 27L
+				}
+				{
+					id: "43CCAB19A6480D52"
+					type: "item"
+					item: {
+						id: "minecraft:hopper"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			subtitle: "Can be used to break the flow of current in a circuit."
+			id: "005B750156425536"
+			tasks: [{
+				id: "0538718668841C91"
+				type: "item"
+				item: {
+					id: "immersiveengineering:breaker_switch"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["27CC143952AE11A0"]
+			id: "6C579FEC9E076777"
+			tasks: [{
+				id: "79600D085E201AFC"
+				type: "item"
+				item: {
+					id: "immersiveengineering:connector_lv"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.5d
+			shape: "hexagon"
+			dependencies: ["27CC143952AE11A0"]
+			id: "64049903D73080B1"
+			tasks: [{
+				id: "24F635A7E046FBAC"
+				type: "item"
+				item: {
+					id: "immersiveengineering:connector_mv"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["27CC143952AE11A0"]
+			id: "7D8127D97F2CB099"
+			tasks: [{
+				id: "26899D44B461236E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:connector_hv"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.5d
+			shape: "gear"
+			subtitle: "You know the drill, and so, do I."
+			description: ["[Please Note: Additionally requires a Drill Head to be attached]."]
+			dependencies: ["379CB077E93F55F1"]
+			id: "44AA1CBE062E411D"
+			tasks: [{
+				id: "7CE31A039540F08B"
+				type: "item"
+				item: {
+					id: "immersiveengineering:drill"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			subtitle: "Can be linked together with Redstone Wires to pass a signal around."
+			dependencies: ["4452FDE0EE7C41D9"]
+			id: "7898DF1D0D7D8951"
+			tasks: [{
+				id: "7C2AFCC161E83AA6"
+				type: "item"
+				item: {
+					id: "immersiveengineering:connector_redstone"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			subtitle: "Allows reading a signal from a block's face. Can link to other connectors using Redstone Wire."
+			dependencies: ["4452FDE0EE7C41D9"]
+			id: "3ECEC5BEA8B36F32"
+			tasks: [{
+				id: "21C6039DF0940655"
+				type: "item"
+				item: {
+					id: "immersiveengineering:connector_probe"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			subtitle: "Allows passing a Redstone Wire signal as input to a block's face."
+			dependencies: ["7898DF1D0D7D8951"]
+			id: "3E9C2E1A04B2E041"
+			tasks: [{
+				id: "5F37FD7CBBE56F17"
+				type: "item"
+				item: {
+					id: "immersiveengineering:connector_bundled"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			id: "7976E46E793DEDB7"
+			tasks: [{
+				id: "5F610973375AEACA"
+				type: "item"
+				item: {
+					id: "immersiveengineering:coil_lv"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.0d
+			dependencies: [
+				"74EB1E9656DA6F68"
+				"126F654E123CDFA0"
+			]
+			id: "1CA6ED4A25D39F81"
+			tasks: [{
+				id: "1762E591752E55CA"
+				type: "item"
+				item: {
+					id: "immersiveengineering:capacitor_hv"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			shape: "hexagon"
+			id: "6186A931D8A554E5"
+			tasks: [{
+				id: "0830F4DBD8316B28"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecoil_copper"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			shape: "hexagon"
+			id: "7FFDA64FCB2B8561"
+			tasks: [{
+				id: "1CBE444035C14D57"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecoil_electrum"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			shape: "hexagon"
+			id: "40A4EA9C826B7A87"
+			tasks: [{
+				id: "17F2F2BAB38EBF95"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecoil_steel"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.5d
+			subtitle: "Surprisingly versatile!"
+			description: [
+				"The Iron Mechanical Component is used as a crafting ingredient for many IE recipes.                                                              "
+				"[Please Note: The Engineer's Workbench provides a cheaper recipe for this item]."
+			]
+			dependency_requirement: "all_started"
+			id: "408BB1300EF1FE50"
+			tasks: [{
+				id: "0D22C9BCF0EF6FC6"
+				type: "item"
+				item: {
+					id: "immersiveengineering:component_iron"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			subtitle: "Who doesn't love one of these?"
+			description: ["[Please Note: The Engineer's Workbench provides a cheaper recipe for this item]."]
+			id: "59CBD502E5F1DC6E"
+			tasks: [{
+				id: "3A149BE544000264"
+				type: "item"
+				item: {
+					id: "immersiveengineering:component_steel"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["0B834778F587D833"]
+			id: "2E7EC661D7B90461"
+			tasks: [{
+				id: "3EEF19415B573EDB"
+				type: "item"
+				item: {
+					id: "immersiveengineering:plate_iron"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["6BF7326040D9914E"]
+			id: "759BFF41AF38C922"
+			tasks: [{
+				id: "258BF8B34809D37A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:conveyor_splitter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 12.5d
+			subtitle: "Fwooosh."
+			description: ["Check the Engineer's Manual for further instructions."]
+			dependencies: ["347821DAAA87CBA9"]
+			id: "068170AB83CAC693"
+			tasks: [{
+				id: "2B02B7EDEBF85B58"
+				type: "item"
+				item: {
+					id: "immersiveengineering:turret_chem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.5d
+			subtitle: "Pew pew."
+			description: ["Check the Engineer's Manual for further instructions."]
+			dependencies: ["347821DAAA87CBA9"]
+			id: "21DAACE4E9A32D1C"
+			tasks: [{
+				id: "3920C6728A5422B2"
+				type: "item"
+				item: {
+					id: "immersiveengineering:turret_gun"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.5d
+			shape: "hexagon"
+			subtitle: "It tastes like cherry."
+			id: "74EB1E9656DA6F68"
+			tasks: [{
+				id: "3379D4CCCD93F35F"
+				type: "item"
+				item: {
+					id: "immersiveengineering:redstone_acid_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "Allows interfacing with redstone to create (Logic Circuit) based contraptions."
+			description: ["Please read the \"Power, Wires, Generators -> Logic Circuits\" guide in the Engineer's Manual for further information."]
+			dependencies: [
+				"02068E38972994BA"
+				"3E9C2E1A04B2E041"
+			]
+			id: "0AFF825915CBB73A"
+			tasks: [{
+				id: "5110B40337B70024"
+				type: "item"
+				item: {
+					id: "immersiveengineering:logic_unit"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: ["43658064784B5B65"]
+			id: "28D6A1A2243FC1CE"
+			tasks: [{
+				id: "6CAB005F788B1907"
+				type: "item"
+				item: {
+					id: "immersiveengineering:ingot_steel"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Blast Furnace"
+			x: 6.0d
+			y: 6.5d
+			subtitle: "So anyway, I started blasting."
+			description: ["Check the Engineer's Manual for further instructions."]
+			dependencies: ["09F49F8EC8B58A0F"]
+			id: "43658064784B5B65"
+			tasks: [{
+				id: "24735FF4F3C3A7C7"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blastbrick"
+					Count: 1b
+					tag: { }
+				}
+				count: 27L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			shape: "gear"
+			subtitle: "Facilitates conversion between Low Voltage and Medium Voltage."
+			dependencies: ["7FFDA64FCB2B8561"]
+			id: "5F5F22BEC918EB1A"
+			tasks: [{
+				id: "0C2FA93CB1A9C5A5"
+				type: "item"
+				item: {
+					id: "immersiveengineering:transformer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			subtitle: "Even faster, you say?"
+			description: ["Speed up the Blast Furnace by attaching a preheater to either side.                                                [Please Note: Preheaters require external power to function]."]
+			dependencies: ["6A94ACF2BEEF412C"]
+			id: "5B96200F453DF6C3"
+			tasks: [{
+				id: "39B37FFCF6A3256E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blastfurnace_preheater"
+					Count: 1b
+					tag: { }
+				}
+				count: 2L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "Facilitates conversion between Medium Voltage and High Voltage."
+			dependencies: ["40A4EA9C826B7A87"]
+			id: "5B0C23C6A8C3DFED"
+			tasks: [{
+				id: "12935EB977A5102F"
+				type: "item"
+				item: {
+					id: "immersiveengineering:transformer_hv"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			subtitle: "Don't point that thing at me!"
+			dependencies: ["3C24BC09C80D4FF3"]
+			id: "7DA4BC3E2330A75C"
+			tasks: [{
+				id: "06C89F4CF7E9528A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			subtitle: "Can be used to transmit signals between Redstone Connectors."
+			id: "4452FDE0EE7C41D9"
+			tasks: [{
+				id: "1742B3C7B7E3901E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecoil_redstone"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Power, Wires \\& Generators"
+			x: 11.0d
+			y: 2.5d
+			subtitle: "Check the \"Power, Wires \\& Generators\" chapter of the Engineer's Manual for more information!"
+			id: "27CC143952AE11A0"
+			tasks: [{
+				id: "07161610F75558F9"
+				type: "checkmark"
+				title: "Read \"Power, Wires \\& Generators\""
+			}]
+		}
+		{
+			x: 11.5d
+			y: 8.5d
+			subtitle: "Describes several miscellaneous contraptions which you may find helpful!"
+			id: "2D759E860920DC8B"
+			tasks: [{
+				id: "4D20B88F9CE2DF22"
+				type: "checkmark"
+				title: "Chapter \"Construction\""
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			subtitle: "Describes the various tools and weapons that Immersive Engineering has to offer, and how to use them."
+			id: "13130A24E38B0B4D"
+			tasks: [{
+				id: "1E91DADDAF179737"
+				type: "checkmark"
+				title: "Chapter \"Tools\""
+			}]
+		}
+		{
+			x: 11.5d
+			y: 10.5d
+			subtitle: "Describes Conveyor Belts and related blocks, Fluid Transport, Tesla Coils, and various other simple machines!"
+			id: "5F99A028907223E2"
+			tasks: [{
+				id: "3D737AB25D10F3C6"
+				type: "checkmark"
+				title: "Chapter \"Simple Machines\""
+			}]
+		}
+		{
+			x: 10.5d
+			y: 10.5d
+			id: "531E0192ABADA639"
+			tasks: [{
+				id: "75569F313E08A202"
+				type: "checkmark"
+				title: "Chapter \"Heavy Machinery\""
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.5d
+			subtitle: "Describes several key Immersive Engineering concepts, and introduces early-game tools and Multiblock Structures."
+			id: "6787987C5743B346"
+			tasks: [{
+				id: "2EA69F064D910D72"
+				type: "checkmark"
+				title: "Chapter \"Overview and Resources\""
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			subtitle: "Something I wish I had known:"
+			description: ["With the Engineer's Manual open, you can simply type anything to automatically perform a search for the relevant page."]
+			id: "3C7158E09D1B9F27"
+			tasks: [{
+				id: "18259ABF87266E14"
+				type: "checkmark"
+				title: "Did You Know: The Search Feature!"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

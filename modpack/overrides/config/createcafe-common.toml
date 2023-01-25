@@ -1,0 +1,6 @@
+
+#Settings for geode generation
+[geode]
+	#Should drinks give empty cups after drinking them [Default: true]
+	giveEmptyCups = true
+

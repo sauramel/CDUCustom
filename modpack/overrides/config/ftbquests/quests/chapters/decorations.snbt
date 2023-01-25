@@ -1,0 +1,114 @@
+{
+	id: "3571FF7EEE56F3ED"
+	group: "1A3A810D872897A7"
+	order_index: 2
+	filename: "decorations"
+	title: "Decorations"
+	icon: "mcwfurnitures:stripped_oak_end_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Let's look at some Decorative mods that CDU pack offer us."]
+			id: "5426AC0BE6C748C6"
+			tasks: [{
+				id: "51DDB4CDA5624755"
+				type: "checkmark"
+				title: "Decorative Mods"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"Macaw's Furniture,  Bridges, Roofs, Doors, Trapdoors, Windows, Lights and Lamps, Fences and Walls, Paths and Pavings."
+				""
+				"Adds a wide variety of blocks to help you design your base."
+			]
+			dependencies: ["5426AC0BE6C748C6"]
+			id: "05473E44B4CC97AC"
+			tasks: [{
+				id: "499F05F7F93E9BC9"
+				type: "checkmark"
+				title: "Macaw's Mod"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["Supplementaries is a highly configurable Forge mod focused on adding valuable content which fills the gaps vanilla has. Its features are tailored to be functional, aesthetically viable, and complementary to preexisting content and provide many new ways to enhance your Vanilla+ experience."]
+			dependencies: ["5426AC0BE6C748C6"]
+			id: "4642AD009FA7FB42"
+			tasks: [{
+				id: "269B010071CFE567"
+				type: "checkmark"
+				title: "Supplementaries Mod"
+			}]
+		}
+		{
+			title: "Quark Mod"
+			x: -1.5d
+			y: 2.0d
+			description: [
+				"Quark is a fully modular mod with the objective of improving the vanilla gameplay experience."
+				""
+				"Not only adds vanilla changing items but also some decorative blocks you can use."
+			]
+			dependencies: ["5426AC0BE6C748C6"]
+			id: "67FF148975BEF120"
+			tasks: [{
+				id: "44F92ECEB993A74E"
+				type: "checkmark"
+				title: "Quark is a fully modular mod with the objective of improving the vanilla gameplay experience."
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: [
+				"Literally says on its name \"Builder's Delight\"."
+				""
+				"Adds about 700+ blocks, lanterns, chairs, tables and chains. Change the look of a lot of blocks, craft furniture and decorate."
+			]
+			dependencies: ["5426AC0BE6C748C6"]
+			id: "5DF0C1AEA5D0F17A"
+			tasks: [{
+				id: "373DB189A385410B"
+				type: "checkmark"
+				title: "Builder's Delight Mod"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			description: [
+				"Chisels and Bits is a Minecraft Mod which allows you to cut udiv the large blocks that make udiv your world, and place the little cuts back down."
+				""
+				""
+				"You want smoother stairs? Go for it.You want better looking roofs? Or Pillars? It is all possible now. You can make entirely new looking and feeling blocks by mixing and matching the bits of different already existing blocks."
+			]
+			dependencies: ["5426AC0BE6C748C6"]
+			id: "739E1E023F3786AA"
+			tasks: [{
+				id: "741B47EDF6D9BB49"
+				type: "checkmark"
+				title: "Chisel and Bits Mod"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			description: ["Create Deco adds several new types of decorative blocks that take advantage of Create's palette and production opportunities: including colorful brick variants, sheet metals, fancier metal bars, and more."]
+			dependencies: ["5426AC0BE6C748C6"]
+			id: "27F8AD208F3A8216"
+			tasks: [{
+				id: "49D16ED8EAF6808C"
+				type: "checkmark"
+				title: "Create Deco Mod"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

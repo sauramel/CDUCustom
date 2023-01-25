@@ -1,0 +1,818 @@
+{
+	id: "0308576F0CBE736D"
+	group: "4C15C70DD8227CDA"
+	order_index: 1
+	filename: "tea_time"
+	title: "Tea Time"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "06798D06707DECDC"
+			tasks: [{
+				id: "255D0C7DDA3F1A38"
+				type: "item"
+				item: {
+					id: "createcafe:mango_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3181941F4A4A86A7"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "19F6B39F3DB2A7A9"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "3B1CFF5A513786CE"
+			tasks: [{
+				id: "4920A6FB90F2794D"
+				type: "item"
+				item: {
+					id: "createcafe:lime_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6AED3B9A686B426F"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "4BE0D094C0B79038"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "27887E186563671F"
+			tasks: [{
+				id: "5420C97DD4996A24"
+				type: "item"
+				item: {
+					id: "createcafe:strawberry_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "09412E330222960D"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "631EEE3615F7F70E"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "54102D0D2669D753"
+			tasks: [{
+				id: "46F3F7368069DDEA"
+				type: "item"
+				item: {
+					id: "createcafe:peach_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "29707A2A9592BD08"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "616122B97AE68A23"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "44B05D99A5A8AF64"
+			tasks: [{
+				id: "36302A41BF935FB7"
+				type: "item"
+				item: {
+					id: "createcafe:plum_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "35EFE07F8CCF0809"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "003549944DCA9219"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			id: "5D466D27EEFD0F0D"
+			tasks: [{
+				id: "5864BFAD013FC400"
+				type: "item"
+				item: {
+					id: "createcafe:apricot_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "32BBC69C527E25EC"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "4C12D1FE18EB34BD"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			id: "1D654D2196C23143"
+			tasks: [{
+				id: "10104DD9D17CB5FC"
+				type: "item"
+				item: {
+					id: "createcafe:fig_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4B55143FD6695569"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "4B471D059527AD2F"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "29AC984D30513D6F"
+			tasks: [{
+				id: "2101905E75EBD4FA"
+				type: "item"
+				item: {
+					id: "createcafe:grape_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5D565E093D09F7A3"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "54035E3B0B45B5BE"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "587C6D9DBD928DCE"
+			tasks: [{
+				id: "50E3E439B6875C3E"
+				type: "item"
+				item: {
+					id: "createcafe:grapefruit_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2D7A60AD3740FA00"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "500033779CD4FABE"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "3B138BE1B282AFE4"
+			tasks: [{
+				id: "56B2EA9285F6E294"
+				type: "item"
+				item: {
+					id: "createcafe:starfruit_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2D6A42A3DB8AB0AA"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "002B6C4FF52C64F5"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			id: "5135512EE49BA6A3"
+			tasks: [{
+				id: "647EE4A83CC71B16"
+				type: "item"
+				item: {
+					id: "createcafe:blood_orange_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "247ADA6BAE1E155A"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "1C06B6089DB78518"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "392C1BC7F3996476"
+			tasks: [{
+				id: "362C6542746012D6"
+				type: "item"
+				item: {
+					id: "createcafe:blueberry_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5C1B6387A64EDEC8"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "05DE2E998220617A"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			id: "233F1712E7DC85E6"
+			tasks: [{
+				id: "6D932FBEF5FE2814"
+				type: "item"
+				item: {
+					id: "createcafe:pineapple_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "21A92C29D7127AC1"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "3CE54F41E897ABE9"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "71E1305C8E6A03C0"
+			tasks: [{
+				id: "24109AC9C210E5EB"
+				type: "item"
+				item: {
+					id: "createcafe:apple_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "03CEC392F095F82F"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "02F212A3443281CC"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "4F7C0478B810C501"
+			tasks: [{
+				id: "17F11BB844366DED"
+				type: "item"
+				item: {
+					id: "createcafe:pumpkin_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5FBD42A345747A41"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "16E27FEED103B6C7"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			id: "7F44BE71B86A0969"
+			tasks: [{
+				id: "476EC054F161CCC7"
+				type: "item"
+				item: {
+					id: "createcafe:sweetberry_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7747C9BCA69C834A"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "54C2AE24AE6A168D"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "31777AD144691BB1"
+			tasks: [{
+				id: "0A02A945FB5EB8B6"
+				type: "item"
+				item: {
+					id: "createcafe:mana_berry_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5B26D09DE384825A"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "043BFD6AC56CCF75"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "6272F90AC0B4B697"
+			tasks: [{
+				id: "2CF7AB93F1A47FD7"
+				type: "item"
+				item: {
+					id: "createcafe:kiwi_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1A9FC184A2165BCC"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "770703E20006397C"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "2F89F7DE0AE7E3BD"
+			tasks: [{
+				id: "2EB1A359FDB1D55B"
+				type: "item"
+				item: {
+					id: "createcafe:orange_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7071260C3A3ABB12"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "1837D63C6A8704EC"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "294FE5A3F191473D"
+			tasks: [{
+				id: "116FE8D90CB62A7C"
+				type: "item"
+				item: {
+					id: "createcafe:yucca_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5DF4A39FC77DDA0D"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "7C2433A31DC0AD16"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			id: "5DA2E6CB6278F918"
+			tasks: [{
+				id: "521FD5F44FC22CDA"
+				type: "item"
+				item: {
+					id: "createcafe:aloe_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0EDF04A6E36E3011"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "13E63863B3A7C990"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			id: "6383BE7A8E433C2A"
+			tasks: [{
+				id: "4C21702282089E43"
+				type: "item"
+				item: {
+					id: "createcafe:coconut_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "48C55DD325DB7C99"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "5F06C6F47E988779"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "0BD8C5A77C78764C"
+			tasks: [{
+				id: "236C75F72ED67D6C"
+				type: "item"
+				item: {
+					id: "createcafe:persimmon_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "66E4DDA759E87B18"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "3EE17BC77BAC54B4"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			id: "6284A1430A9B115F"
+			tasks: [{
+				id: "1E4B5E1C9642BD05"
+				type: "item"
+				item: {
+					id: "createcafe:raspberry_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "59E576D8895AA8D3"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "1B2C500202D7850A"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "560F4BDBBEC0E486"
+			tasks: [{
+				id: "4A18A4C595047340"
+				type: "item"
+				item: {
+					id: "createcafe:lemon_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "783F6BA431095637"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "25EBD30D30986018"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			id: "4BE6394082649629"
+			tasks: [{
+				id: "1987542F8C21B577"
+				type: "item"
+				item: {
+					id: "createcafe:banana_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4B104F4ED1D43A74"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "28EB628501217A54"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			id: "044059D333695212"
+			tasks: [{
+				id: "3FFE5B4052357576"
+				type: "item"
+				item: {
+					id: "createcafe:cherry_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0CF03B0ECD71216B"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "206AE14E4C6BB79C"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			id: "383AAE816D983EE9"
+			tasks: [{
+				id: "5810BE1029230452"
+				type: "item"
+				item: {
+					id: "createcafe:blackberry_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3B256816AE943B3C"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "53F3E68E2C3672A4"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "5CE04E5CFA34464F"
+			tasks: [{
+				id: "4501F091ED88F5AC"
+				type: "item"
+				item: {
+					id: "createcafe:dragonfruit_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "27D3B079F153298F"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "4D5A48F48717CFD2"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			id: "51BF0A823516CF36"
+			tasks: [{
+				id: "5EAFB1F405E379AB"
+				type: "item"
+				item: {
+					id: "createcafe:oreo_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "70E4DCABED04430E"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "23F25355C4DEBF40"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			id: "16468F9D67EE812E"
+			tasks: [{
+				id: "0462B20527061478"
+				type: "item"
+				item: {
+					id: "createcafe:lavender_milk_tea"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2ADEFD570833B8A6"
+					type: "item"
+					item: "createcafe:empty_boba_cup"
+				}
+				{
+					id: "29E5426E00EA9252"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

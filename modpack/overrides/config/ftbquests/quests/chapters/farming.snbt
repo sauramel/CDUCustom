@@ -1,0 +1,1484 @@
+{
+	id: "55BA86A25B0B7B87"
+	group: "4C15C70DD8227CDA"
+	order_index: 3
+	filename: "farming"
+	title: "Farming"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["The most basic and common seed to get your farm started"]
+			id: "6D66CC2CF8A6090F"
+			tasks: [{
+				id: "77BEE05B8B1D8578"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "4F4D26837A0AD1BF"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+				}
+				{
+					id: "61526640B2ADCB23"
+					type: "item"
+					item: {
+						id: "minecraft:iron_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DD48E79091C313E"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["6D66CC2CF8A6090F"]
+			id: "52E920D5C02795AD"
+			tasks: [{
+				id: "0FE030F0DA7B3E3D"
+				type: "item"
+				item: "minecraft:melon_seeds"
+			}]
+			rewards: [{
+				id: "74BC5186C9279018"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["6D66CC2CF8A6090F"]
+			id: "6BB12D60CE70BD1F"
+			tasks: [{
+				id: "512C4EFC2FC38569"
+				type: "item"
+				item: "minecraft:pumpkin_seeds"
+			}]
+			rewards: [{
+				id: "70C50658AA074ECA"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["6D66CC2CF8A6090F"]
+			id: "1A9DA988CF799806"
+			tasks: [{
+				id: "7E34498723E8BA59"
+				type: "item"
+				item: "minecraft:beetroot_seeds"
+			}]
+			rewards: [{
+				id: "093DFFC03DC8CCD1"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["6D66CC2CF8A6090F"]
+			id: "5D4009288D209CE1"
+			tasks: [{
+				id: "0DDFA6201C610540"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
+			rewards: [{
+				id: "5DFBC507CD9E8ED6"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["6D66CC2CF8A6090F"]
+			id: "0CEC0FF6E43937EA"
+			tasks: [{
+				id: "08771312F297FD40"
+				type: "item"
+				item: "croptopia:artichoke_seed"
+			}]
+			rewards: [{
+				id: "77C37E36ED6DE679"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["6D66CC2CF8A6090F"]
+			id: "5C54AC8F5A6AB78F"
+			tasks: [{
+				id: "12894DEC5F75F49D"
+				type: "item"
+				item: "croptopia:asparagus_seed"
+			}]
+			rewards: [{
+				id: "73032BD85D93335F"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["6D66CC2CF8A6090F"]
+			id: "705C7EDF29DA07D7"
+			tasks: [{
+				id: "4AD60EC6F6163D34"
+				type: "item"
+				item: "croptopia:barley_seed"
+			}]
+			rewards: [{
+				id: "07B99A38C5F33A5E"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["6D66CC2CF8A6090F"]
+			id: "5ED8BF259C8C6AF2"
+			tasks: [{
+				id: "65B017969D38F1FE"
+				type: "item"
+				item: "croptopia:basil_seed"
+			}]
+			rewards: [{
+				id: "059DBE81DD22E86F"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			id: "3738F7214A5E09A2"
+			tasks: [{
+				id: "09740862584856F4"
+				type: "item"
+				item: "croptopia:bellpepper_seed"
+			}]
+			rewards: [{
+				id: "0CCA8E52D1CB178F"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "46DC091988910099"
+			tasks: [{
+				id: "64677AFE4F71261E"
+				type: "item"
+				item: "croptopia:blackbean_seed"
+			}]
+			rewards: [{
+				id: "7CF3C7E856A00B7B"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "4C229FB3BEFC8301"
+			tasks: [{
+				id: "4104F12215188388"
+				type: "item"
+				item: "croptopia:blackberry_seed"
+			}]
+			rewards: [{
+				id: "79FED344761236B6"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "12FBA0759FD50601"
+			tasks: [{
+				id: "775BCB8449527273"
+				type: "item"
+				item: "croptopia:blueberry_seed"
+			}]
+			rewards: [{
+				id: "78B5F28AD4D22FD4"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			description: [""]
+			id: "2A582FCA36E3B4F5"
+			tasks: [{
+				id: "75C15B6ED8B88D72"
+				type: "item"
+				item: "croptopia:broccoli_seed"
+			}]
+			rewards: [{
+				id: "33DE694C1DF0FDCE"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			id: "3B5566A7B92817CE"
+			tasks: [{
+				id: "5DE0336DFD499CF0"
+				type: "item"
+				item: "croptopia:cabbage_seed"
+			}]
+			rewards: [{
+				id: "32D3453DD91F4DC4"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			id: "2F55CC36210F2995"
+			tasks: [{
+				id: "564BF45EDEA9B6A7"
+				type: "item"
+				item: "croptopia:cantaloupe_seed"
+			}]
+			rewards: [{
+				id: "619B06C92C4F7FB4"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			id: "6B637495CCA30F80"
+			tasks: [{
+				id: "1665290450ECD371"
+				type: "item"
+				item: "croptopia:cauliflower_seed"
+			}]
+			rewards: [{
+				id: "51C890834EC01672"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			id: "52D720B559DAA706"
+			tasks: [{
+				id: "4AA9644A3CF7DC2C"
+				type: "item"
+				item: "croptopia:celery_seed"
+			}]
+			rewards: [{
+				id: "3AB1151A31735581"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "5EECEF075CDBF096"
+			tasks: [{
+				id: "6AB08B8A338599D4"
+				type: "item"
+				item: "croptopia:chile_pepper_seed"
+			}]
+			rewards: [{
+				id: "267E205698741FA5"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			id: "75655DE17C45FE8E"
+			tasks: [{
+				id: "3D14F32A4C4D9CC8"
+				type: "item"
+				item: "croptopia:coffee_seed"
+			}]
+			rewards: [{
+				id: "263D1AA6BBC9896D"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			id: "52488BE6E5D16C82"
+			tasks: [{
+				id: "5F0E30307ADD2142"
+				type: "item"
+				item: "croptopia:corn_seed"
+			}]
+			rewards: [{
+				id: "617F4E566E0DCC05"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			id: "0E5BFC70C09D2583"
+			tasks: [{
+				id: "4D2F2DB830F472DA"
+				type: "item"
+				item: "croptopia:cranberry_seed"
+			}]
+			rewards: [{
+				id: "10B3FB3C7778E5E2"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			id: "1502A3720F7A4814"
+			tasks: [{
+				id: "5FFED02A5DCBFC8A"
+				type: "item"
+				item: "croptopia:currant_seed"
+			}]
+			rewards: [{
+				id: "22890E770A6E5841"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			id: "5F8923B041B43CE5"
+			tasks: [{
+				id: "5F4FA7862452EE41"
+				type: "item"
+				item: "croptopia:cucumber_seed"
+			}]
+			rewards: [{
+				id: "50900D0C7378DB81"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			id: "3EC814D2D6389AC7"
+			tasks: [{
+				id: "4AA366AC355CB305"
+				type: "item"
+				item: "croptopia:eggplant_seed"
+			}]
+			rewards: [{
+				id: "118D178DD0D5A9A7"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			id: "4983F0F6443298F4"
+			tasks: [{
+				id: "1952912064CC0743"
+				type: "item"
+				item: "croptopia:elderberry_seed"
+			}]
+			rewards: [{
+				id: "08E415E8C7DE48FB"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			id: "7202FB176C0E238C"
+			tasks: [{
+				id: "5C553A1140D94116"
+				type: "item"
+				item: "croptopia:garlic_seed"
+			}]
+			rewards: [{
+				id: "78D00D3080FC048F"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			id: "7FC44B5E60ABFACA"
+			tasks: [{
+				id: "000CAA684212A96C"
+				type: "item"
+				item: "croptopia:ginger_seed"
+			}]
+			rewards: [{
+				id: "19E749C7AB703561"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			id: "538C7B46F1C6E56D"
+			tasks: [{
+				id: "6E8E2CC5705E523E"
+				type: "item"
+				item: "croptopia:grape_seed"
+			}]
+			rewards: [{
+				id: "55DE8262684B9CBB"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			id: "47A5AF2FA3D08CF5"
+			tasks: [{
+				id: "7E169EE2FAD5381B"
+				type: "item"
+				item: "croptopia:greenbean_seed"
+			}]
+			rewards: [{
+				id: "662E7E36CB363CA5"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			id: "2875474C9E2D8F9E"
+			tasks: [{
+				id: "3F19200FFB46ADEB"
+				type: "item"
+				item: "croptopia:greenonion_seed"
+			}]
+			rewards: [{
+				id: "5EA2C88F669F6008"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			id: "08E0F30579DAD5DC"
+			tasks: [{
+				id: "76AF9A4CD0D503AB"
+				type: "item"
+				item: "croptopia:honeydew_seed"
+			}]
+			rewards: [{
+				id: "58194D825B48F179"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			id: "503253D0D6BC4C31"
+			tasks: [{
+				id: "10405F4425442F6F"
+				type: "item"
+				item: "croptopia:hops_seed"
+			}]
+			rewards: [{
+				id: "770DC7F00C3EC51D"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			id: "3277B49852579D5B"
+			tasks: [{
+				id: "6C10C91F65CABA18"
+				type: "item"
+				item: "croptopia:kale_seed"
+			}]
+			rewards: [{
+				id: "406BEA58995EA11E"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			id: "2534A536571F1CC3"
+			tasks: [{
+				id: "107B3AEF8221BE9E"
+				type: "item"
+				item: "croptopia:kiwi_seed"
+			}]
+			rewards: [{
+				id: "0227925760FCE592"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.0d
+			dependency_requirement: "all_started"
+			id: "5A06B2C546B60573"
+			tasks: [{
+				id: "53D49E7CC90407C8"
+				type: "item"
+				item: "croptopia:leek_seed"
+			}]
+			rewards: [{
+				id: "2EE751715CFA54A5"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			id: "01E2D33B301C1ABD"
+			tasks: [{
+				id: "3A44D84E7DB77977"
+				type: "item"
+				item: "croptopia:lettuce_seed"
+			}]
+			rewards: [{
+				id: "5757EFE9AF2EFBE8"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			id: "424F7A9B9D2C67BD"
+			tasks: [{
+				id: "32977CDCB07DE0D5"
+				type: "item"
+				item: "croptopia:mustard_seed"
+			}]
+			rewards: [{
+				id: "36FAD43D3C44CD6E"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			id: "5213686F5E58CCB2"
+			tasks: [{
+				id: "4AE74414B3A68821"
+				type: "item"
+				item: "croptopia:oat_seed"
+			}]
+			rewards: [{
+				id: "53F50912DA8A7670"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			id: "58AC0E446DD17BDD"
+			tasks: [{
+				id: "32D447735D5E44C6"
+				type: "item"
+				item: "croptopia:olive_seed"
+			}]
+			rewards: [{
+				id: "14E1063A6DD1AE11"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			id: "3CAD0D18FA12540E"
+			tasks: [{
+				id: "13464E93A143CCFE"
+				type: "item"
+				item: "croptopia:onion_seed"
+			}]
+			rewards: [{
+				id: "1CEA80DA8DFDECC0"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			id: "1C7604F419199FDE"
+			tasks: [{
+				id: "5D0C004876724EF7"
+				type: "item"
+				item: "croptopia:peanut_seed"
+			}]
+			rewards: [{
+				id: "49B0BE4A8855477A"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			id: "56153EDD1650AD1D"
+			tasks: [{
+				id: "69CCC03919FE81B4"
+				type: "item"
+				item: "croptopia:pepper_seed"
+			}]
+			rewards: [{
+				id: "7D80F7BB627DF008"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			id: "326FEF2F6124006E"
+			tasks: [{
+				id: "06C17C2D10D4803D"
+				type: "item"
+				item: "croptopia:pineapple_seed"
+			}]
+			rewards: [{
+				id: "384CA71DC27BC494"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			id: "170F6A797641A39F"
+			tasks: [{
+				id: "1E897A685E7E60FE"
+				type: "item"
+				item: "croptopia:radish_seed"
+			}]
+			rewards: [{
+				id: "4384F557D006B09A"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			id: "5CEA022A298853A7"
+			tasks: [{
+				id: "431781A75765432E"
+				type: "item"
+				item: "croptopia:raspberry_seed"
+			}]
+			rewards: [{
+				id: "42F3C99C4F387684"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			dependency_requirement: "one_completed"
+			id: "212BBC4389C52FF5"
+			tasks: [{
+				id: "0307488912D9ABFD"
+				type: "item"
+				item: "croptopia:rhubarb_seed"
+			}]
+			rewards: [{
+				id: "442544D7A1D6C87A"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			id: "3B3D9CD84A1970C5"
+			tasks: [{
+				id: "09A83C2D8C0E05CD"
+				type: "item"
+				item: "croptopia:rice_seed"
+			}]
+			rewards: [{
+				id: "00A55796A830EED5"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			id: "2C1F99813502FD84"
+			tasks: [{
+				id: "43A80C81EBE6DFAF"
+				type: "item"
+				item: "croptopia:rutabaga_seed"
+			}]
+			rewards: [{
+				id: "3F748F01557965D3"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -5.0d
+			id: "394EDA68CE8802F3"
+			tasks: [{
+				id: "79D5FC99796B124F"
+				type: "item"
+				item: "croptopia:saguaro_seed"
+			}]
+			rewards: [{
+				id: "729432CCB8606CB1"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			id: "37DF4C5FB6C65D5C"
+			tasks: [{
+				id: "64E76B8B153DDC17"
+				type: "item"
+				item: "croptopia:soybean_seed"
+			}]
+			rewards: [{
+				id: "5720C67CD5318285"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			id: "0A3158FBF5256315"
+			tasks: [{
+				id: "6F36AC70DAA9F641"
+				type: "item"
+				item: "croptopia:spinach_seed"
+			}]
+			rewards: [{
+				id: "53B2559B54992C96"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "6CAF6C39C5E50CFF"
+			tasks: [{
+				id: "24EB03735E8DB6FA"
+				type: "item"
+				item: "croptopia:squash_seed"
+			}]
+			rewards: [{
+				id: "53BDABAF55BB13EB"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			id: "304FC968333E89F0"
+			tasks: [{
+				id: "2B68C29AD498A1D2"
+				type: "item"
+				item: "croptopia:strawberry_seed"
+			}]
+			rewards: [{
+				id: "53976D3DE42D9BD0"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			id: "0B604D783E83FA80"
+			tasks: [{
+				id: "35744BDBEE082DC8"
+				type: "item"
+				item: "croptopia:sweetpotato_seed"
+			}]
+			rewards: [{
+				id: "68A6FD4E1C2B816E"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			id: "3E4ACB3AE71A7B03"
+			tasks: [{
+				id: "310CAD527B17C6D3"
+				type: "item"
+				item: "croptopia:tea_seed"
+			}]
+			rewards: [{
+				id: "2D479A2B930FCF9E"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			id: "6FDC2DBCE722BC5E"
+			tasks: [{
+				id: "22476E7D46BDF5E3"
+				type: "item"
+				item: "croptopia:tomatillo_seed"
+			}]
+			rewards: [{
+				id: "63085B6752F22563"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			id: "7D46C7AAC3993F56"
+			tasks: [{
+				id: "59DAC5BAE76C07A5"
+				type: "item"
+				item: "croptopia:tomato_seed"
+			}]
+			rewards: [{
+				id: "4546719664849648"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			id: "467C5ED912C5574D"
+			tasks: [{
+				id: "24DCAD09C67BAF83"
+				type: "item"
+				item: "croptopia:turmeric_seed"
+			}]
+			rewards: [{
+				id: "1E304CE58CC99511"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 12.0d
+			id: "17E79FEF3A8FD4AF"
+			tasks: [{
+				id: "09E48D2D5F8332EE"
+				type: "item"
+				item: "croptopia:turnip_seed"
+			}]
+			rewards: [{
+				id: "567B2B1F46266565"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 14.0d
+			id: "3677BCD8230964FA"
+			tasks: [{
+				id: "2BBC2A368AFD964B"
+				type: "item"
+				item: "croptopia:vanilla_seeds"
+			}]
+			rewards: [{
+				id: "35843FAA8255E68C"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 16.0d
+			id: "3041F1F64DD26E6C"
+			tasks: [{
+				id: "00C951A29D989C2A"
+				type: "item"
+				item: "croptopia:yam_seed"
+			}]
+			rewards: [{
+				id: "41ED4AF91A8EC8FC"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.5d
+			id: "2C0757BA2A9E2ECE"
+			tasks: [{
+				id: "2114CEB32E554E36"
+				type: "item"
+				item: "croptopia:zucchini_seed"
+			}]
+			rewards: [{
+				id: "6ADEDC326993A142"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 18.0d
+			id: "5E16C85A84E985D5"
+			tasks: [{
+				id: "429CA114F25FA082"
+				type: "item"
+				item: "farmersdelight:cabbage_seeds"
+			}]
+			rewards: [{
+				id: "6B55102124E0E04C"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 20.0d
+			id: "098EA9D8CF105A2E"
+			tasks: [{
+				id: "7BFB455D983529D7"
+				type: "item"
+				item: "createcafe:cassava_seeds"
+			}]
+			rewards: [{
+				id: "27084CAF6E669E06"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 22.0d
+			id: "49CE06596AA588FE"
+			tasks: [{
+				id: "51C689B8C05B6C3B"
+				type: "item"
+				item: "farmersdelight:tomato_seeds"
+			}]
+			rewards: [{
+				id: "60313D309A0ABA69"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 24.0d
+			id: "2BD0CEB8DCE93BF7"
+			tasks: [{
+				id: "2F7D47346B45F59F"
+				type: "item"
+				item: "farmersrespite:tea_seeds"
+			}]
+			rewards: [{
+				id: "476FCC6B2383A66F"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 11.0d
+			id: "61CB078E3ED3A1CF"
+			tasks: [{
+				id: "305618A6BF8E01D6"
+				type: "item"
+				item: "croptopia:almond_sapling"
+			}]
+			rewards: [{
+				id: "1A40127F47A17E02"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 9.5d
+			id: "1131A441BD3DF930"
+			tasks: [{
+				id: "717D0F2B02B7BB43"
+				type: "item"
+				item: "croptopia:apple_sapling"
+			}]
+			rewards: [{
+				id: "3947DF047907CA35"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 13.0d
+			id: "5E42A73D16A25E47"
+			tasks: [{
+				id: "43E21DF583D509BF"
+				type: "item"
+				item: "croptopia:apricot_sapling"
+			}]
+			rewards: [{
+				id: "0EE31A3E782B70C9"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 12.0d
+			id: "31AB0694B0B23B86"
+			tasks: [{
+				id: "10AB2119F5DE955B"
+				type: "item"
+				item: "croptopia:avocado_sapling"
+			}]
+			rewards: [{
+				id: "0F0DC5317166B1D4"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 10.5d
+			id: "59FA350680FC0254"
+			tasks: [{
+				id: "7426BC5AC7D495BC"
+				type: "item"
+				item: "croptopia:banana_sapling"
+			}]
+			rewards: [{
+				id: "3322BB54E4BAFD09"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 9.0d
+			id: "0F30C030484AD1D0"
+			tasks: [{
+				id: "6A71F6380E7D4E2A"
+				type: "item"
+				item: "croptopia:cashew_sapling"
+			}]
+			rewards: [{
+				id: "730F7FFCCB7F4396"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 15.0d
+			id: "4ADA086ED1FC05F7"
+			tasks: [{
+				id: "0033B60D599B2933"
+				type: "item"
+				item: "croptopia:cherry_sapling"
+			}]
+			rewards: [{
+				id: "257E2508D5C57086"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 14.0d
+			id: "4745796D7B04A994"
+			tasks: [{
+				id: "7672FEE8F86B4EA5"
+				type: "item"
+				item: "croptopia:coconut_sapling"
+			}]
+			rewards: [{
+				id: "782404C2B6D8A5C9"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 17.5d
+			id: "17D6E6A1B4ADFC3A"
+			tasks: [{
+				id: "7F9B8E942B2AF042"
+				type: "item"
+				item: "croptopia:date_sapling"
+			}]
+			rewards: [{
+				id: "630A11DD757A4E42"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 16.5d
+			id: "756E1800C2C17882"
+			tasks: [{
+				id: "347EE8D2BF582DB4"
+				type: "item"
+				item: "croptopia:dragonfruit_sapling"
+			}]
+			rewards: [{
+				id: "14EBEB6526C1FC29"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 15.0d
+			id: "198CD761445C0896"
+			tasks: [{
+				id: "484452EA1E88C3BE"
+				type: "item"
+				item: "croptopia:fig_sapling"
+			}]
+			rewards: [{
+				id: "4DC1681298CB977C"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 13.0d
+			id: "59E18E7ED39015F5"
+			tasks: [{
+				id: "205E83613E9FFAB4"
+				type: "item"
+				item: "croptopia:grapefruit_sapling"
+			}]
+			rewards: [{
+				id: "7AA9154F84366B69"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 26.0d
+			id: "0224879C687633DE"
+			tasks: [{
+				id: "1639F5F57F2F77D3"
+				type: "item"
+				item: "croptopia:kumquat_sapling"
+			}]
+			rewards: [{
+				id: "60A9DB74C1537C1D"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 19.0d
+			id: "456DEEEE03BE02E2"
+			tasks: [{
+				id: "3AD7E45E907D0891"
+				type: "item"
+				item: "croptopia:kumquat_sapling"
+			}]
+			rewards: [{
+				id: "6FCD4754FEE8D67C"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 18.0d
+			id: "1CD61424CE5CED7B"
+			tasks: [{
+				id: "6302FA9AFDF0A4E7"
+				type: "item"
+				item: "croptopia:lemon_sapling"
+			}]
+			rewards: [{
+				id: "1956AE040FE01EB1"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 21.0d
+			id: "6BB2CC31F48813B6"
+			tasks: [{
+				id: "5B6E172C928B3346"
+				type: "item"
+				item: "croptopia:lemon_sapling"
+			}]
+			rewards: [{
+				id: "59FA566E764EB357"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 20.0d
+			id: "2B9D7111A2D1EFE7"
+			tasks: [{
+				id: "1C636374D65A2D86"
+				type: "item"
+				item: "croptopia:lime_sapling"
+			}]
+			rewards: [{
+				id: "7ABC6714E1863719"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 19.0d
+			id: "37F5F67C1F828829"
+			tasks: [{
+				id: "71BB14173CC58929"
+				type: "item"
+				item: "croptopia:mango_sapling"
+			}]
+			rewards: [{
+				id: "52DAFD1AF797490B"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 17.5d
+			id: "2354A1E86F987F91"
+			tasks: [{
+				id: "3F12E4B556C882A2"
+				type: "item"
+				item: "croptopia:nectarine_sapling"
+			}]
+			rewards: [{
+				id: "13C186AF66EABC43"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 28.0d
+			id: "01A0EBC4BBCA8546"
+			tasks: [{
+				id: "0C5CF496DE18FC5B"
+				type: "item"
+				item: "croptopia:nutmeg_sapling"
+			}]
+			rewards: [{
+				id: "7B7DE7615893949D"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 30.0d
+			id: "378B4E1E75B841A4"
+			tasks: [{
+				id: "5068AB29857C5DCE"
+				type: "item"
+				item: "croptopia:orange_sapling"
+			}]
+			rewards: [{
+				id: "1FF44EB9BE76B2E7"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 32.0d
+			id: "1581223D89D78407"
+			tasks: [{
+				id: "0A1B4D76F9CAC7D8"
+				type: "item"
+				item: "croptopia:peach_sapling"
+			}]
+			rewards: [{
+				id: "636058E6F4479249"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 27.0d
+			id: "2CA076FC8B6485A1"
+			tasks: [{
+				id: "33415ACA9B4FD906"
+				type: "item"
+				item: "croptopia:pear_sapling"
+			}]
+			rewards: [{
+				id: "68009B1FA1E6227C"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 25.5d
+			id: "6081F5CAC40BC10D"
+			tasks: [{
+				id: "374A07C2CB5A949F"
+				type: "item"
+				item: "croptopia:pecan_sapling"
+			}]
+			rewards: [{
+				id: "1DFC0F0995E05FF6"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 29.0d
+			id: "1CAFF4B4498627A1"
+			tasks: [{
+				id: "512350E11B3A012D"
+				type: "item"
+				item: "croptopia:persimmon_sapling"
+			}]
+			rewards: [{
+				id: "5C4CD728E836F9D6"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 28.0d
+			id: "1C49AE0F6F975DD1"
+			tasks: [{
+				id: "33B4B2CE0F1B0D33"
+				type: "item"
+				item: "croptopia:plum_sapling"
+			}]
+			rewards: [{
+				id: "60E4711AE16D5891"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 26.0d
+			id: "1C7BAF91B563F863"
+			tasks: [{
+				id: "28DB2F8DB0D91B06"
+				type: "item"
+				item: "croptopia:starfruit_sapling"
+			}]
+			rewards: [{
+				id: "05550938C20E7437"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 24.0d
+			id: "442533346773692D"
+			tasks: [{
+				id: "5DC28C8A63866B34"
+				type: "item"
+				item: "croptopia:walnut_sapling"
+			}]
+			rewards: [{
+				id: "389940115CA0AFC7"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 34.0d
+			id: "027E79125370CF5A"
+			tasks: [{
+				id: "738D4A18138CB9FE"
+				type: "item"
+				item: "croptopia:cinnamon_sapling"
+			}]
+			rewards: [{
+				id: "1E87869AF1046C71"
+				type: "item"
+				item: "lightmanscurrency:coin_copper"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
